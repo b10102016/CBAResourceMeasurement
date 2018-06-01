@@ -51,13 +51,13 @@ def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):
 	
     cpuPercent = 0.0
     # calculate the change for the cpu usage of the container in between readings
-    cpuDelta = numpy.float64(cg_cpuinfo['cpu_usage']) - numpy.float64(prev_cg_cpuinfo['cpu_usage'])
+    cpuDelta = float(cg_cpuinfo['cpu_usage']) - float(prev_cg_cpuinfo['cpu_usage'])
     # calculate the change for the entire system between readings
-    systemDelta = numpy.float64(cg_cpuinfo['sys_cpu_usage']) - numpy.float64(prev_cg_cpuinfo['sys_cpu_usage'])
+    systemDelta = float(cg_cpuinfo['sys_cpu_usage']) - float(prev_cg_cpuinfo['sys_cpu_usage'])
 
 
     if systemDelta > 0.0 and cpuDelta > 0.0:
-	    cpuPercent = (cpuDelta / systemDelta) * numpy.float64(len(prev_cg_cpuinfo['cpu_usage_percpu'])) * 100.0
+	    cpuPercent = (cpuDelta / systemDelta) * len(prev_cg_cpuinfo['cpu_usage_percpu']) * 100.0
 	
     return cpuPercent
 
@@ -69,7 +69,7 @@ while True:
     previous_cg=cg_cpuinfo
     cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"lxc/con1")
     print caculateCPUPercent(previous_cg,cg_cpuinfo)
-    time.sleep(1)
+    time.sleep(5)
 
 
 
