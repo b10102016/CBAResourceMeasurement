@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../CBAResourceMeasurement"
+		},
+		{
+			"path": "../../lxc-android-7.1.2-monkeyRunner"
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay"
+	}
+}
