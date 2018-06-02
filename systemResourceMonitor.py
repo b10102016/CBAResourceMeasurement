@@ -8,7 +8,7 @@ def get_CPUacct_cg(ip,cg_cpuacct_path,group_name):
     cat_cmd = "cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq ;cat {0}/{1}/cpuacct.usage; cat {0}/{1}/cpuacct.usage_percpu; cat {0}/{1}/cpuacct.stat ; cat /proc/stat".format(cg_cpuacct_path,group_name)
     
     cpuacct_raw_str=utilitys.deviceShellWithResp(cat_cmd,ip)
-
+    #print cpuacct_raw_str
     
     return parse_cpuacct(cpuacct_raw_str)
 
@@ -23,8 +23,8 @@ def parse_cpuacct(rawstr):
     for i,line in enumerate(rawstr.split('\n')):
         if   i ==1:
             #cur_cpu_clock=int(line)
-	    cur_cpu_clock=100
-	    print cur_cpu_clock
+            cur_cpu_clock=100
+            print cur_cpu_clock
         elif i ==2:
             cg_cpuinfo['cpu_usage']=int(line)
         elif i ==3:
@@ -40,7 +40,7 @@ def parse_cpuacct(rawstr):
             for j in line.split():
                 if j=="cpu" : continue
                 totalClock+=int(j)
-	    print totalClock
+            print totalClock
             cg_cpuinfo['sys_cpu_usage']=numpy.float64(totalClock*nanoSecondsPerSecond/cur_cpu_clock)
             break
             
@@ -68,10 +68,11 @@ def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):
 
 import time
 
-cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"lxc/con1")
+#cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"lxc/con1")
+cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")
 while True:
     previous_cg=cg_cpuinfo
-    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"lxc/con1")
+    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")
     print caculateCPUPercent(previous_cg,cg_cpuinfo)
     time.sleep(5)
 
