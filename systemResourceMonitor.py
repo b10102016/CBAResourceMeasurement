@@ -48,6 +48,7 @@ import numpy
 
 def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):
 
+    print cg_cpuinfo
 	
     cpuPercent = 0.0
     # calculate the change for the cpu usage of the container in between readings
