@@ -22,7 +22,9 @@ def parse_cpuacct(rawstr):
     cg_cpuinfo=dict.fromkeys(cg_cpuinfo_key,0)
     for i,line in enumerate(rawstr.split('\n')):
         if   i ==1:
-            cur_cpu_clock=int(line)
+            #cur_cpu_clock=int(line)
+	    cur_cpu_clock=100
+	    print cur_cpu_clock
         elif i ==2:
             cg_cpuinfo['cpu_usage']=int(line)
         elif i ==3:
@@ -38,6 +40,7 @@ def parse_cpuacct(rawstr):
             for j in line.split():
                 if j=="cpu" : continue
                 totalClock+=int(j)
+	    print totalClock
             cg_cpuinfo['sys_cpu_usage']=numpy.float64(totalClock*nanoSecondsPerSecond/cur_cpu_clock)
             break
             
