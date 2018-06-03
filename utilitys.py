@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import telnetlib
 import time
 import socket
@@ -54,7 +56,7 @@ def deviceShellWithResp(cmd,ip,time_out=10):
 
 def dumpsys_gfxinfo(ip,packageName,startIntent):
 
-    # -*- coding: utf-8 -*-
+    
     # Author：John Hao
     # 測試流暢度平均繪製時長的小腳本
     # 功能：滑動當前頁面兩次，間隔1秒，收集gfxinfo並製表
