@@ -56,13 +56,13 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
 
     # -*- coding: utf-8 -*-
     # Author：John Hao
-    # 测试流畅度平均绘制时长的小脚本
-    # 功能：滑动当前页面两次，间隔1秒，收集gfxinfo并制表
-    # titlename：表示要测试的模块和最后文件保存的名字
-    # |-- 收集gfxinfo framestats详细帧数据信息
-    # |-- 用第三方模块openpyxl处理收集到的excel数据
-    # |-- 输出2秒内的120帧每一帧的绘制时间
-    # |-- 输出平均绘制时间
+    # 測試流暢度平均繪製時長的小腳本
+    # 功能：滑動當前頁面兩次，間隔1秒，收集gfxinfo並製表
+    # titlename：表示要測試的模塊和最後文件保存的名字
+    # |-- 收集gfxinfo framestats詳細幀數據信息
+    # |-- 用第三方模塊openpyxl處理收集到的excel數據
+    # |-- 輸出2秒內的120幀每一幀的繪製時間
+    # |-- 輸出平均繪製時間
 
     
     import time
@@ -74,20 +74,20 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
     from openpyxl.styles.colors import Color
     from openpyxl.chart import LineChart, Reference, Series
 
-    titlelist = [' UI 线程中发生的工作使其无法及时响应垂直同步信号','应用处理输入事件所花的时间（ >2 毫秒表示处理输入事件时间长）',
-                    '正在运行的所有动画（ObjectAnimator、ViewPropertyAnimator 和通用转换）所需的时间',
-                    '完成布局和测量阶段所需的时间','对树中的所有视图调用 View.draw() 所需的时间',
-                    '约 > 0.4 毫秒表示绘制了大量必须上传到 GPU 的新位图','GPU 工作量','处理此帧所花的总时间','达标线']
+    titlelist = [' UI 線程中發生的工作使其無法及時響應垂直同步信號','應用處理輸入事件所花的時間（ >2 毫秒錶示處理輸入事件時間長）',
+                    '正在運行的所有動畫（ObjectAnimator、ViewPropertyAnimator 和通用轉換）所需的時間',
+                    '完成佈局和測量階段所需的時間','對樹中的所有視圖調用 View.draw() 所需的時間',
+                    '約 > 0.4 毫秒錶示繪製了大量必須上傳到 GPU 的新位圖','GPU 工作量','處理此幀所花的總時間','達標線']
     subtitlelist = ['IntendedVsync','HandleInputStart','AnimationStart','PerformTraversalsStart',
                     'DrawStart','SyncStart','IssueDrawCommandsStart','FrameCompleted','Avg']
 
-    # 要测试测模块名，最后文件会以该名称命名
+    # 要測試測模塊名，最後文件會以該名稱命名
     titlename = "Feed"
     print "Starting"
     os.system("adb -s "+ip+" am start "+packageName+"/"+startIntent) 
     for j in range(1,6):
         time.sleep(1)
-        print "开始执行第" + str(j) + "遍"
+        print "開始執行第" + str(j) + "遍"
 
         wb = Workbook()
         ws = wb.active
@@ -108,31 +108,31 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         ws.column_dimensions["M"].width = valueofwidth
         ws.column_dimensions["N"].width = valueofwidth
 
-        # 重置所有计数器并汇总收集的统计信息
+        # 重置所有計數器並彙總收集的統計信息
         os.popen("adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" reset")
-        print "清理帧信息回到初始状态"
+        print "清理幀信息回到初始狀態"
 
-        # 模拟滑动页面操作
+        # 模擬滑動頁面操作
         for i in range (1,3):
-            print "执行滑动页面操作" + str(i) + "次"
+            print "執行滑動頁面操作" + str(i) + "次"
             os.system("adb -s "+ip+" shell input swipe 700 2000 700 200") 
             time.sleep(1)
 
-        # 过滤、筛选精确的帧时间信息
+        # 過濾、篩選精確的幀時間信息
         command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" framestats | grep -A 120 'Flags'"
         r = os.popen(command)
         info = r.readlines()
 
-        # 数据处理中
-        print "缓存数据中......"
-        for line in info:  #按行遍历
+        # 數據處理中
+        print "緩存數據中......"
+        for line in info:  #按行遍歷
             # line = line.strip('\r\n')
             eachline = line.split(',')
-            # 将行写入Excel表格
+            # 將行寫入Excel表格
             ws.append(eachline)
             # print line
 
-        # 新建sheet用来统计数据
+        # 新建sheet用來統計數據
         resultsheet = wb.create_sheet("result",0)
         resultsheet.column_dimensions["A"].width = valueofwidth
         resultsheet.column_dimensions["B"].width = valueofwidth
@@ -144,12 +144,12 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         resultsheet.column_dimensions["H"].width = valueofwidth
         resultsheet.column_dimensions["I"].width = valueofwidth
 
-        # 为结果页添加title说明
+        # 為結果頁添加title說明
         resultsheet.append(titlelist)
         resultsheet.append(subtitlelist)
         # resultsheet.RowDimension(height = 5)
 
-        # 填入公式，cell值由纳秒转换为毫秒
+        # 填入公式，cell值由納秒轉換為毫秒
         for i in range(3,123):
             resultsheet.cell(row = i, column = 1, value = "=data!C" + str(i-1) + "-data!B"+ str(i-1))
 
@@ -189,32 +189,32 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         resultsheet['J1'] = "平均值ms"
         resultsheet['J2'] = "=AVERAGEA(H3:H122)"
 
-        # 画图准备
+        # 畫圖準備
         chart = LineChart()
         chart.title = titlename + str(j)
-        # chart.style = 5       #style都很丑，还不如默认的
+        # chart.style = 5       #style都很醜，還不如默認的
         chart.y_axis.title = 'ms'
         chart.x_axis.title = 'Frame'
         chart.width = 30
         chart.height = 15
 
-        # data选取范围
+        # data選取範圍
         data = Reference(resultsheet, min_col=8, min_row=2, max_col=9, max_row=122)
         chart.add_data(data, titles_from_data=True)
 
-        # 创建图表,在B3位置插入
+        # 創建圖表,在B3位置插入
         resultsheet.add_chart(chart,"B3")
 
-        #记录时间戳作为文件名
+        #記錄時間戳作為文件名
         # filename = time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time())) + ".xlsx"
         # wb.save(filename)
 
-        #以执行名称 titlename作为文件名
+        #以執行名稱 titlename作為文件名
         filename2 = titlename + str(j) + ".xlsx"
         wb.save(filename2)
 
-        # 数据完毕
-        print "缓存处理完毕，保存数据到本地" + str(filename2)
+        # 數據完畢
+        print "緩存處理完畢，保存數據到本地" + str(filename2)
         time.sleep(3)
 
 
