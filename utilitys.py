@@ -86,7 +86,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
     # 要測試測模塊名，最後文件會以該名稱命名
     titlename = "Feed"
     print "Starting"
-    os.system("adb -s "+ip+" am start "+packageName+"/"+startIntent) 
+    os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
     for j in range(1,6):
         time.sleep(1)
         print "開始執行第" + str(j) + "遍"
