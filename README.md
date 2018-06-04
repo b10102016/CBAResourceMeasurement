@@ -17,6 +17,10 @@ write a simple recyclerview program for measure GPU FPS
 
 https://www.jianshu.com/p/1fe9783d266b
 
+`utilitys.dumpsys_gfxinfo` This can only use above Android 6.0, and we are in Android 5.1.1......
+
+
+
 
 
 
