@@ -217,22 +217,25 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
             time.sleep(1)
 
         # 過濾、篩選精確的幀時間信息
-        command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 'Draw    Prepare Process Execute'"
+        command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
         r = os.popen(command)
         info = r.readlines()
 
         # 數據處理中
         print "緩存數據中......"
         ws.append(titlelist)
+        lineNums=0
         for line in info:  #按行遍歷
             # line = line.strip('\r\n')
-            eachline = line.split()
-            if line[0].find("Draw") !=-1: continue
+            eachline = line.split('\t')
+            if is_number(eachline[0]) and is_number(eachline[1]): 
             # 將行寫入Excel表格
-            ws.append(eachline)
+                print "writing "+eachline
+                ws.append(eachline)
+                lineNums+=1
             # print line
         # titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime']
-        for i in range(2,129):
+        for i in range(2,2+lineNums):
             ws.cell(row = i, column = 6, value = 16)
             ws.cell(row = i, column = 5, value = "=SUM(A%d:D%d)"%(i,i))
 
@@ -249,7 +252,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         chart.height = 15
 
         # data選取範圍
-        data = Reference(ws, min_col=5, min_row=2, max_col=6, max_row=129)
+        data = Reference(ws, min_col=5, min_row=2, max_col=6, max_row=2+lineNums)
         chart.add_data(data, titles_from_data=True)
 
         # 創建圖表,在B3位置插入
@@ -268,3 +271,9 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
     # 數據完畢
     print "緩存處理完畢，保存數據到本地" + str(filename2)
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
