@@ -71,7 +71,7 @@ def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
         # 過濾、篩選精確的幀時間信息
         command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" framestats | grep -A 120 'Flags'"
         r = os.popen(command)
-        info = r.readlines()
+        info = r.read().splitlines()
 
         # 數據處理中
         print "緩存數據中......"
@@ -220,7 +220,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
         print command
         r = os.popen(command)
-        info = r.readlines()
+        info = r.read().splitlines()
 
         # 數據處理中
         print "緩存數據中......"
@@ -228,10 +228,11 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         lineNums=0
         for line in info:  #按行遍歷
             # line = line.strip('\r\n')
-            eachline = line.split('\t')
+            eachline = line.split('\t')[1:]
+            print eachline
+            if len(eachline)==0 or len(eachline)>4: continue
             if is_number(eachline[0]) and is_number(eachline[1]): 
             # 將行寫入Excel表格
-                print "writing "+eachline
                 ws.append(eachline)
                 lineNums+=1
             # print line
