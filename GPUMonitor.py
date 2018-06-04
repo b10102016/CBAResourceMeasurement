@@ -233,7 +233,8 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
             if len(eachline)==0 or len(eachline)>4: continue
             if is_number(eachline[0]) and is_number(eachline[1]): 
             # 將行寫入Excel表格
-                ws.append(eachline)
+                floats = map(float, eachline.split())
+                ws.append(floats)
                 lineNums+=1
             # print line
         # titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime']
