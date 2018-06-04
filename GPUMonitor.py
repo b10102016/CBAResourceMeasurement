@@ -240,7 +240,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
             ws.cell(row = i, column = 5, value = "=SUM(A%d:D%d)"%(i,i))
 
         # 插入平均Frame值
-        ws['G2'] = "=AVERAGEA(E2:E129)"
+        ws['G2'] = "=AVERAGEA(E2:E%d)"%(lineNums+1)
 
         # 畫圖準備
         chart = LineChart()
