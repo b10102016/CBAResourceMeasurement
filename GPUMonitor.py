@@ -218,6 +218,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
 
         # 過濾、篩選精確的幀時間信息
         command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
+        print command
         r = os.popen(command)
         info = r.readlines()
 
