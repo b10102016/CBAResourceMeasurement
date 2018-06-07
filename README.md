@@ -10,15 +10,29 @@ target : Memory, FPS, UI response time, First shutdown (cat kernel log first shu
   
   So we can't measure CPU usage per container for now..
 
+  CPU Shares 控制下限
+  CFS_quota 控制上限
+  
+
+
 
   [Knowledge](https://hk.saowen.com/a/ae24edc5fd6546d47fcdbf38435d6e378a8cf6e778c14de1985eab803e0f949a) we need to know
 ## for GPU
 write a simple recyclerview program for measure GPU FPS
 
+setprop debug.hwui.profile true to get more GPU info in dumpsys
+
+setprop debug.choreographer.skipwarning 1
+setprop ctl.restart surfaceflinger; setprop ctl.restart zygote
+
 https://www.jianshu.com/p/1fe9783d266b
 
 `utilitys.dumpsys_gfxinfo` This can only use above Android 6.0, and we are in Android 5.1.1......
 
+# Measurement target
+- 掉禎數
+- 禎數
+- dd測試
 
 
 

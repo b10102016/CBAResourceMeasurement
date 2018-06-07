@@ -4,20 +4,23 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-CG_CPUACCT_PATH	../CPUMonitor.py	/^CG_CPUACCT_PATH="\/acct"$/;"	kind:variable	line:1
+CG_CPUACCT_PATH	../CPUMonitor.py	/^CG_CPUACCT_PATH="\/acct"$/;"	kind:variable	line:5
 CPUMonitor.py	../CPUMonitor.py	1;"	kind:file	line:1
+GPUMonitor.py	../GPUMonitor.py	1;"	kind:file	line:1
 _in	../test.py	/^_in = "cpu  65676 2217 47119 25440934 9340 0 2372 0 0 0\\ncpu0 28208 645 23671 6311314 1860 0 2176 0 0 0"$/;"	kind:variable	line:1
-caculateCPUPercent	../CPUMonitor.py	/^def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):$/;"	kind:function	line:50
-cg_cpuinfo	../systemResourceMonitor.py	/^    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:12
-cg_cpuinfo	../systemResourceMonitor.py	/^cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:9
-deviceShell	../utilitys.py	/^def deviceShell(cmds,ip,time_out=10):$/;"	kind:function	line:7
-deviceShellWithResp	../utilitys.py	/^def deviceShellWithResp(cmd,ip,time_out=10):$/;"	kind:function	line:30
-dumpsys_gfxinfo	../utilitys.py	/^def dumpsys_gfxinfo(ip,packageName,startIntent):$/;"	kind:function	line:55
-get_CPUacct_cg	../CPUMonitor.py	/^def get_CPUacct_cg(ip,cg_cpuacct_path,group_name):$/;"	kind:function	line:3
-nanoSecondsPerSecond	../CPUMonitor.py	/^nanoSecondsPerSecond = 1e9$/;"	kind:variable	line:14
-parse_cpuacct	../CPUMonitor.py	/^def parse_cpuacct(rawstr):$/;"	kind:function	line:17
-previous_cg	../systemResourceMonitor.py	/^    previous_cg=cg_cpuinfo$/;"	kind:variable	line:11
-sleep	../utilitys.py	/^sleep = time.sleep # alias$/;"	kind:variable	line:5
+caculateCPUPercent	../CPUMonitor.py	/^def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):$/;"	kind:function	line:54
+cg_cpuinfo	../CPUMonitor.py	/^    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:77
+cg_cpuinfo	../CPUMonitor.py	/^cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:74
+deviceShell	../utilitys.py	/^def deviceShell(cmds,ip,time_out=10):$/;"	kind:function	line:9
+deviceShellWithResp	../utilitys.py	/^def deviceShellWithResp(cmd,ip,time_out=10):$/;"	kind:function	line:32
+dumpsys_gfxinfo	../GPUMonitor.py	/^def dumpsys_gfxinfo(ip,packageName,startIntent):$/;"	kind:function	line:171
+dumpsys_gfxinfo_framestats	../GPUMonitor.py	/^def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):$/;"	kind:function	line:12
+get_CPUacct_cg	../CPUMonitor.py	/^def get_CPUacct_cg(ip,cg_cpuacct_path,group_name):$/;"	kind:function	line:7
+is_number	../GPUMonitor.py	/^def is_number(s):$/;"	kind:function	line:277
+nanoSecondsPerSecond	../CPUMonitor.py	/^nanoSecondsPerSecond = 1e9$/;"	kind:variable	line:18
+parse_cpuacct	../CPUMonitor.py	/^def parse_cpuacct(rawstr):$/;"	kind:function	line:21
+previous_cg	../CPUMonitor.py	/^    previous_cg=cg_cpuinfo$/;"	kind:variable	line:76
+sleep	../utilitys.py	/^sleep = time.sleep # alias$/;"	kind:variable	line:7
 systemResourceMonitor.py	../systemResourceMonitor.py	1;"	kind:file	line:1
 test.py	../test.py	1;"	kind:file	line:1
 totalClock	../test.py	/^totalClock=0$/;"	kind:variable	line:2
