@@ -1,0 +1,1719 @@
+06-12 16:10:40.587 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 0 already attached outside hwc
+06-12 16:10:44.632 I/Choreographer(  549): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:44.702 W/Settings(  549): Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-12 16:10:44.721 W/AudioPolicyManager(19281): setOutputDevice() prevDevice 0400
+06-12 16:10:44.722 D/audio_hw_default(19281): start_output_stream: devices= 1024, port= 1
+06-12 16:10:44.730 D/audio_hw_default(19281): select_output_device: hdmi on
+06-12 16:10:44.753 I/ActivityManager(19521): START u0 {flg=0x14000000 cmp=com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench (has extras)} from uid 10071 on display 0
+06-12 16:10:44.829 W/AudioPolicyManager(19281): setOutputDevice() prevDevice 0400
+06-12 16:10:44.836 V/WindowManager(19521): addAppToken: AppWindowToken{21a68e44 token=Token{2eea3357 ActivityRecord{37ddc4d6 u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench t48}}} to stack=1 task=48 at 1
+06-12 16:10:44.846 I/Choreographer(  549): Skipped 9 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:44.982 I/Choreographer(  549): Skipped 5 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:45.080 D/com.umeng.message.proguard.l(  549): appLaunchAt=1528774825099
+06-12 16:10:45.083 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:10:45.145 I/AppCompatViewInflater(  549): app:theme is now deprecated. Please move to using android:theme instead.
+06-12 16:10:45.265 V/WindowManager(19521): Adding window Window{25e898ae u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench} at 3 of 8 (after Window{33725baa u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.home.activity.ActivityMain})
+06-12 16:10:45.274 I/Choreographer(  549): Skipped 11 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:45.355 W/BufferQueueProducer(19261): [com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench] dequeueBuffer: Front buffer created
+06-12 16:10:45.545 I/ActivityManager(19521): Process com.actions.agingtest (pid 3734) has died
+06-12 16:10:45.592 I/ActivityManager(19521): Process com.google.android.gms (pid 3383) has died
+06-12 16:10:45.632 I/ActivityManager(19521): Process com.google.process.gapps (pid 3527) has died
+06-12 16:10:45.867 I/Choreographer(  549): Skipped 29 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:45.944 I/ActivityManager(19521): Displayed com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench: +1s41ms
+06-12 16:10:45.955 I/Choreographer(  549): Skipped 3 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:46.109 I/Choreographer(19637): Skipped 4 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:47.045 I/ActivityManager(19521): Low on memory:
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N  1886299 kB: me.empirical.android.application.fillmemory (pid 1889) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    31508 kB: system_server (pid 2942) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    30390 kB: com.android.launcher (pid 7569) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    29368 kB: system_server (pid 3335) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    15433 kB: com.android.systemui (pid 7180) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    15113 kB: com.android.systemui (pid 3855) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    12628 kB: app_process32 (pid 21476) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    10194 kB: app_process32 (pid 9422) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     8856 kB: com.android.phone (pid 7315) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     8604 kB: com.koushikdutta.vysor (pid 3619) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     8006 kB: com.google.process.gapps (pid 3083) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     7872 kB: com.google.process.location (pid 805) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     7602 kB: com.google.process.location (pid 1424) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     7600 kB: com.google.process.gapps (pid 3267) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     7326 kB: com.koushikdutta.vysor (pid 2941) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     7286 kB: iscsid (pid 121) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     6895 kB: com.android.phone (pid 3974) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     6555 kB: com.google.android.inputmethod.latin (pid 3138) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     6319 kB: com.google.android.inputmethod.latin (pid 3158) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     5720 kB: com.google.android.gms (pid 3471) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     4903 kB: com.google.android.gms.wearable (pid 3036) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     4116 kB: mediaserver (pid 2622) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3946 kB: com.google.android.googlequicksearchbox:interactor (pid 1712) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3897 kB: com.google.android.googlequicksearchbox:interactor (pid 1637) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3812 kB: mediaserver (pid 19281) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3262 kB: com.android.smspush (pid 1749) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3241 kB: com.android.smspush (pid 1804) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3060 kB: com.actions.agingtest (pid 3497) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     3018 kB: surfaceflinger (pid 19261) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2912 kB: surfaceflinger (pid 2619) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2904 kB: surfaceflinger (pid 3024) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2846 kB: logd (pid 160) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2787 kB: zygote (pid 19265) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2572 kB: mediaserver (pid 3027) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2498 kB: zygote (pid 2626) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2497 kB: zygote (pid 3031) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     2344 kB: snmpd (pid 226) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     1822 kB: logd (pid 3013) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     1806 kB: logd (pid 2608) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     1443 kB: drmserver (pid 2621) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     1420 kB: drmserver (pid 186) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     1406 kB: drmserver (pid 3026) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N     1108 kB: sdcard (pid 724) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      951 kB: vold (pid 2611) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      949 kB: vold (pid 3016) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      868 kB: vold (pid 164) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      822 kB: debuggerd (pid 3023) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      722 kB: netd (pid 3022) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      678 kB: netd (pid 2617) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      664 kB: netd (pid 19266) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      661 kB: debuggerd (pid 183) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      632 kB: pfmnceserver (pid 185) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      610 kB: pfmnceserver (pid 3025) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      591 kB: pfmnceserver (pid 2620) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      586 kB: keystore (pid 3030) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      584 kB: keystore (pid 190) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      583 kB: keystore (pid 2625) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N      535 kB: debuggerd (pid 2618) native
+06-12 16:10:47.045 I/ActivityManager(19521):   ntv   N    13701 kB: (Other native)
+06-12 16:10:47.045 I/ActivityManager(19521):   sys   P    42156 kB: system (pid 19521) fixed
+06-12 16:10:47.045 I/ActivityManager(19521):   pers  P    41783 kB: com.android.systemui (pid 19637) fixed
+06-12 16:10:47.045 I/ActivityManager(19521):   pers  P     8415 kB: com.android.phone (pid 19773) fixed
+06-12 16:10:47.045 I/ActivityManager(19521):   fore  T    40069 kB: com.antutu.ABenchMark (pid 549) top-activity
+06-12 16:10:47.045 I/ActivityManager(19521):   vis   IF   40901 kB: com.google.android.gms.persistent (pid 3247) service
+06-12 16:10:47.045 I/ActivityManager(19521):                        com.google.android.gms/.backup.BackupTransportService<=Proc{19521:system/1000}
+06-12 16:10:47.045 I/ActivityManager(19521):   vis   IF    4193 kB: com.google.android.googlequicksearchbox:interactor (pid 567) service
+06-12 16:10:47.045 I/ActivityManager(19521):                        com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService<=Proc{19521:system/1000}
+06-12 16:10:47.045 I/ActivityManager(19521):   vis   IF    3484 kB: com.android.smspush (pid 960) service
+06-12 16:10:47.045 I/ActivityManager(19521):                        com.android.smspush/.WapPushManager<=Proc{19773:com.android.phone/1001}
+06-12 16:10:47.045 I/ActivityManager(19521):   prcp  IB    8570 kB: com.google.android.inputmethod.latin (pid 3212) service
+06-12 16:10:47.045 I/ActivityManager(19521):                        com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME<=Proc{19521:system/1000}
+06-12 16:10:47.045 I/ActivityManager(19521):   svc   S    30709 kB: com.antutu.ABenchMark:push (pid 3785) started-services
+06-12 16:10:47.045 I/ActivityManager(19521):   svcb  S    11882 kB: com.koushikdutta.vysor (pid 2590) started-services
+06-12 16:10:47.045 I/ActivityManager(19521):            2439493 kB: TOTAL
+06-12 16:10:47.045 I/ActivityManager(19521):   MemInfo: 81184 kB slab, 2400 kB shmem, 718892 kB vm alloc, 26304 kB page tables 23968 kB kernel stack
+06-12 16:10:47.045 I/ActivityManager(19521):            908 kB buffers, 174776 kB cached, 98480 kB mapped, 49536 kB free
+06-12 16:10:47.045 I/ActivityManager(19521):   Free RAM: 126740 kB
+06-12 16:10:47.045 I/ActivityManager(19521):   Used RAM: 3292241 kB
+06-12 16:10:47.045 I/ActivityManager(19521):   Lost RAM: -351389 kB
+06-12 16:10:47.107 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 0 already attached outside hwc
+06-12 16:10:47.107 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 1 already attached outside hwc
+06-12 16:10:47.132 I/ActivityManager(19521): Start proc 3956:com.actions.agingtest/1000 for broadcast com.actions.agingtest/.DropBoxReceiver
+06-12 16:10:47.153 I/art     (19265): Explicit concurrent mark sweep GC freed 706(30KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 406us total 19.968ms
+06-12 16:10:47.168 I/art     (19265): Explicit concurrent mark sweep GC freed 6(208B) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 1.125ms total 13.906ms
+06-12 16:10:47.182 I/art     (19265): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 250us total 12.906ms
+06-12 16:10:47.317 I/ActivityManager(19521): Start proc 3983:com.google.android.gms/u0a6 for broadcast com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver
+06-12 16:10:47.443 W/ResourcesManager( 3983): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+06-12 16:10:47.444 W/ResourcesManager( 3983): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+06-12 16:10:47.771 D/audio_hw_default(19281): out_standby!!
+06-12 16:10:47.824 I/ActivityManager(19521): Start proc 4012:com.google.process.gapps/u0a6 for content provider com.google.android.gsf/.gservices.GservicesProvider
+06-12 16:10:47.923 I/GservicesProvider( 4012): Gservices pushing to system: true; secure/global: true
+06-12 16:10:48.137 I/GoogleHttpClient( 4012): GMS http client unavailable, use old client
+06-12 16:10:48.201 I/GoogleHttpClient( 4012): GMS http client unavailable, use old client
+06-12 16:10:48.541 V/NativeCrypto( 3983): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 280 native methods...
+06-12 16:10:48.578 I/art     ( 3983): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:10:48.579 I/art     ( 3983): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:10:48.579 I/art     ( 3983): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:10:48.579 W/art     ( 3983): dex_file 4693   resolved= Lcom/google/android/gms/org/conscrypt/Java7ExtendedSSLSession;
+06-12 16:10:48.579 I/art     ( 3983): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+06-12 16:10:48.579 I/art     ( 3983): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+06-12 16:10:48.621 I/ProviderInstaller( 3983): Installed default security provider GmsCore_OpenSSL
+06-12 16:10:49.131 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 0 already attached outside hwc
+06-12 16:10:49.131 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 1 already attached outside hwc
+06-12 16:10:49.131 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 2 already attached outside hwc
+06-12 16:10:49.382 I/AsyncOpDispatcher( 3247): 35-GetDeviceDataUploadOptInStatusOperation
+06-12 16:10:49.935 I/ActivityManager(19521): START u0 {act=com.antutu.benchmark.full.3D_RUN flg=0x14000000 cmp=com.antutu.benchmark.full/.UnityPlayerActivity (has extras)} from uid 10071 on display 0
+06-12 16:10:49.960 V/WindowManager(19521): addAppToken: AppWindowToken{3c3f3722 token=Token{3c969ced ActivityRecord{23361f04 u0 com.antutu.benchmark.full/.UnityPlayerActivity t50}}} to stack=1 task=50 at 0
+06-12 16:10:49.966 W/BufferQueueProducer(19521): [ScreenshotClient] dequeueBuffer: Front buffer created
+06-12 16:10:50.095 I/art     (19521): Explicit concurrent mark sweep GC freed 17838(995KB) AllocSpace objects, 50(1653KB) LOS objects, 33% free, 20MB/30MB, paused 2ms total 120.968ms
+06-12 16:10:50.099 V/WindowManager(19521): Adding window Window{2ad37ca5 u0 Starting com.antutu.benchmark.full} at 4 of 9 (after Window{25e898ae u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench})
+06-12 16:10:50.100 I/Choreographer(19521): Skipped 6 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:50.135 W/BufferQueueProducer(19261): [Starting com.antutu.benchmark.full] dequeueBuffer: Front buffer created
+06-12 16:10:50.141 I/ActivityManager(19521): Start proc 4049:com.antutu.benchmark.full:unity/u0a72 for activity com.antutu.benchmark.full/.UnityPlayerActivity
+06-12 16:10:50.195 W/BufferQueueProducer(19261): [ScreenshotSurface] dequeueBuffer: Front buffer created
+06-12 16:10:50.206 V/ActivityManager(19521): Display changed displayId=0
+06-12 16:10:50.212 I/ActivityManager(19521): Config changes=480 {1.0 ?mcc?mnc en_CN ?layoutDir sw410dp w656dp h336dp 312dpi nrml land -touch -keyb/v/h -nav/h s.12}
+06-12 16:10:50.226 I/InputReader(19521): Reconfiguring input devices.  changes=0x00000004
+06-12 16:10:50.229 W/BufferQueueProducer(19261): [com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench] dequeueBuffer: renew vr front buffer
+06-12 16:10:50.234 W/BufferQueueProducer(19261): [com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench] dequeueBuffer: Front buffer created
+06-12 16:10:50.276 I/Choreographer(  549): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:50.288 D/PFS     (  185): echo 3007 ----> /sys/devices/e0600000.gpu/policy 
+06-12 16:10:50.507 D/ActionsViewConfiguration( 4049): tune called
+06-12 16:10:50.523 I/ActivityManager(19521): Start proc 4069:android.process.acore/u0a2 for content provider com.android.providers.contacts/.ContactsProvider2
+06-12 16:10:50.526 I/Choreographer(19637): Skipped 8 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:50.582 I/ActivityManager(19521): Start proc 4089:com.android.launcher/u0a10 for broadcast com.android.launcher/com.android.launcher2.UninstallShortcutReceiver
+06-12 16:10:50.599 W/BufferQueueProducer(19261): [StatusBar] dequeueBuffer: renew vr front buffer
+06-12 16:10:50.599 W/BufferQueueProducer(19261): [StatusBar] dequeueBuffer: Front buffer created
+06-12 16:10:50.861 W/BufferQueueProducer(19261): [NavigationBar] dequeueBuffer: renew vr front buffer
+06-12 16:10:50.861 W/BufferQueueProducer(19261): [NavigationBar] dequeueBuffer: Front buffer created
+06-12 16:10:50.882 I/Choreographer(19637): Skipped 12 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:50.884 W/BufferQueueProducer(19261): [StatusBar] dequeueBuffer: Front buffer created
+06-12 16:10:50.887 W/BufferQueueProducer(19261): [NavigationBar] dequeueBuffer: Front buffer created
+06-12 16:10:51.147 W/ResourceType(19637): No package identifier when getting value for resource number 0x00000000
+06-12 16:10:51.160 W/PackageManager(19637): Failure retrieving resources for com.antutu.ABenchMark: Resource ID #0x0
+06-12 16:10:51.250 D/OpenGLRenderer( 4049): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+06-12 16:10:51.263 D/Atlas   ( 4049): Validating map...
+06-12 16:10:51.278 V/WindowManager(19521): Adding window Window{1072c21b u0 com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity} at 4 of 10 (before Window{2ad37ca5 u0 Starting com.antutu.benchmark.full})
+06-12 16:10:51.364 I/ContactLocale( 4069): AddressBook Labels [en-CN]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Ї, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+06-12 16:10:51.388 I/OpenGLRenderer( 4049): Initialized EGL, version 1.4
+06-12 16:10:51.389 W/OpenGLRenderer( 4049): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-12 16:10:51.420 D/OpenGLRenderer( 4049): Enabling debug mode 0
+06-12 16:10:51.425 W/BufferQueueProducer(19261): [com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity] dequeueBuffer: Front buffer created
+06-12 16:10:51.533 I/ActivityManager(19521): Process com.actions.agingtest (pid 3956) has died
+06-12 16:10:51.723 I/ActivityManager(19521): Process android.process.acore (pid 4069) has died
+06-12 16:10:51.724 I/ActivityManager(19521): Process com.android.launcher (pid 4089) has died
+06-12 16:10:51.726 E/lowmemorykiller(  162): Error writing /proc/4012/oom_score_adj; errno=22
+06-12 16:10:51.726 E/lowmemorykiller(  162): Error writing /proc/4012/oom_score_adj; errno=22
+06-12 16:10:51.741 I/ActivityManager(19521): Process com.google.process.gapps (pid 4012) has died
+06-12 16:10:51.844 V/WindowManager(19521): Adding window Window{1b956f64 u0 SurfaceView} at 4 of 11 (before Window{1072c21b u0 com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity})
+06-12 16:10:51.863 I/Choreographer( 4049): Skipped 27 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:51.989 V/WindowManager(19521): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+06-12 16:10:51.989 V/WindowManager(19521): Layouts looping: loop number 4, mPendingLayoutChanges = 0x0
+06-12 16:10:51.989 V/WindowManager(19521): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+06-12 16:10:51.992 V/WindowManager(19521): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+06-12 16:10:51.992 V/WindowManager(19521): Layouts looping: On entry to LockedInner, mPendingLayoutChanges = 0x1
+06-12 16:10:51.993 V/WindowManager(19521): Layouts looping: loop number 5, mPendingLayoutChanges = 0x0
+06-12 16:10:51.993 V/WindowManager(19521): Layouts looping: after finishPostLayoutPolicyLw, mPendingLayoutChanges = 0x0
+06-12 16:10:51.993 V/WindowManager(19521): Layouts looping: mLayoutNeeded, mPendingLayoutChanges = 0x1
+06-12 16:10:51.994 E/WindowManager(19521): Performed 6 layouts in a row. Skipping
+06-12 16:10:52.000 I/ActivityManager(19521): Displayed com.antutu.benchmark.full/.UnityPlayerActivity: +1s887ms
+06-12 16:10:52.010 W/BufferQueueProducer(19261): [Starting com.antutu.benchmark.full] dequeueBuffer: renew vr front buffer
+06-12 16:10:52.011 W/BufferQueueProducer(19261): [Starting com.antutu.benchmark.full] dequeueBuffer: Front buffer created
+06-12 16:10:52.034 I/WindowManager(19521): Screen frozen for +1s853ms due to Window{2ad37ca5 u0 Starting com.antutu.benchmark.full}
+06-12 16:10:52.106 I/VysorMain(21476): New raw socket accepted.
+06-12 16:10:52.140 I/Choreographer( 4049): Skipped 7 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:52.276 E/NIO     (21476): Unhandled exception
+06-12 16:10:52.276 E/NIO     (21476): java.net.SocketException: recvfrom failed: ECONNRESET (Connection reset by peer)
+06-12 16:10:52.276 E/NIO     (21476): 	at libcore.io.IoBridge.maybeThrowAfterRecvfrom(IoBridge.java:592)
+06-12 16:10:52.276 E/NIO     (21476): 	at libcore.io.IoBridge.recvfrom(IoBridge.java:568)
+06-12 16:10:52.276 E/NIO     (21476): 	at java.nio.SocketChannelImpl.readImpl(SocketChannelImpl.java:342)
+06-12 16:10:52.276 E/NIO     (21476): 	at java.nio.SocketChannelImpl.read(SocketChannelImpl.java:304)
+06-12 16:10:52.276 E/NIO     (21476): 	at com.koushikdutta.async.SocketChannelWrapper.read(SocketChannelWrapper.java:28)
+06-12 16:10:52.276 E/NIO     (21476): 	at com.koushikdutta.async.AsyncNetworkSocket.onReadable(AsyncNetworkSocket.java:134)
+06-12 16:10:52.276 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer.runLoop(AsyncServer.java:821)
+06-12 16:10:52.276 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer.run(AsyncServer.java:658)
+06-12 16:10:52.276 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer.access$800(AsyncServer.java:44)
+06-12 16:10:52.276 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer$14.run(AsyncServer.java:600)
+06-12 16:10:52.276 E/NIO     (21476): Caused by: android.system.ErrnoException: recvfrom failed: ECONNRESET (Connection reset by peer)
+06-12 16:10:52.276 E/NIO     (21476): 	at libcore.io.Posix.recvfromBytes(Native Method)
+06-12 16:10:52.276 E/NIO     (21476): 	at libcore.io.Posix.recvfrom(Posix.java:177)
+06-12 16:10:52.276 E/NIO     (21476): 	at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:245)
+06-12 16:10:52.276 E/NIO     (21476): 	at libcore.io.IoBridge.recvfrom(IoBridge.java:565)
+06-12 16:10:52.276 E/NIO     (21476): 	... 8 more
+06-12 16:10:52.276 I/VysorMain(21476): Connection terminated.
+06-12 16:10:52.285 I/VysorFactory(21476): VirtualDisplay released
+06-12 16:10:52.299 I/VysorFactory(21476): factory released
+06-12 16:10:52.300 I/VysorMain(21476): Got password 346fe277
+06-12 16:10:52.300 I/VysorMain(21476): h264 authentication succeeded
+06-12 16:10:52.346 I/StdOutDevice(21476): Requested Width: 640 Requested Height: 400
+06-12 16:10:52.346 I/VysorMain(21476): registering virtual display
+06-12 16:10:52.348 I/StdOutDevice(21476): OMX.Action.Video.Encoder
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 2135033992
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 19
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 21
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 22
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 24
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 2130708361
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 45
+06-12 16:10:52.394 I/StdOutDevice(21476): colorFormat: 47
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/1
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/2
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/4
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/8
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/16
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/32
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/64
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/128
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/256
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/512
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/1024
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/2048
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/4096
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/8192
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/16384
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 1/32768
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/1
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/2
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/4
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/8
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/16
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/32
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/64
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/128
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/256
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/512
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/1024
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/2048
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/4096
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/8192
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/16384
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 2/32768
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/1
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/2
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/4
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/8
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/16
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/32
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/64
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/128
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/256
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/512
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/1024
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/2048
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/4096
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/8192
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/16384
+06-12 16:10:52.394 I/StdOutDevice(21476): profile/level: 8/32768
+06-12 16:10:52.394 I/StdOutDevice(21476): OMX.google.h264.encoder
+06-12 16:10:52.398 I/StdOutDevice(21476): colorFormat: 2135033992
+06-12 16:10:52.398 I/StdOutDevice(21476): colorFormat: 19
+06-12 16:10:52.398 I/StdOutDevice(21476): colorFormat: 21
+06-12 16:10:52.398 I/StdOutDevice(21476): colorFormat: 2130708361
+06-12 16:10:52.398 I/StdOutDevice(21476): profile/level: 1/32
+06-12 16:10:52.440 I/Choreographer(  549): Skipped 15 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:52.582 I/StdOutDevice(21476): Width: 640 Height: 400
+06-12 16:10:52.587 I/StdOutDevice(21476): Bitrate: 500000
+06-12 16:10:52.587 I/StdOutDevice(21476): Frame rate: 30
+06-12 16:10:52.587 I/StdOutDevice(21476): Creating encoder
+06-12 16:10:52.657 I/OMXClient(21476): Using client-side OMX mux.
+06-12 16:10:52.672 V/ActionOMXPlugin(19281): Entry ActionOMXPlugin::makeComponentInstance
+06-12 16:10:52.677 E/OMX_VCE (19281): OMX-In OMX_ComponentInit, allocating component,0xf5ca2800
+06-12 16:10:52.679 I/StdOutDevice(21476): Created encoder
+06-12 16:10:52.679 I/StdOutDevice(21476): Configuring encoder
+06-12 16:10:52.688 W/ACodec  (21476): do not know color format 0x16 = 22
+06-12 16:10:52.689 W/ACodec  (21476): do not know color format 0x18 = 24
+06-12 16:10:52.689 W/ACodec  (21476): do not know color format 0x7f000789 = 2130708361
+06-12 16:10:52.689 E/OMX_VCE (19281): OMX-Warning! RGB input stride 640 must be 32-align!
+06-12 16:10:52.690 I/ACodec  (21476): setupVideoEncoder succeeded
+06-12 16:10:52.691 W/ACodec  (21476): do not know color format 0x7f000789 = 2130708361
+06-12 16:10:52.691 I/StdOutDevice(21476): Creating input surface
+06-12 16:10:52.692 I/StdOutDevice(21476): Starting Encoder
+06-12 16:10:52.717 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:10:52.771 E/OMX_VCE (19281): OMX-malloc ion addr! phy:200a0000, vir:f093d000, len:1f400
+06-12 16:10:52.773 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:10:52.801 E/OMX_VCE (19281): OMX-malloc ion addr! phy:20180000, vir:f091d000, len:1f400
+06-12 16:10:52.803 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:10:52.824 E/OMX_VCE (19281): OMX-malloc ion addr! phy:201a0000, vir:f08fd000, len:1f400
+06-12 16:10:52.827 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:10:52.847 E/OMX_VCE (19281): OMX-malloc ion addr! phy:201c0000, vir:f0733000, len:1f400
+06-12 16:10:52.850 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:10:52.884 E/OMX_VCE (19281): OMX-malloc ion addr! phy:201e0000, vir:f0713000, len:1f400
+06-12 16:10:52.885 I/StdOutDevice(21476): Surface ready
+06-12 16:10:52.885 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 163840
+06-12 16:10:52.897 I/StdOutDevice(21476): Encoder ready
+06-12 16:10:52.897 E/StdOutDevice(21476): Created surface
+06-12 16:10:52.904 I/StdOutDevice(21476): Writer started.
+06-12 16:10:52.920 E/OMX_VCE (19281): OMX-malloc ion addr! phy:20a00000, vir:f06eb000, len:28000
+06-12 16:10:52.936 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 512000
+06-12 16:10:52.969 I/VysorMain(21476): virtual display registered
+06-12 16:10:52.998 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 512000
+06-12 16:10:53.074 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 512000
+06-12 16:10:53.074 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:53.079 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: renew vr front buffer
+06-12 16:10:53.141 E/OMX_VCE (19281): OMX-info!openmaxStandComp:0xf5c73d60, enable_returnquece:1
+06-12 16:10:53.147 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:53.152 E/OMX_VCE (19281): OMX-Warning!in StoreMediaData mode,but the buffer (cdcdcdcd) is not kMetadataBufferTypeCameraSource_act!
+06-12 16:10:53.152 E/OMX_VCE (19281): OMX-SendBuffer,input buffer is eos now!
+06-12 16:10:53.154 E/OMX_VCE (19281): OMX-mng_try_encode,eos!nFilledLen:0,nFlags:11,pBuffer:0xf5434470
+06-12 16:10:53.154 E/OMX_VCE (19281): OMX-Detected EOS flags in input buffer filled len=0
+06-12 16:10:53.154 E/OMX_VCE (19281): OMX-ReturnBufferFunction,input buffer is eos now!
+06-12 16:10:53.154 E/OMX_VCE (19281): OMX-ReturnBufferFunction,input buffer is eos now!
+06-12 16:10:53.170 I/StdOutDevice(21476): Writer done
+06-12 16:10:53.171 W/GraphicBufferSource(19281): Dropped back down to Loaded without Executing
+06-12 16:10:53.180 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.186 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x207e0000, vir:0xf4a17000
+06-12 16:10:53.187 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.193 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x206e0000, vir:0xf4a37000
+06-12 16:10:53.194 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.201 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x205e0000, vir:0xf4a57000
+06-12 16:10:53.201 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.208 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x204e0000, vir:0xf4a77000
+06-12 16:10:53.208 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.215 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x203e0000, vir:0xf6412000
+06-12 16:10:53.215 E/OMX_VCE (19281): OMX-In omx_videoenc_BufferMgmtFunction 3  Buffer Management Thread is exiting
+06-12 16:10:53.220 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.228 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.237 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.260 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:10:53.270 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x20a40000, vir:0xf0bd8000
+06-12 16:10:53.271 E/        (19281): OMX-In compMessageHandlerFunction Destructor has been called. So exit from the loop
+06-12 16:10:53.276 I/StdOutDevice(21476): =======ENCODING COMPELTE=======
+06-12 16:10:53.533 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: Front buffer created
+06-12 16:10:53.553 D/Unity   ( 4049):  GL_EXT_blend_minmax GL_EXT_color_buffer_float GL_EXT_discard_framebuffer GL_EXT_draw_buffers GL_EXT_multi_draw_arrays GL_EXT_multisampled_render_to_texture GL_EXT_occlusion_query_boolean GL_EXT_read_format_bgra GL_EXT_robustness GL_EXT_separate_shader_objects GL_EXT_shader_framebuffer_fetch GL_EXT_shader_texture_lod GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_sRGB_decode GL_IMG_multisampled_render_to_texture GL_IMG_program_binary GL_IMG_read_format GL_IMG_shader_binary GL_IMG_texture_compression_pvrtc GL_IMG_texture_compression_pvrtc2 GL_IMG_texture_format_BGRA8888 GL_IMG_texture_npot GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_debug GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth24 GL_OES_depth_texture GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_element_index_uint GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL
+06-12 16:10:53.553 D/Unity   ( 4049): _OES_rgb8_rgba8 GL_OES_shader_image_atomic GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OES_vertex_half_float
+06-12 16:10:54.163 W/libc    ( 4049): pthread_create sched_setscheduler call failed: Operation not permitted
+06-12 16:10:54.274 D/AudioFlinger(19281): new AudioFlinger clinet, pid 4049
+06-12 16:10:54.435 W/AudioPolicyManager(19281): setOutputDevice() prevDevice 0400
+06-12 16:10:54.484 D/audio_hw_default(19281): start_output_stream: devices= 1024, port= 1
+06-12 16:10:54.490 D/audio_hw_default(19281): select_output_device: hdmi on
+06-12 16:10:54.499 I/art     (19521): Explicit concurrent mark sweep GC freed 4113(249KB) AllocSpace objects, 111(3MB) LOS objects, 33% free, 17MB/25MB, paused 6.625ms total 444ms
+06-12 16:10:54.961 D/TaskPersister(19521): removeObsoleteFile: deleting file=49_task.xml
+06-12 16:10:55.319 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: Front buffer created
+06-12 16:10:55.351 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: Front buffer created
+06-12 16:10:55.352 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:55.366 I/StdOutDevice(21476): MediaCodec.INFO_OUTPUT_FORMAT_CHANGED
+06-12 16:10:55.391 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:55.420 I/StdOutDevice(21476): output width: 640
+06-12 16:10:55.422 I/StdOutDevice(21476): output height: 400
+06-12 16:10:55.423 I/StdOutDevice(21476): Got first buffer
+06-12 16:10:55.433 I/StdOutDevice(21476): Bitrate: 500000
+06-12 16:10:55.607 I/ActivityManager(19521): Process com.koushikdutta.vysor (pid 2590) has died
+06-12 16:10:55.675 W/ActivityManager(19521): Scheduling restart of crashed service com.koushikdutta.vysor/.VysorIME in 1000ms
+06-12 16:10:56.190 I/Choreographer(19637): Skipped 2 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:56.191 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:56.311 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:56.320 I/MediaFocusControl(19521):  AudioFocus  requestAudioFocus() from android.media.AudioManager@1d954466<native proxy object> req=1flags=0x0
+06-12 16:10:56.696 I/ActivityManager(19521): Start proc 4218:com.koushikdutta.vysor/u0a62 for service com.koushikdutta.vysor/.VysorIME
+06-12 16:10:56.815 I/Choreographer(  549): Skipped 2 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:57.201 I/ActivityManager(19521): Process com.google.android.gms (pid 3983) has died
+06-12 16:10:57.939 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:58.048 W/Unity   ( 4049): Hardware resolution scaling not supported, falling back to software scaling (blit).
+06-12 16:10:58.048 W/Unity   ( 4049):  
+06-12 16:10:58.048 W/Unity   ( 4049): (Filename:  Line: 456)
+06-12 16:10:58.048 W/Unity   ( 4049): 
+06-12 16:10:58.065 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: renew vr front buffer
+06-12 16:10:58.077 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: Front buffer created
+06-12 16:10:58.190 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:10:58.222 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: Front buffer created
+06-12 16:10:58.257 W/BufferQueueProducer(19261): [SurfaceView] dequeueBuffer: Front buffer created
+06-12 16:10:58.478 I/Unity   ( 4049): [AssetBundleManager] Loading Asset Bundle Manifest: Android
+06-12 16:10:58.478 I/Unity   ( 4049):  
+06-12 16:10:58.478 I/Unity   ( 4049): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+06-12 16:10:58.478 I/Unity   ( 4049): 
+06-12 16:10:58.550 I/ActivityManager(19521): Process com.antutu.ABenchMark:push (pid 3785) has died
+06-12 16:10:58.564 W/ActivityManager(19521): Scheduling restart of crashed service com.antutu.ABenchMark/com.taobao.accs.ChannelService in 1000ms
+06-12 16:10:58.564 W/ActivityManager(19521): Scheduling restart of crashed service com.antutu.ABenchMark/com.xiaomi.push.service.XMPushService in 10989ms
+06-12 16:10:58.564 W/ActivityManager(19521): Scheduling restart of crashed service com.antutu.ABenchMark/com.igexin.sdk.PushService in 20989ms
+06-12 16:10:58.572 W/ResourcesManager( 4218): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+06-12 16:10:58.577 W/ResourcesManager( 4218): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+06-12 16:10:58.590 D/WifiService(19521): Client connection lost with reason: 4
+06-12 16:10:58.823 I/Choreographer( 4049): Skipped 2 frames!  The application may be doing too much work on its main thread.
+06-12 16:10:58.920 I/ActivityManager(19521): Process com.google.android.inputmethod.latin (pid 3212) has died
+06-12 16:10:58.921 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME in 30633ms
+06-12 16:10:59.206 D/WifiService(19521): Client connection lost with reason: 4
+06-12 16:10:59.206 I/libprocessgroup(19521): Killing pid 1360 in uid 10071 as part of process group 549
+06-12 16:10:59.206 I/libprocessgroup(19521): Killing pid 2273 in uid 10071 as part of process group 549
+06-12 16:10:59.206 I/libprocessgroup(19521): Killing pid 1360 in uid 10071 as part of process group 549
+06-12 16:10:59.206 I/libprocessgroup(19521): Killing pid 2273 in uid 10071 as part of process group 549
+06-12 16:10:59.207 I/libprocessgroup(19521): Killing pid 2273 in uid 10071 as part of process group 549
+06-12 16:10:59.207 I/libprocessgroup(19521): Killing pid 2273 in uid 10071 as part of process group 549
+06-12 16:10:59.229 W/InputDispatcher(19521): channel '33725baa com.antutu.ABenchMark/com.antutu.benchmark.ui.home.activity.ActivityMain (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-12 16:10:59.229 E/InputDispatcher(19521): channel '33725baa com.antutu.ABenchMark/com.antutu.benchmark.ui.home.activity.ActivityMain (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-12 16:10:59.233 I/ActivityManager(19521): Process com.antutu.ABenchMark (pid 549) has died
+06-12 16:10:59.233 I/WindowState(19521): WIN DEATH: Window{33725baa u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.home.activity.ActivityMain}
+06-12 16:10:59.238 W/InputDispatcher(19521): channel '25e898ae com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-12 16:10:59.238 E/InputDispatcher(19521): channel '25e898ae com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-12 16:10:59.255 W/InputDispatcher(19521): Attempted to unregister already unregistered input channel '33725baa com.antutu.ABenchMark/com.antutu.benchmark.ui.home.activity.ActivityMain (server)'
+06-12 16:10:59.395 W/ActivityManager(19521): Scheduling restart of crashed service com.antutu.ABenchMark/com.antutu.benchmark.service.BenchmarkService in 40267ms
+06-12 16:10:59.396 W/ActivityManager(19521): Scheduling restart of crashed service com.antutu.ABenchMark/com.antutu.benchmark.service.BenchmarkMainService in 50267ms
+06-12 16:11:00.127 D/WifiService(19521): Client connection lost with reason: 4
+06-12 16:11:00.131 W/art     (19521): Long monitor contention event with owner method=void com.android.server.wm.WindowState$DeathRecipient.binderDied() from WindowState.java:1141 waiters=0 for 458ms
+06-12 16:11:00.132 I/WindowState(19521): WIN DEATH: Window{25e898ae u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench}
+06-12 16:11:00.132 W/InputDispatcher(19521): Attempted to unregister already unregistered input channel '25e898ae com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench (server)'
+06-12 16:11:00.133 W/art     (19521): Long monitor contention event with owner method=void com.android.server.wm.WindowState$DeathRecipient.binderDied() from WindowState.java:1141 waiters=1 for 524ms
+06-12 16:11:00.354 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1235 waiters=0 for 677ms
+06-12 16:11:00.572 W/art     (19521): Long monitor contention event with owner method=void com.android.server.LocationManagerService$Receiver.binderDied() from LocationManagerService.java:894 waiters=0 for 394ms
+06-12 16:11:01.313 W/InputMethodManagerService(19521): Session failed to close due to remote exception
+06-12 16:11:01.313 W/InputMethodManagerService(19521): android.os.DeadObjectException
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.os.BinderProxy.transactNative(Native Method)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.os.BinderProxy.transact(Binder.java:496)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:305)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.finishSessionLocked(InputMethodManagerService.java:1420)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.clearClientSessionLocked(InputMethodManagerService.java:1411)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:1437)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:1456)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1213)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1227)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.os.Handler.handleCallback(Handler.java:739)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at android.os.Looper.loop(Looper.java:135)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.server.SystemServer.run(SystemServer.java:289)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.server.SystemServer.main(SystemServer.java:190)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at java.lang.reflect.Method.invoke(Native Method)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at java.lang.reflect.Method.invoke(Method.java:372)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+06-12 16:11:01.313 W/InputMethodManagerService(19521): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): Session failed to close due to remote exception
+06-12 16:11:02.410 W/InputMethodManagerService(19521): android.os.DeadObjectException
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.os.BinderProxy.transactNative(Native Method)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.os.BinderProxy.transact(Binder.java:496)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.internal.view.IInputMethodSession$Stub$Proxy.finishSession(IInputMethodSession.java:305)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.finishSessionLocked(InputMethodManagerService.java:1420)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.clearClientSessionLocked(InputMethodManagerService.java:1411)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.clearCurMethodLocked(InputMethodManagerService.java:1437)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.server.InputMethodManagerService.onServiceDisconnected(InputMethodManagerService.java:1456)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.app.LoadedApk$ServiceDispatcher.doDeath(LoadedApk.java:1213)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.app.LoadedApk$ServiceDispatcher$RunConnection.run(LoadedApk.java:1227)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.os.Handler.handleCallback(Handler.java:739)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at android.os.Looper.loop(Looper.java:135)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.server.SystemServer.run(SystemServer.java:289)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.server.SystemServer.main(SystemServer.java:190)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at java.lang.reflect.Method.invoke(Native Method)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at java.lang.reflect.Method.invoke(Method.java:372)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+06-12 16:11:02.410 W/InputMethodManagerService(19521): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+06-12 16:11:02.770 W/art     (19521): Long monitor contention event with owner method=void com.android.server.InputMethodManagerService.onServiceDisconnected(android.content.ComponentName) from InputMethodManagerService.java:1451 waiters=0 for 3.499s
+06-12 16:11:02.926 W/art     ( 4218): Suspending all threads took: 1.093s
+06-12 16:11:03.792 V/BackupManagerService(19521): Disconnected from transport ComponentInfo{com.google.android.gms/com.google.android.gms.backup.BackupTransportService}
+06-12 16:11:03.792 V/BackupManagerService(19521): Registering transport com.google.android.gms/.backup.BackupTransportService::null = null
+06-12 16:11:03.986 I/art     (19265): Background concurrent mark sweep GC freed 783(33KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 281us total 1.145s
+06-12 16:11:04.090 W/Zygote  (19265): Slow operation: 1933ms so far, now at Zygote.preFork
+06-12 16:11:04.119 W/Zygote  (19265): Slow operation: 2029ms so far, now at Zygote.nativeForkAndSpecialize
+06-12 16:11:04.430 W/Zygote  ( 4323): Slow operation: 2365ms so far, now at Zygote.nativeForkAndSpecialize
+06-12 16:11:04.456 W/Zygote  ( 4323): Slow operation: 2366ms so far, now at Zygote.postForkCommon
+06-12 16:11:04.456 W/Zygote  ( 4323): Slow operation: 2760ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+06-12 16:11:04.456 W/Zygote  (19265): Slow operation: 2365ms so far, now at Zygote.postForkCommon
+06-12 16:11:04.457 W/Zygote  (19265): Slow operation: 2760ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+06-12 16:11:04.828 W/ActivityManager(19521): Slow operation: 4271ms so far, now at startProcess: returned from zygote!
+06-12 16:11:05.068 W/ActivityManager(19521): Slow operation: 4650ms so far, now at startProcess: done updating battery stats
+06-12 16:11:05.097 W/ActivityManager(19521): Slow operation: 4680ms so far, now at startProcess: building log message
+06-12 16:11:05.130 I/ActivityManager(19521): Start proc 4323:com.antutu.ABenchMark:push/u0a71 for service com.antutu.ABenchMark/com.taobao.accs.ChannelService
+06-12 16:11:05.130 W/ActivityManager(19521): Slow operation: 4713ms so far, now at startProcess: starting to update pids map
+06-12 16:11:05.147 W/ActivityManager(19521): Slow operation: 4730ms so far, now at startProcess: done updating pids map
+06-12 16:11:05.159 W/ActivityManager(19521): Slow operation: 4746ms so far, now at startProcess: done starting proc!
+06-12 16:11:05.791 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1235 waiters=1 for 5.032s
+06-12 16:11:05.955 I/ActivityManager(19521): Process com.google.android.gms.persistent (pid 3247) has died
+06-12 16:11:06.446 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService in 53330ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/.common.stats.GmsCoreStatsService in 63216ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/.gcm.GcmService in 73214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/.thunderbird.OutgoingSmsListenerService in 83214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.location.fused.FusedLocationService in 93214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService in 103214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.location.network.NetworkLocationService in 113214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService in 123214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService in 133214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService in 143214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/com.google.android.location.geocode.GeocodeService in 153214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/.auth.setup.devicesignals.LockScreenService in 163214ms
+06-12 16:11:06.449 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.gms/.backup.BackupTransportService in 173214ms
+06-12 16:11:08.773 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1235 waiters=2 for 8.075s
+06-12 16:11:09.524 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1235 waiters=1 for 3.545s
+06-12 16:11:09.625 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1235 waiters=2 for 1.477s
+06-12 16:11:10.739 I/art     (21476): Background sticky concurrent mark sweep GC freed 5819(1420KB) AllocSpace objects, 22(1509KB) LOS objects, 39% free, 2MB/4MB, paused 268.656ms total 629.313ms
+06-12 16:11:10.949 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.BroadcastQueue.processNextBroadcast(boolean) from BroadcastQueue.java:542 waiters=0 for 358ms
+06-12 16:11:11.151 W/System  (21476): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+06-12 16:11:15.555 W/ActivityManager(19521): Process ProcessRecord{2de8cba6 4323:com.antutu.ABenchMark:push/u0a71} failed to attach
+06-12 16:11:15.731 W/System  (21476): java.lang.Throwable: Explicit termination method 'release' not called
+06-12 16:11:15.731 W/System  (21476): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+06-12 16:11:15.731 W/System  (21476): 	at android.view.Surface.setNativeObjectLocked(Surface.java:460)
+06-12 16:11:15.731 W/System  (21476): 	at android.view.Surface.<init>(Surface.java:152)
+06-12 16:11:15.731 W/System  (21476): 	at android.media.MediaCodec.createInputSurface(Native Method)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.virtualdisplay.EncoderDevice.createDisplaySurface(EncoderDevice.java:455)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.virtualdisplay.EncoderDevice.registerVirtualDisplay(EncoderDevice.java:48)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.vysor.Main.writer(Main.java:223)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.vysor.Main$13.onAuthenticated(Main.java:886)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.vysor.Main$13$2.onStringAvailable(Main.java:914)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.LineEmitter.onDataAvailable(LineEmitter.java:45)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.Util.emitAllData(Util.java:23)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.AsyncNetworkSocket.onReadable(AsyncNetworkSocket.java:152)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.AsyncServer.runLoop(AsyncServer.java:821)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.AsyncServer.run(AsyncServer.java:658)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.AsyncServer.access$800(AsyncServer.java:44)
+06-12 16:11:15.731 W/System  (21476): 	at com.koushikdutta.async.AsyncServer$14.run(AsyncServer.java:600)
+06-12 16:11:15.755 W/ActivityManager(19521): Forcing bringing down service: ServiceRecord{1bfc55eb u0 com.antutu.ABenchMark/com.taobao.accs.ChannelService}
+06-12 16:11:15.789 W/ActivityManager(19521): Forcing bringing down service: ServiceRecord{1b2a8a2a u0 com.antutu.ABenchMark/com.xiaomi.push.service.XMPushService}
+06-12 16:11:15.888 I/ActivityManager(19521): Killing 4323:com.antutu.ABenchMark:push/u0a71 (adj -100): start timeout
+06-12 16:11:16.097 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$MainHandler.handleMessage(android.os.Message) from ActivityManagerService.java:1549 waiters=0 for 702ms
+06-12 16:11:16.704 W/ActivityManager(19521): No pending application record for pid 4323 (IApplicationThread android.app.ApplicationThreadProxy@228f79e7); dropping process
+06-12 16:11:17.150 I/Choreographer(19637): Skipped 421 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:19.644 I/Unity   ( 4049): [AssetBundleManager] Loading Coastline from coastline.std bundle
+06-12 16:11:19.644 I/Unity   ( 4049):  
+06-12 16:11:19.644 I/Unity   ( 4049): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+06-12 16:11:19.644 I/Unity   ( 4049): 
+06-12 16:11:20.172 W/Unity   ( 4049): Ambigious asset bundle variant chosen because there was no matching active variant: coastline.std
+06-12 16:11:20.172 W/Unity   ( 4049):  
+06-12 16:11:20.172 W/Unity   ( 4049): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+06-12 16:11:20.172 W/Unity   ( 4049): 
+06-12 16:11:20.173 I/Unity   ( 4049): [AssetBundleManager] Loading Asset Bundle : coastline.std
+06-12 16:11:20.173 I/Unity   ( 4049):  
+06-12 16:11:20.173 I/Unity   ( 4049): (Filename: ./artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+06-12 16:11:20.173 I/Unity   ( 4049): 
+06-12 16:11:20.191 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.BroadcastQueue.processNextBroadcast(boolean) from BroadcastQueue.java:542 waiters=0 for 321ms
+06-12 16:11:21.110 I/art     (21476): Background concurrent mark sweep GC freed 1116(56KB) AllocSpace objects, 26(1866KB) LOS objects, 39% free, 2MB/3MB, paused 4.968ms total 1.066s
+06-12 16:11:21.233 W/System  (21476): A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+06-12 16:11:21.874 I/art     (19265): Background concurrent mark sweep GC freed 810(35KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 1.531ms total 295.906ms
+06-12 16:11:22.111 W/ActivityManager(19521): Slow operation: 1501ms so far, now at startProcess: returned from zygote!
+06-12 16:11:22.210 W/ActivityManager(19521): Slow operation: 1653ms so far, now at startProcess: done updating battery stats
+06-12 16:11:22.224 W/ActivityManager(19521): Slow operation: 1666ms so far, now at startProcess: building log message
+06-12 16:11:22.290 I/ActivityManager(19521): Start proc 4457:com.antutu.ABenchMark:push/u0a71 for service com.antutu.ABenchMark/com.igexin.sdk.PushService
+06-12 16:11:22.309 W/Zygote  ( 4457): Slow operation: 1096ms so far, now at zygoteConnection.runOnce: postForkAndSpecialize
+06-12 16:11:22.389 W/ActivityManager(19521): Slow operation: 1831ms so far, now at startProcess: starting to update pids map
+06-12 16:11:22.421 W/ActivityManager(19521): Slow operation: 1863ms so far, now at startProcess: done updating pids map
+06-12 16:11:22.421 W/ActivityManager(19521): Slow operation: 1935ms so far, now at startProcess: done starting proc!
+06-12 16:11:22.639 W/art     (21476): Long monitor contention event with owner method=void com.koushikdutta.async.AsyncServer.runLoop(com.koushikdutta.async.AsyncServer, com.koushikdutta.async.SelectorWrapper, java.util.PriorityQueue) from AsyncServer.java:760 waiters=0 for 231ms
+06-12 16:11:22.697 W/System  (21476): java.lang.Throwable: Explicit termination method 'end' not called
+06-12 16:11:22.697 W/System  (21476): 	at dalvik.system.CloseGuard.open(CloseGuard.java:184)
+06-12 16:11:22.697 W/System  (21476): 	at java.util.zip.Inflater.<init>(Inflater.java:82)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.HybiParser.<init>(HybiParser.java:70)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.WebSocketImpl$1.<init>(WebSocketImpl.java:74)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.WebSocketImpl.setupParser(WebSocketImpl.java:74)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.WebSocketImpl.<init>(WebSocketImpl.java:141)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.server.AsyncHttpServer$3.onRequest(AsyncHttpServer.java:351)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.server.AsyncHttpServer.onRequest(AsyncHttpServer.java:62)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.server.AsyncHttpServer$1$1.onHeadersReceived(AsyncHttpServer.java:159)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.http.server.AsyncHttpServerRequestImpl$2.onStringAvailable(AsyncHttpServerRequestImpl.java:75)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.LineEmitter.onDataAvailable(LineEmitter.java:45)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.Util.emitAllData(Util.java:23)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.AsyncNetworkSocket.onReadable(AsyncNetworkSocket.java:152)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.AsyncServer.runLoop(AsyncServer.java:821)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.AsyncServer.run(AsyncServer.java:658)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.AsyncServer.access$800(AsyncServer.java:44)
+06-12 16:11:22.697 W/System  (21476): 	at com.koushikdutta.async.AsyncServer$14.run(AsyncServer.java:600)
+06-12 16:11:22.726 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.BroadcastQueue.processNextBroadcast(boolean) from BroadcastQueue.java:542 waiters=1 for 2.678s
+06-12 16:11:22.909 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActiveServices$ServiceRestarter.run() from ActiveServices.java:1006 waiters=1 for 2.611s
+06-12 16:11:23.397 I/art     (21476): Background sticky concurrent mark sweep GC freed 755(48KB) AllocSpace objects, 23(1651KB) LOS objects, 37% free, 2MB/3MB, paused 3.156ms total 648.093ms
+06-12 16:11:23.406 W/art     (19521): Long monitor contention event with owner method=android.content.pm.UserInfo com.android.server.am.ActivityManagerService.getCurrentUser() from ActivityManagerService.java:19515 waiters=1 for 441ms
+06-12 16:11:23.683 I/Choreographer(19637): Skipped 234 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:23.734 I/art     (21476): Background concurrent mark sweep GC freed 858(39KB) AllocSpace objects, 18(1293KB) LOS objects, 40% free, 2MB/3MB, paused 1.250ms total 117.312ms
+06-12 16:11:23.744 I/ActivityManager(19521): Process com.koushikdutta.vysor (pid 4218) has died
+06-12 16:11:23.816 W/ActivityManager(19521): Scheduling restart of crashed service com.koushikdutta.vysor/.VysorIME in 165873ms
+06-12 16:11:24.726 I/art     (21476): Background concurrent mark sweep GC freed 244(8KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 3MB/6MB, paused 625us total 120.031ms
+06-12 16:11:24.900 I/art     (21476): Background sticky concurrent mark sweep GC freed 52(1760B) AllocSpace objects, 0(0B) LOS objects, 0% free, 6MB/6MB, paused 11.218ms total 156.906ms
+06-12 16:11:25.004 I/Choreographer(19637): Skipped 61 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:25.154 I/ActivityManager(19521): Process com.antutu.ABenchMark:push (pid 4457) has died
+06-12 16:11:25.155 W/ActivityManager(19521): Scheduling restart of crashed service com.antutu.ABenchMark/com.igexin.sdk.PushService in 174535ms
+06-12 16:11:25.333 I/ActivityManager(19521): Process com.google.android.googlequicksearchbox:interactor (pid 567) has died
+06-12 16:11:25.334 W/ActivityManager(19521): Scheduling restart of crashed service com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService in 184356ms
+06-12 16:11:25.473 I/Choreographer(19637): Skipped 17 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:25.843 I/ActivityManager(19521): Process com.android.smspush (pid 960) has died
+06-12 16:11:25.844 W/ActivityManager(19521): Scheduling restart of crashed service com.android.smspush/.WapPushManager in 193846ms
+06-12 16:11:26.604 I/art     (21476): Background sticky concurrent mark sweep GC freed 898(30KB) AllocSpace objects, 0(0B) LOS objects, 0% free, 17MB/17MB, paused 562us total 155.625ms
+06-12 16:11:27.068 I/Choreographer( 4049): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:28.887 W/InputDispatcher(19521): channel '1072c21b com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+06-12 16:11:28.887 E/InputDispatcher(19521): channel '1072c21b com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+06-12 16:11:28.896 D/AudioFlinger(19281): new AudioFlinger clinet, pid: 4049
+06-12 16:11:28.929 W/AudioPolicyManager(19281): setOutputDevice() prevDevice 0400
+06-12 16:11:29.222 I/WindowState(19521): WIN DEATH: Window{1072c21b u0 com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity}
+06-12 16:11:29.276 W/InputDispatcher(19521): Attempted to unregister already unregistered input channel '1072c21b com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity (server)'
+06-12 16:11:29.286 W/MediaFocusControl(19521):   AudioFocus   audio focus client died
+06-12 16:11:29.356 I/ActivityManager(19521): Process com.antutu.benchmark.full:unity (pid 4049) has died
+06-12 16:11:29.459 I/MediaFocusControl(19521): AudioFocus  removeFocusStackEntry(): removing entry for android.os.BinderProxy@1de57994
+06-12 16:11:29.667 W/ActivityManager(19521): Force removing ActivityRecord{23361f04 u0 com.antutu.benchmark.full/.UnityPlayerActivity t50}: app died, no saved state
+06-12 16:11:29.913 W/WindowManager(19521): Force-removing child win Window{1b956f64 u0 SurfaceView} from container Window{1072c21b u0 com.antutu.benchmark.full/com.antutu.benchmark.full.UnityPlayerActivity}
+06-12 16:11:30.406 W/art     (19521): Long monitor contention event with owner method=void com.android.server.wm.WindowState$DeathRecipient.binderDied() from WindowState.java:1141 waiters=0 for 1.189s
+06-12 16:11:30.644 W/WindowManager(19521): Failed looking up window
+06-12 16:11:30.644 W/WindowManager(19521): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@2f164f7 does not exist
+06-12 16:11:30.644 W/WindowManager(19521): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8737)
+06-12 16:11:30.644 W/WindowManager(19521): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8728)
+06-12 16:11:30.644 W/WindowManager(19521): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1142)
+06-12 16:11:30.644 W/WindowManager(19521): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:551)
+06-12 16:11:30.644 I/WindowState(19521): WIN DEATH: null
+06-12 16:11:30.645 W/art     (19521): Long monitor contention event with owner method=void com.android.server.wm.WindowState$DeathRecipient.binderDied() from WindowState.java:1141 waiters=1 for 1.402s
+06-12 16:11:30.663 W/art     (19521): Long monitor contention event with owner method=void com.android.server.wm.WindowState$DeathRecipient.binderDied() from WindowState.java:1141 waiters=2 for 915ms
+06-12 16:11:30.663 W/art     (19521): Long monitor contention event with owner method=void com.android.server.wm.WindowState$DeathRecipient.binderDied() from WindowState.java:1141 waiters=3 for 397ms
+06-12 16:11:31.586 I/art     (19265): Background concurrent mark sweep GC freed 799(33KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 6MB/11MB, paused 218us total 100.593ms
+06-12 16:11:31.679 I/ActivityManager(19521): Start proc 4806:com.antutu.ABenchMark/u0a71 for activity com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench
+06-12 16:11:31.749 D/audio_hw_default(19281): out_standby!!
+06-12 16:11:31.760 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied() from ActivityManagerService.java:1235 waiters=0 for 1.889s
+06-12 16:11:31.794 I/ActivityManager(19521): Start proc 4822:com.google.android.inputmethod.latin/u0a45 for service com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME
+06-12 16:11:32.060 V/WindowManager(19521): Based on layer: Adding window Window{237bedf u0 Starting com.antutu.ABenchMark} at 2 of 7
+06-12 16:11:32.099 I/Choreographer(19521): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:32.432 W/BufferQueueProducer(19261): [ScreenshotSurface] dequeueBuffer: Front buffer created
+06-12 16:11:32.448 W/art     (19521): Long monitor contention event with owner method=android.content.res.Configuration com.android.server.wm.WindowManagerService.updateOrientationFromAppTokens(android.content.res.Configuration, android.os.IBinder) from WindowManagerService.java:3931 waiters=0 for 101ms
+06-12 16:11:32.448 I/ActivityManager(19521): Config changes=480 {1.0 ?mcc?mnc en_CN ?layoutDir sw410dp w410dp h583dp 312dpi nrml port -touch -keyb/v/h -nav/h s.13}
+06-12 16:11:32.454 V/ActivityManager(19521): Display changed displayId=0
+06-12 16:11:32.533 I/Choreographer(19521): Skipped 3 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:32.537 W/BufferQueueProducer(19261): [Starting com.antutu.ABenchMark] dequeueBuffer: Front buffer created
+06-12 16:11:32.887 I/art     (21476): Background sticky concurrent mark sweep GC freed 267(8KB) AllocSpace objects, 1(6MB) LOS objects, 17% free, 22MB/27MB, paused 500us total 196.531ms
+06-12 16:11:32.895 D/PFS     (  185): echo 4008 ----> /sys/devices/e0600000.gpu/policy 
+06-12 16:11:32.898 I/InputReader(19521): Reconfiguring input devices.  changes=0x00000004
+06-12 16:11:32.899 I/Choreographer(19521): Skipped 7 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:32.917 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.attachApplication(android.app.IApplicationThread) from ActivityManagerService.java:6108 waiters=1 for 557ms
+06-12 16:11:32.917 W/art     (19521): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.attachApplication(android.app.IApplicationThread) from ActivityManagerService.java:6108 waiters=1 for 120ms
+06-12 16:11:34.199 I/ActivityManager(19521): Start proc 4858:android.process.acore/u0a2 for content provider com.android.providers.contacts/.ContactsProvider2
+06-12 16:11:34.210 I/art     (19265): Explicit concurrent mark sweep GC freed 704(30KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 343us total 14.125ms
+06-12 16:11:34.224 I/art     (19265): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 250us total 13.156ms
+06-12 16:11:34.228 E/art     ( 4806): No implementation found for void com.tencent.StubShell.TxAppEntry.fixNativeResource(android.content.res.AssetManager, java.lang.String) (tried Java_com_tencent_StubShell_TxAppEntry_fixNativeResource and Java_com_tencent_StubShell_TxAppEntry_fixNativeResource__Landroid_content_res_AssetManager_2Ljava_lang_String_2)
+06-12 16:11:34.238 I/art     (19265): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 40% free, 6MB/11MB, paused 281us total 13.343ms
+06-12 16:11:34.276 E/art     ( 4806): No implementation found for void com.tencent.StubShell.TxAppEntry.fixUnityResource(android.content.res.AssetManager, java.lang.String) (tried Java_com_tencent_StubShell_TxAppEntry_fixUnityResource and Java_com_tencent_StubShell_TxAppEntry_fixUnityResource__Landroid_content_res_AssetManager_2Ljava_lang_String_2)
+06-12 16:11:34.946 E/NIO     (21476): Unhandled exception
+06-12 16:11:34.946 E/NIO     (21476): java.net.SocketException: recvfrom failed: ECONNRESET (Connection reset by peer)
+06-12 16:11:34.946 E/NIO     (21476): 	at libcore.io.IoBridge.maybeThrowAfterRecvfrom(IoBridge.java:592)
+06-12 16:11:34.946 E/NIO     (21476): 	at libcore.io.IoBridge.recvfrom(IoBridge.java:568)
+06-12 16:11:34.946 E/NIO     (21476): 	at java.nio.SocketChannelImpl.readImpl(SocketChannelImpl.java:342)
+06-12 16:11:34.946 E/NIO     (21476): 	at java.nio.SocketChannelImpl.read(SocketChannelImpl.java:304)
+06-12 16:11:34.946 E/NIO     (21476): 	at com.koushikdutta.async.SocketChannelWrapper.read(SocketChannelWrapper.java:28)
+06-12 16:11:34.946 E/NIO     (21476): 	at com.koushikdutta.async.AsyncNetworkSocket.onReadable(AsyncNetworkSocket.java:134)
+06-12 16:11:34.946 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer.runLoop(AsyncServer.java:821)
+06-12 16:11:34.946 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer.run(AsyncServer.java:658)
+06-12 16:11:34.946 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer.access$800(AsyncServer.java:44)
+06-12 16:11:34.946 E/NIO     (21476): 	at com.koushikdutta.async.AsyncServer$14.run(AsyncServer.java:600)
+06-12 16:11:34.946 E/NIO     (21476): Caused by: android.system.ErrnoException: recvfrom failed: ECONNRESET (Connection reset by peer)
+06-12 16:11:34.946 E/NIO     (21476): 	at libcore.io.Posix.recvfromBytes(Native Method)
+06-12 16:11:34.946 E/NIO     (21476): 	at libcore.io.Posix.recvfrom(Posix.java:177)
+06-12 16:11:34.946 E/NIO     (21476): 	at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:245)
+06-12 16:11:34.946 E/NIO     (21476): 	at libcore.io.IoBridge.recvfrom(IoBridge.java:565)
+06-12 16:11:34.946 E/NIO     (21476): 	... 8 more
+06-12 16:11:34.946 I/VysorMain(21476): Connection terminated.
+06-12 16:11:34.952 I/LatinIME( 4822): Hardware accelerated drawing: true
+06-12 16:11:34.972 E/OMX_VCE (19281): OMX-Warning!in StoreMediaData mode,but the buffer (cdcdcdcd) is not kMetadataBufferTypeCameraSource_act!
+06-12 16:11:34.972 E/OMX_VCE (19281): OMX-SendBuffer,input buffer is eos now!
+06-12 16:11:34.972 E/OMX_VCE (19281): OMX-mng_try_encode,eos!nFilledLen:0,nFlags:11,pBuffer:0xf47fbb50
+06-12 16:11:34.972 E/OMX_VCE (19281): OMX-Detected EOS flags in input buffer filled len=0
+06-12 16:11:34.972 E/OMX_VCE (19281): OMX-ReturnBufferFunction,input buffer is eos now!
+06-12 16:11:34.972 I/VysorFactory(21476): VirtualDisplay released
+06-12 16:11:34.972 E/OMX_VCE (19281): OMX-ReturnBufferFunction,input buffer is eos now!
+06-12 16:11:34.973 I/VysorFactory(21476): factory released
+06-12 16:11:34.974 I/VysorMain(21476): New raw socket accepted.
+06-12 16:11:35.058 I/StdOutDevice(21476): Writer done
+06-12 16:11:35.091 I/VysorMain(21476): Got password 346fe277
+06-12 16:11:35.091 I/VysorMain(21476): h264 authentication succeeded
+06-12 16:11:35.094 W/GraphicBufferSource(19281): Dropped back down to Loaded without Executing
+06-12 16:11:35.107 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.120 I/StdOutDevice(21476): Requested Width: 400 Requested Height: 640
+06-12 16:11:35.120 I/VysorMain(21476): registering virtual display
+06-12 16:11:35.120 I/StdOutDevice(21476): OMX.Action.Video.Encoder
+06-12 16:11:35.130 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x201e0000, vir:0xf0713000
+06-12 16:11:35.131 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.137 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x201c0000, vir:0xf0733000
+06-12 16:11:35.137 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.144 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x201a0000, vir:0xf08fd000
+06-12 16:11:35.144 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.151 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x20180000, vir:0xf091d000
+06-12 16:11:35.151 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.158 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x200a0000, vir:0xf093d000
+06-12 16:11:35.158 E/OMX_VCE (19281): OMX-In omx_videoenc_BufferMgmtFunction 3  Buffer Management Thread is exiting
+06-12 16:11:35.159 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.166 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.173 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 2135033992
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 19
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 21
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 22
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 24
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 2130708361
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 45
+06-12 16:11:35.176 I/StdOutDevice(21476): colorFormat: 47
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/1
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/2
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/4
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/8
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/16
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/32
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/64
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/128
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/256
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/512
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/1024
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/2048
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/4096
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/8192
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/16384
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 1/32768
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 2/1
+06-12 16:11:35.176 I/StdOutDevice(21476): profile/level: 2/2
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/4
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/8
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/16
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/32
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/64
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/128
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/256
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/512
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/1024
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/2048
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/4096
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/8192
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/16384
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 2/32768
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/1
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/2
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/4
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/8
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/16
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/32
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/64
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/128
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/256
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/512
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/1024
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/2048
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/4096
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/8192
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/16384
+06-12 16:11:35.177 I/StdOutDevice(21476): profile/level: 8/32768
+06-12 16:11:35.177 I/StdOutDevice(21476): OMX.google.h264.encoder
+06-12 16:11:35.178 I/StdOutDevice(21476): colorFormat: 2135033992
+06-12 16:11:35.178 I/StdOutDevice(21476): colorFormat: 19
+06-12 16:11:35.178 I/StdOutDevice(21476): colorFormat: 21
+06-12 16:11:35.178 I/StdOutDevice(21476): colorFormat: 2130708361
+06-12 16:11:35.178 I/StdOutDevice(21476): profile/level: 1/32
+06-12 16:11:35.187 I/AL_LIBC (19281): [memory_free] actal_free_uncache
+06-12 16:11:35.195 E/OMX_VCE (19281): OMX-free ion phyaddr!phy:0x20a00000, vir:0xf06eb000
+06-12 16:11:35.204 E/        (19281): OMX-In compMessageHandlerFunction Destructor has been called. So exit from the loop
+06-12 16:11:35.231 I/StdOutDevice(21476): =======ENCODING COMPELTE=======
+06-12 16:11:35.326 I/StdOutDevice(21476): Width: 400 Height: 640
+06-12 16:11:35.338 I/StdOutDevice(21476): Bitrate: 500000
+06-12 16:11:35.338 I/StdOutDevice(21476): Frame rate: 30
+06-12 16:11:35.338 I/StdOutDevice(21476): Creating encoder
+06-12 16:11:35.346 I/Choreographer(19637): Skipped 65 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:35.349 W/WindowManager(19521): Window freeze timeout expired.
+06-12 16:11:35.349 W/WindowManager(19521): Force clearing orientation change: Window{24d459e5 u0 NavigationBar}
+06-12 16:11:35.349 W/WindowManager(19521): Force clearing orientation change: Window{237bedf u0 Starting com.antutu.ABenchMark}
+06-12 16:11:35.349 W/WindowManager(19521): Force clearing orientation change: Window{72b0c73 u0 com.android.systemui.ImageWallpaper}
+06-12 16:11:35.374 W/BufferQueueProducer(19261): [StatusBar] dequeueBuffer: renew vr front buffer
+06-12 16:11:35.375 W/BufferQueueProducer(19261): [StatusBar] dequeueBuffer: Front buffer created
+06-12 16:11:35.441 I/OMXClient(21476): Using client-side OMX mux.
+06-12 16:11:35.452 V/ActionOMXPlugin(19281): Entry ActionOMXPlugin::makeComponentInstance
+06-12 16:11:35.457 E/OMX_VCE (19281): OMX-In OMX_ComponentInit, allocating component,0xf5ca5800
+06-12 16:11:35.468 I/StdOutDevice(21476): Created encoder
+06-12 16:11:35.468 I/StdOutDevice(21476): Configuring encoder
+06-12 16:11:35.505 W/ACodec  (21476): do not know color format 0x16 = 22
+06-12 16:11:35.507 W/ACodec  (21476): do not know color format 0x18 = 24
+06-12 16:11:35.507 W/ACodec  (21476): do not know color format 0x7f000789 = 2130708361
+06-12 16:11:35.507 E/OMX_VCE (19281): OMX-Warning! RGB input stride 400 must be 32-align!
+06-12 16:11:35.507 I/ACodec  (21476): setupVideoEncoder succeeded
+06-12 16:11:35.508 W/ACodec  (21476): do not know color format 0x7f000789 = 2130708361
+06-12 16:11:35.509 I/StdOutDevice(21476): Creating input surface
+06-12 16:11:35.509 I/StdOutDevice(21476): Starting Encoder
+06-12 16:11:35.511 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:11:35.533 E/OMX_VCE (19281): OMX-malloc ion addr! phy:200a0000, vir:f6412000, len:1f400
+06-12 16:11:35.534 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:11:35.555 E/OMX_VCE (19281): OMX-malloc ion addr! phy:20180000, vir:f4a77000, len:1f400
+06-12 16:11:35.557 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:11:35.558 W/BufferQueueProducer(19261): [NavigationBar] dequeueBuffer: renew vr front buffer
+06-12 16:11:35.579 E/OMX_VCE (19281): OMX-malloc ion addr! phy:201a0000, vir:f4a57000, len:1f400
+06-12 16:11:35.580 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:11:35.592 W/BufferQueueProducer(19261): [NavigationBar] dequeueBuffer: Front buffer created
+06-12 16:11:35.600 E/OMX_VCE (19281): OMX-malloc ion addr! phy:201c0000, vir:f4a37000, len:1f400
+06-12 16:11:35.600 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 131072
+06-12 16:11:35.621 I/Choreographer(19637): Skipped 13 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:35.622 E/OMX_VCE (19281): OMX-malloc ion addr! phy:201e0000, vir:f4a17000, len:1f400
+06-12 16:11:35.622 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 163840
+06-12 16:11:35.626 I/StdOutDevice(21476): Surface ready
+06-12 16:11:35.644 I/StdOutDevice(21476): Encoder ready
+06-12 16:11:35.644 E/StdOutDevice(21476): Created surface
+06-12 16:11:35.646 I/StdOutDevice(21476): Writer started.
+06-12 16:11:35.650 E/OMX_VCE (19281): OMX-malloc ion addr! phy:20a00000, vir:f0bd8000, len:28000
+06-12 16:11:35.651 W/BufferQueueProducer(19261): [StatusBar] dequeueBuffer: Front buffer created
+06-12 16:11:35.655 W/BufferQueueProducer(19261): [NavigationBar] dequeueBuffer: Front buffer created
+06-12 16:11:35.658 I/Choreographer(19637): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:35.671 I/VysorMain(21476): virtual display registered
+06-12 16:11:35.673 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 512000
+06-12 16:11:35.702 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 512000
+06-12 16:11:35.702 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:35.703 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: renew vr front buffer
+06-12 16:11:35.719 I/CrashReport( 4806): native library loaded
+06-12 16:11:35.719 I/CrashReport( 4806): backup java method success
+06-12 16:11:35.719 I/CrashReport( 4806): back up java classes success
+06-12 16:11:35.735 I/CrashReport( 4806): base = 0xff591000
+06-12 16:11:35.735 I/CrashReport( 4806): stacksize = 8M
+06-12 16:11:35.735 I/CrashReport( 4806): guardsize = 0
+06-12 16:11:35.744 I/AL_LIBC (19281): [memory_malloc] actal_malloc_uncache: size: 512000
+06-12 16:11:35.745 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:35.748 I/CrashReport( 4806): getted buglyline com/tencent/bugly/legu/
+06-12 16:11:35.748 I/CrashReport( 4806): it is a channel prefix com/tencent/bugly/legu/
+06-12 16:11:35.752 I/CrashReport( 4806): register native log methods success
+06-12 16:11:35.752 I/CrashReport( 4806): register native key-value methods success
+06-12 16:11:35.752 I/CrashReport( 4806): register native methods success
+06-12 16:11:35.753 I/CrashReport( 4806): setLogMode 6 current 4
+06-12 16:11:35.771 E/OMX_VCE (19281): OMX-info!openmaxStandComp:0xf5c73f40, enable_returnquece:1
+06-12 16:11:35.924 D/SecShell( 4806): Start load 4806
+06-12 16:11:35.924 D/SecShell( 4806): g_SdkInt:22
+06-12 16:11:35.926 D/SecShell( 4806): CallObjectFunc CallObjectMethodV Exception:funcName
+06-12 16:11:35.929 D/SecShell( 4806): addr:e4732000
+06-12 16:11:35.929 D/SecShell( 4806): addr:e47ff000
+06-12 16:11:35.929 D/SecShell( 4806): addr:e4800000
+06-12 16:11:35.931 D/SecShell( 4806): addr:f3ad4000
+06-12 16:11:35.933 D/SecShell( 4806): pPKN:com.antutu.ABenchMark, g_oatDexPath:/data/dalvik-cache/arm/data@app@com.antutu.ABenchMark-1@base.apk@classes.dex
+06-12 16:11:35.933 D/SecShell( 4806): oatStartAddr:e3cad000
+06-12 16:11:35.933 D/SecShell( 4806): dexEleLen:1
+06-12 16:11:35.933 D/SecShell( 4806): i:0
+06-12 16:11:35.933 D/SecShell( 4806): shellSystemCookie:f4e817d0
+06-12 16:11:35.933 D/SecShell( 4806): g_shellDexAddr0:f4e3ea00
+06-12 16:11:35.933 D/SecShell( 4806): oatSig:ELF g_orgOatSize:11870640 11874304
+06-12 16:11:35.933 D/SecShell( 4806): g_shellDexAddr:e3cae5b0, mapSize:8 orgDexOffset:450560
+06-12 16:11:35.933 D/SecShell( 4806): ii:0
+06-12 16:11:35.933 D/SecShell( 4806): g_shellDexAddr:e3cae5b0
+06-12 16:11:35.933 D/SecShell( 4806): oatstart:e3cad000
+06-12 16:11:35.933 D/SecShell( 4806): orgDexFileSize:8769520
+06-12 16:11:35.933 D/SecShell( 4806): g_orgDexOffset:456112
+06-12 16:11:36.035 W/art     ( 4806): Suspending all threads took: 24.468ms
+06-12 16:11:36.050 I/art     ( 4806): Background sticky concurrent mark sweep GC freed 28226(1545KB) AllocSpace objects, 0(0B) LOS objects, 13% free, 9MB/11MB, paused 26.875ms total 280.625ms
+06-12 16:11:36.141 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:36.274 I/StdOutDevice(21476): MediaCodec.INFO_OUTPUT_FORMAT_CHANGED
+06-12 16:11:36.274 I/StdOutDevice(21476): output width: 400
+06-12 16:11:36.274 I/StdOutDevice(21476): output height: 640
+06-12 16:11:36.275 I/StdOutDevice(21476): Got first buffer
+06-12 16:11:36.284 I/StdOutDevice(21476): Bitrate: 500000
+06-12 16:11:36.473 D/SecShell( 4806): yunstr3:
+06-12 16:11:36.474 D/SecShell( 4806): multidex_totleSize:a4cc54
+06-12 16:11:36.602 D/SecShell( 4806): start elf_hook
+06-12 16:11:36.602 D/SecShell( 4806): func addr:0xef4721e1
+06-12 16:11:36.603 D/SecShell( 4806): replace glob :f701e8f8 with ef4721e1
+06-12 16:11:36.603 D/SecShell( 4806): replace ok!
+06-12 16:11:36.603 D/SecShell( 4806): func addr:0xef4720fd
+06-12 16:11:36.603 D/SecShell( 4806): replace glob :f7034535 with ef4720fd
+06-12 16:11:36.603 D/SecShell( 4806): replace ok!
+06-12 16:11:36.603 D/SecShell( 4806): func addr:0xef473259
+06-12 16:11:36.603 D/SecShell( 4806): replace glob :f6ffd251 with ef473259
+06-12 16:11:36.603 D/SecShell( 4806): replace ok!
+06-12 16:11:36.604 D/SecShell( 4806): func addr:0xef472699
+06-12 16:11:36.604 D/SecShell( 4806): replace glob :f701d828 with ef472699
+06-12 16:11:36.604 D/SecShell( 4806): replace ok!
+06-12 16:11:36.604 D/SecShell( 4806): func addr:0xef47280d
+06-12 16:11:36.604 D/SecShell( 4806): replace glob :f6ff95c9 with ef47280d
+06-12 16:11:36.604 D/SecShell( 4806): replace ok!
+06-12 16:11:36.604 D/SecShell( 4806): end elf_hook
+06-12 16:11:36.604 D/SecShell( 4806): func addr:0xef4722c1
+06-12 16:11:36.604 D/SecShell( 4806): replace glob :f701e834 with ef4722c1
+06-12 16:11:36.604 D/SecShell( 4806): replace ok!
+06-12 16:11:36.604 D/SecShell( 4806): test art open
+06-12 16:11:36.604 D/SecShell( 4806): art_mode1
+06-12 16:11:36.604 D/SecShell( 4806): test art open end
+06-12 16:11:36.604 D/SecShell( 4806): art fstat hook:0
+06-12 16:11:36.604 D/SecShell( 4806): my mmap_hook :8769536 22 0 4806
+06-12 16:11:36.604 D/SecShell( 4806): decodea:450560
+06-12 16:11:36.604 D/SecShell( 4806): artOpenFile call
+06-12 16:11:36.604 D/SecShell( 4806): func addr:0xf701e834
+06-12 16:11:36.605 D/SecShell( 4806): replace glob :ef4722c1 with f701e834
+06-12 16:11:36.605 D/SecShell( 4806): replace ok!
+06-12 16:11:36.605 D/SecShell( 4806): fastest plan!
+06-12 16:11:36.605 D/SecShell( 4806): multidex!
+06-12 16:11:36.605 D/SecShell( 4806): multidex:2
+06-12 16:11:36.758 D/SecShell( 4806): start elf_hook
+06-12 16:11:36.758 D/SecShell( 4806): end elf_hook
+06-12 16:11:36.759 D/SecShell( 4806): func addr:0xef4722c1
+06-12 16:11:36.759 D/SecShell( 4806): replace glob :f701e834 with ef4722c1
+06-12 16:11:36.759 D/SecShell( 4806): replace ok!
+06-12 16:11:36.759 D/SecShell( 4806): test art open
+06-12 16:11:36.759 D/SecShell( 4806): READLINK ERROR
+06-12 16:11:36.759 D/SecShell( 4806): test art open end
+06-12 16:11:36.759 D/SecShell( 4806): art fstat hook:0
+06-12 16:11:36.759 D/SecShell( 4806): my mmap_hook :1581056 22 0 4806
+06-12 16:11:36.759 D/SecShell( 4806): decodea:9220096
+06-12 16:11:36.759 D/SecShell( 4806): artOpenFile call
+06-12 16:11:36.759 D/SecShell( 4806): func addr:0xf701e834
+06-12 16:11:36.760 D/SecShell( 4806): replace glob :ef4722c1 with f701e834
+06-12 16:11:36.760 D/SecShell( 4806): replace ok!
+06-12 16:11:36.760 D/SecShell( 4806): fastest plan!
+06-12 16:11:36.805 I/ContactLocale( 4858): AddressBook Labels [en-CN]: [, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, Α, Β, Γ, Δ, Ε, Ζ, Η, Θ, Ι, Κ, Λ, Μ, Ν, Ξ, Ο, Π, Ρ, Σ, Τ, Υ, Φ, Χ, Ψ, Ω, , А, Б, В, Г, Д, Ђ, Е, Є, Ж, З, И, І, Ї, Й, Ј, К, Л, Љ, М, Н, Њ, О, П, Р, С, Т, Ћ, У, Ф, Х, Ц, Ч, Џ, Ш, Щ, Ю, Я, , א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, , ا, ب, ت, ث, ج, ح, خ, د, ذ, ر, ز, س, ش, ص, ض, ط, ظ, ع, غ, ف, ق, ك, ل, م, ن, ه, و, ي, , ก, ข, ฃ, ค, ฅ, ฆ, ง, จ, ฉ, ช, ซ, ฌ, ญ, ฎ, ฏ, ฐ, ฑ, ฒ, ณ, ด, ต, ถ, ท, ธ, น, บ, ป, ผ, ฝ, พ, ฟ, ภ, ม, ย, ร, ฤ, ล, ฦ, ว, ศ, ษ, ส, ห, ฬ, อ, ฮ, , ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ, ㅈ, ㅊ, ㅋ, ㅌ, ㅍ, ㅎ, , あ, か, さ, た, な, は, ま, や, ら, わ, #, ]
+06-12 16:11:36.861 W/System.err( 4806): java.lang.ClassNotFoundException: Didn't find class "com.tencent.StubShell.TxMeShell" on path: DexPathList[[dex file "/data/data/com.antutu.ABenchMark/mix.dex", dex file "/data/data/com.antutu.ABenchMark/mix.dex", zip file "/data/app/com.antutu.ABenchMark-1/base.apk"],nativeLibraryDirectories=[/data/app/com.antutu.ABenchMark-1/lib/arm, /vendor/lib, /system/lib]]
+06-12 16:11:36.861 W/System.err( 4806): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+06-12 16:11:36.861 W/System.err( 4806): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+06-12 16:11:36.861 W/System.err( 4806): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+06-12 16:11:36.861 W/System.err( 4806): 	at com.tencent.StubShell.TxAppEntry.load(Native Method)
+06-12 16:11:36.861 W/System.err( 4806): 	at com.tencent.StubShell.TxAppEntry.a(Unknown Source)
+06-12 16:11:36.861 W/System.err( 4806): 	at com.tencent.StubShell.TxAppEntry.attachBaseContext(Unknown Source)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.Application.attach(Application.java:181)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.Instrumentation.newApplication(Instrumentation.java:1006)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.Instrumentation.newApplication(Instrumentation.java:990)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.LoadedApk.makeApplication(LoadedApk.java:558)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4530)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.ActivityThread.access$1500(ActivityThread.java:151)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1364)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.os.Looper.loop(Looper.java:135)
+06-12 16:11:36.861 W/System.err( 4806): 	at android.app.ActivityThread.main(ActivityThread.java:5258)
+06-12 16:11:36.861 W/System.err( 4806): 	at java.lang.reflect.Method.invoke(Native Method)
+06-12 16:11:36.861 W/System.err( 4806): 	at java.lang.reflect.Method.invoke(Method.java:372)
+06-12 16:11:36.861 W/System.err( 4806): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+06-12 16:11:36.861 W/System.err( 4806): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+06-12 16:11:36.861 W/System.err( 4806): 	Suppressed: java.lang.ClassNotFoundException: com.tencent.StubShell.TxMeShell
+06-12 16:11:36.861 W/System.err( 4806): 		at java.lang.Class.classForName(Native Method)
+06-12 16:11:36.861 W/System.err( 4806): 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+06-12 16:11:36.861 W/System.err( 4806): 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+06-12 16:11:36.861 W/System.err( 4806): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+06-12 16:11:36.861 W/System.err( 4806): 		... 18 more
+06-12 16:11:36.861 W/System.err( 4806): 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+06-12 16:11:36.862 E/metag   ( 4806): registerNatives Fail
+06-12 16:11:36.862 D/SecShell( 4806): Run start 4806
+06-12 16:11:36.867 D/SecShell( 4806): make app
+06-12 16:11:36.965 D/WifiService(19521): New client listening to asynchronous messages
+06-12 16:11:37.043 D/ActionsViewConfiguration( 4822): tune called
+06-12 16:11:37.081 W/InputAttributes( 4822): No editor info for this field. Bug?
+06-12 16:11:37.142 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = PersonalizationDictionary.en_US ; version = 1528791097 ; date = ?
+06-12 16:11:37.151 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = userunigram.en_US ; version = 1528791097 ; date = ?
+06-12 16:11:37.156 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = ContextualDictionary.en_US ; version = 1528791097 ; date = ?
+06-12 16:11:37.279 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = PersonalizationDictionary.en_US ; version = 1528791097 ; date = 1528791097
+06-12 16:11:37.281 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = PersonalizationDictionary.en_US ; version = 1528791097 ; date = ?
+06-12 16:11:37.284 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = PersonalizationDictionary.en_US ; version = 1528791097 ; date = ?
+06-12 16:11:37.335 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = contacts.en_US ; version = 1528779318 ; date = 1528779319
+06-12 16:11:37.334 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = UserHistoryDictionary.en_US ; version = 1528265717 ; date = 1528786841
+06-12 16:11:37.449 W/WindowManager(19521): App freeze timeout expired.
+06-12 16:11:37.449 W/WindowManager(19521): Force clearing freeze: AppWindowToken{21a68e44 token=Token{2eea3357 ActivityRecord{37ddc4d6 u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench t48}}}
+06-12 16:11:37.472 W/BufferQueueProducer(19261): [Starting com.antutu.ABenchMark] dequeueBuffer: Front buffer created
+06-12 16:11:37.509 W/BufferQueueProducer(19261): [Starting com.antutu.ABenchMark] dequeueBuffer: Front buffer created
+06-12 16:11:37.510 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:37.541 I/MultiDex( 4806): VM with version 2.1.0 has multidex support
+06-12 16:11:37.541 I/MultiDex( 4806): Installing application
+06-12 16:11:37.541 I/MultiDex( 4806): VM has multidex support, MultiDex support library is disabled.
+06-12 16:11:37.541 D/SecShell( 4806): make app failed
+06-12 16:11:37.541 D/SecShell( 4806): Run success
+06-12 16:11:37.545 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:37.556 I/WindowManager(19521): Screen frozen for +5s209ms due to Window{237bedf u0 Starting com.antutu.ABenchMark}
+06-12 16:11:37.575 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:37.608 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:37.646 W/BufferQueueProducer(19281): [GraphicBufferSource] dequeueBuffer: Front buffer created
+06-12 16:11:37.662 I/Choreographer(19521): Skipped 5 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:37.691 W/InputMethodManagerService(19521): Client died receiving input method InputBindResult{com.android.internal.view.IInputMethodSession$Stub$Proxy@eb4eb8c com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME sequence:71 userActionNotificationSequenceNumber:1}
+06-12 16:11:37.831 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = main:en_us ; version = 47 ; date = 1402373181
+06-12 16:11:37.833 I/LatinIME:LogUtils( 4822): Dictionary info: dictionary = main:en_us ; version = 47 ; date = 1402373181
+06-12 16:11:37.848 I/MultiDex( 4806): Installing application
+06-12 16:11:37.848 I/MultiDex( 4806): VM has multidex support, MultiDex support library is disabled.
+06-12 16:11:40.173 I/art     (19521): Explicit concurrent mark sweep GC freed 14241(808KB) AllocSpace objects, 6(623KB) LOS objects, 33% free, 16MB/25MB, paused 1.781ms total 509.843ms
+06-12 16:11:41.124 I/CameraManagerGlobal( 4806): getCameraService: Reconnecting to camera service
+06-12 16:11:41.716 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.721 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.795 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.810 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.828 W/Settings( 4806): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+06-12 16:11:41.862 W/Settings( 4806): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+06-12 16:11:41.877 W/Settings( 4806): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+06-12 16:11:41.897 W/Settings( 4806): Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+06-12 16:11:41.905 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.909 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.935 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.989 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:41.996 D/BluetoothManagerService(19521): Message: 20
+06-12 16:11:41.996 D/BluetoothManagerService(19521): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@1e405153:true
+06-12 16:11:42.036 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:42.179 I/ActivityManager(19521): Start proc 5216:com.antutu.ABenchMark:push/u0a71 for service com.antutu.ABenchMark/com.xiaomi.push.service.XMPushService
+06-12 16:11:42.283 E/art     ( 5216): No implementation found for void com.tencent.StubShell.TxAppEntry.fixNativeResource(android.content.res.AssetManager, java.lang.String) (tried Java_com_tencent_StubShell_TxAppEntry_fixNativeResource and Java_com_tencent_StubShell_TxAppEntry_fixNativeResource__Landroid_content_res_AssetManager_2Ljava_lang_String_2)
+06-12 16:11:42.295 D/com.xiaomi.mipushsdk( 4806): [Thread:686] MIIDManager startMIIDUpdateListener failed cause lack of GET_ACCOUNTS permission
+06-12 16:11:42.311 I/art     ( 4806): Note: end time exceeds epoch: 
+06-12 16:11:42.328 I/art     ( 4806): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.i$a>
+06-12 16:11:42.328 I/art     ( 4806): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.i$a>
+06-12 16:11:42.338 E/art     ( 5216): No implementation found for void com.tencent.StubShell.TxAppEntry.fixUnityResource(android.content.res.AssetManager, java.lang.String) (tried Java_com_tencent_StubShell_TxAppEntry_fixUnityResource and Java_com_tencent_StubShell_TxAppEntry_fixUnityResource__Landroid_content_res_AssetManager_2Ljava_lang_String_2)
+06-12 16:11:42.384 I/ActivityManager(19521): Start proc 5250:com.google.android.gms/u0a6 for service com.google.android.gms/.ads.identifier.service.AdvertisingIdService
+06-12 16:11:42.392 D/FileCheckUtils( 4806): st.getAvailableBlocks()=1698553,st.getAvailableBlocks() * blockSize=6957273088
+06-12 16:11:42.404 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:42.412 I/CrashReport( 5216): native library loaded
+06-12 16:11:42.412 I/CrashReport( 5216): backup java method success
+06-12 16:11:42.412 I/CrashReport( 5216): back up java classes success
+06-12 16:11:42.567 W/art     ( 4806): Verification of void anet.channel.Config$Builder.<init>() took 156.562ms
+06-12 16:11:42.574 I/CrashReport( 5216): base = 0xff591000
+06-12 16:11:42.574 I/CrashReport( 5216): stacksize = 8M
+06-12 16:11:42.574 I/CrashReport( 5216): guardsize = 0
+06-12 16:11:42.575 I/CrashReport( 5216): getted buglyline com/tencent/bugly/legu/
+06-12 16:11:42.575 I/CrashReport( 5216): it is a channel prefix com/tencent/bugly/legu/
+06-12 16:11:42.575 I/CrashReport( 5216): register native log methods success
+06-12 16:11:42.575 I/CrashReport( 5216): register native key-value methods success
+06-12 16:11:42.575 I/CrashReport( 5216): register native methods success
+06-12 16:11:42.575 I/CrashReport( 5216): setLogMode 6 current 4
+06-12 16:11:42.580 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:42.580 W/ResourcesManager( 5250): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+06-12 16:11:42.583 W/ResourcesManager( 5250): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+06-12 16:11:42.605 D/SecShell( 5216): Start load 5216
+06-12 16:11:42.606 D/SecShell( 5216): g_SdkInt:22
+06-12 16:11:42.613 D/SecShell( 5216): CallObjectFunc CallObjectMethodV Exception:funcName
+06-12 16:11:42.614 D/SecShell( 5216): addr:e4732000
+06-12 16:11:42.614 D/SecShell( 5216): addr:e47ff000
+06-12 16:11:42.614 D/SecShell( 5216): addr:e4800000
+06-12 16:11:42.615 D/SecShell( 5216): addr:f3ad4000
+06-12 16:11:42.618 D/SecShell( 5216): pPKN:com.antutu.ABenchMark, g_oatDexPath:/data/dalvik-cache/arm/data@app@com.antutu.ABenchMark-1@base.apk@classes.dex
+06-12 16:11:42.618 D/SecShell( 5216): oatStartAddr:e3cad000
+06-12 16:11:42.618 D/SecShell( 5216): dexEleLen:1
+06-12 16:11:42.618 D/SecShell( 5216): i:0
+06-12 16:11:42.618 D/SecShell( 5216): shellSystemCookie:f4e81950
+06-12 16:11:42.618 D/SecShell( 5216): g_shellDexAddr0:f4e3ec80
+06-12 16:11:42.618 D/SecShell( 5216): oatSig:ELF g_orgOatSize:11870640 11874304
+06-12 16:11:42.618 D/SecShell( 5216): g_shellDexAddr:e3cae5b0, mapSize:8 orgDexOffset:450560
+06-12 16:11:42.618 D/SecShell( 5216): ii:0
+06-12 16:11:42.618 D/SecShell( 5216): g_shellDexAddr:e3cae5b0
+06-12 16:11:42.618 D/SecShell( 5216): oatstart:e3cad000
+06-12 16:11:42.618 D/SecShell( 5216): orgDexFileSize:8769520
+06-12 16:11:42.618 D/SecShell( 5216): g_orgDexOffset:456112
+06-12 16:11:42.639 D/WifiService(19521): New client listening to asynchronous messages
+06-12 16:11:42.642 D/SecShell( 5216): yunstr3:
+06-12 16:11:42.643 D/SecShell( 5216): multidex_totleSize:a4cc54
+06-12 16:11:42.644 D/SecShell( 5216): start elf_hook
+06-12 16:11:42.645 D/SecShell( 5216): func addr:0xef4771e1
+06-12 16:11:42.645 D/SecShell( 5216): replace glob :f701e8f8 with ef4771e1
+06-12 16:11:42.645 D/SecShell( 5216): replace ok!
+06-12 16:11:42.645 D/SecShell( 5216): func addr:0xef4770fd
+06-12 16:11:42.645 D/SecShell( 5216): replace glob :f7034535 with ef4770fd
+06-12 16:11:42.645 D/SecShell( 5216): replace ok!
+06-12 16:11:42.646 D/SecShell( 5216): func addr:0xef478259
+06-12 16:11:42.646 D/SecShell( 5216): replace glob :f6ffd251 with ef478259
+06-12 16:11:42.646 D/SecShell( 5216): replace ok!
+06-12 16:11:42.646 D/SecShell( 5216): func addr:0xef477699
+06-12 16:11:42.646 D/SecShell( 5216): replace glob :f701d828 with ef477699
+06-12 16:11:42.646 D/SecShell( 5216): replace ok!
+06-12 16:11:42.646 D/SecShell( 5216): func addr:0xef47780d
+06-12 16:11:42.646 D/SecShell( 5216): replace glob :f6ff95c9 with ef47780d
+06-12 16:11:42.646 D/SecShell( 5216): replace ok!
+06-12 16:11:42.647 D/SecShell( 5216): end elf_hook
+06-12 16:11:42.647 D/SecShell( 5216): func addr:0xef4772c1
+06-12 16:11:42.647 D/SecShell( 5216): replace glob :f701e834 with ef4772c1
+06-12 16:11:42.647 D/SecShell( 5216): replace ok!
+06-12 16:11:42.647 D/SecShell( 5216): test art open
+06-12 16:11:42.647 D/SecShell( 5216): art_mode1
+06-12 16:11:42.647 D/SecShell( 5216): test art open end
+06-12 16:11:42.647 D/SecShell( 5216): art fstat hook:0
+06-12 16:11:42.647 D/SecShell( 5216): my mmap_hook :8769536 23 0 5216
+06-12 16:11:42.647 D/SecShell( 5216): decodea:450560
+06-12 16:11:42.647 D/SecShell( 5216): artOpenFile call
+06-12 16:11:42.648 D/SecShell( 5216): func addr:0xf701e834
+06-12 16:11:42.648 D/SecShell( 5216): replace glob :ef4772c1 with f701e834
+06-12 16:11:42.648 D/SecShell( 5216): replace ok!
+06-12 16:11:42.651 D/SecShell( 5216): fastest plan!
+06-12 16:11:42.651 D/SecShell( 5216): multidex!
+06-12 16:11:42.651 D/SecShell( 5216): multidex:2
+06-12 16:11:42.652 D/SecShell( 5216): start elf_hook
+06-12 16:11:42.652 D/SecShell( 5216): end elf_hook
+06-12 16:11:42.652 D/SecShell( 5216): func addr:0xef4772c1
+06-12 16:11:42.652 D/SecShell( 5216): replace glob :f701e834 with ef4772c1
+06-12 16:11:42.652 D/SecShell( 5216): replace ok!
+06-12 16:11:42.652 D/SecShell( 5216): test art open
+06-12 16:11:42.652 D/SecShell( 5216): READLINK ERROR
+06-12 16:11:42.652 D/SecShell( 5216): test art open end
+06-12 16:11:42.652 D/SecShell( 5216): art fstat hook:0
+06-12 16:11:42.652 D/SecShell( 5216): my mmap_hook :1581056 23 0 5216
+06-12 16:11:42.652 D/SecShell( 5216): decodea:9220096
+06-12 16:11:42.652 D/SecShell( 5216): artOpenFile call
+06-12 16:11:42.652 D/SecShell( 5216): func addr:0xf701e834
+06-12 16:11:42.652 D/SecShell( 5216): replace glob :ef4772c1 with f701e834
+06-12 16:11:42.652 D/SecShell( 5216): replace ok!
+06-12 16:11:42.652 D/SecShell( 5216): fastest plan!
+06-12 16:11:42.653 W/System.err( 5216): java.lang.ClassNotFoundException: Didn't find class "com.tencent.StubShell.TxMeShell" on path: DexPathList[[dex file "/data/data/com.antutu.ABenchMark/mix.dex", dex file "/data/data/com.antutu.ABenchMark/mix.dex", zip file "/data/app/com.antutu.ABenchMark-1/base.apk"],nativeLibraryDirectories=[/data/app/com.antutu.ABenchMark-1/lib/arm, /vendor/lib, /system/lib]]
+06-12 16:11:42.653 W/System.err( 5216): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+06-12 16:11:42.653 W/System.err( 5216): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+06-12 16:11:42.653 W/System.err( 5216): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+06-12 16:11:42.653 W/System.err( 5216): 	at com.tencent.StubShell.TxAppEntry.load(Native Method)
+06-12 16:11:42.653 W/System.err( 5216): 	at com.tencent.StubShell.TxAppEntry.a(Unknown Source)
+06-12 16:11:42.653 W/System.err( 5216): 	at com.tencent.StubShell.TxAppEntry.attachBaseContext(Unknown Source)
+06-12 16:11:42.653 W/System.err( 5216): 	at android.app.Application.attach(Application.java:181)
+06-12 16:11:42.653 W/System.err( 5216): 	at android.app.Instrumentation.newApplication(Instrumentation.java:1006)
+06-12 16:11:42.653 W/System.err( 5216): 	at android.app.Instrumentation.newApplication(Instrumentation.java:990)
+06-12 16:11:42.653 W/System.err( 5216): 	at android.app.LoadedApk.makeApplication(LoadedApk.java:558)
+06-12 16:11:42.653 W/System.err( 5216): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4530)
+06-12 16:11:42.654 W/System.err( 5216): 	at android.app.ActivityThread.access$1500(ActivityThread.java:151)
+06-12 16:11:42.654 W/System.err( 5216): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1364)
+06-12 16:11:42.654 W/System.err( 5216): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-12 16:11:42.654 W/System.err( 5216): 	at android.os.Looper.loop(Looper.java:135)
+06-12 16:11:42.654 W/System.err( 5216): 	at android.app.ActivityThread.main(ActivityThread.java:5258)
+06-12 16:11:42.654 W/System.err( 5216): 	at java.lang.reflect.Method.invoke(Native Method)
+06-12 16:11:42.654 W/System.err( 5216): 	at java.lang.reflect.Method.invoke(Method.java:372)
+06-12 16:11:42.654 W/System.err( 5216): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+06-12 16:11:42.654 W/System.err( 5216): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+06-12 16:11:42.654 W/System.err( 5216): 	Suppressed: java.lang.ClassNotFoundException: com.tencent.StubShell.TxMeShell
+06-12 16:11:42.654 W/System.err( 5216): 		at java.lang.Class.classForName(Native Method)
+06-12 16:11:42.654 W/System.err( 5216): 		at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+06-12 16:11:42.654 W/System.err( 5216): 		at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+06-12 16:11:42.654 W/System.err( 5216): 		at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+06-12 16:11:42.654 W/System.err( 5216): 		... 18 more
+06-12 16:11:42.654 W/System.err( 5216): 	Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack available
+06-12 16:11:42.654 E/metag   ( 5216): registerNatives Fail
+06-12 16:11:42.654 D/SecShell( 5216): Run start 5216
+06-12 16:11:42.655 D/SecShell( 5216): make app
+06-12 16:11:42.697 I/MultiDex( 5216): VM with version 2.1.0 has multidex support
+06-12 16:11:42.697 I/MultiDex( 5216): Installing application
+06-12 16:11:42.697 I/MultiDex( 5216): VM has multidex support, MultiDex support library is disabled.
+06-12 16:11:42.697 D/SecShell( 5216): make app failed
+06-12 16:11:42.697 D/SecShell( 5216): Run success
+06-12 16:11:42.702 I/WebViewFactory( 4806): Loading com.android.webview version 37 (eng.sting-arm) (code 199991)
+06-12 16:11:42.724 I/MultiDex( 5216): Installing application
+06-12 16:11:42.724 I/MultiDex( 5216): VM has multidex support, MultiDex support library is disabled.
+06-12 16:11:42.732 I/art     ( 4806): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.k>
+06-12 16:11:42.733 I/art     ( 4806): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.k>
+06-12 16:11:42.734 I/art     ( 4806): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.i$a>
+06-12 16:11:42.787 I/LibraryLoader( 4806): Loading: webviewchromium
+06-12 16:11:42.798 I/CameraManagerGlobal( 5216): getCameraService: Reconnecting to camera service
+06-12 16:11:42.947 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.003 I/LibraryLoader( 4806): Time to load native libraries: 221 ms (timestamps 6403-6624)
+06-12 16:11:43.003 I/LibraryLoader( 4806): Expected native library version number "",actual native library version number ""
+06-12 16:11:43.034 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.035 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.053 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.062 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.071 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.080 W/art     ( 5250): Verification of void com.google.android.gms.common.app.GmsApplication.<clinit>() took 112.250ms
+06-12 16:11:43.098 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.101 W/art     ( 4806): Attempt to remove local handle scope entry from IRT, ignoring
+06-12 16:11:43.110 W/art     ( 4806): Long monitor contention event with owner method=int libcore.io.Memory.peekInt(long, boolean) from Memory.java:160 waiters=3 for 189ms
+06-12 16:11:43.110 W/art     ( 4806): Long monitor contention event with owner method=int libcore.io.Memory.peekInt(long, boolean) from Memory.java:160 waiters=5 for 185ms
+06-12 16:11:43.173 D/BluetoothManagerService(19521): checkIfCallerIsForegroundUser: valid=true callingUser=0 parentUser=-10000 foregroundUser=0
+06-12 16:11:43.183 W/art     ( 5250): Verification of void com.google.android.gms.common.app.GmsApplication.<init>() took 102.250ms
+06-12 16:11:43.412 W/art     ( 5250): Verification of void com.google.android.gms.common.app.GmsApplication.attachBaseContext(android.content.Context) took 154.718ms
+06-12 16:11:43.438 W/ActivityManager(19521): getTasks: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.439 D/IS_UNITY( 4806): false
+06-12 16:11:43.452 I/art     ( 5216): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.i$a>
+06-12 16:11:43.452 I/art     ( 5216): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.i$a>
+06-12 16:11:43.463 D/AdInternalSettings( 4806): Test mode device hash: 46417c2e-cecb-4322-b706-bdc41df17062
+06-12 16:11:43.464 D/AdInternalSettings( 4806): When testing your app with Facebook's ad units you must specify the device hashed ID to ensure the delivery of test ads, add the following code before loading an ad: AdSettings.addTestDevice("46417c2e-cecb-4322-b706-bdc41df17062");
+06-12 16:11:43.476 W/ActivityManager(19521): getTasks: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.477 D/IS_UNITY( 4806): false
+06-12 16:11:43.480 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.564 D/FileCheckUtils( 5216): st.getAvailableBlocks()=1698550,st.getAvailableBlocks() * blockSize=6957260800
+06-12 16:11:43.688 I/WebViewFactory( 5216): Loading com.android.webview version 37 (eng.sting-arm) (code 199991)
+06-12 16:11:43.706 I/LibraryLoader( 5216): Loading: webviewchromium
+06-12 16:11:43.708 I/LibraryLoader( 5216): Time to load native libraries: 2 ms (timestamps 7327-7329)
+06-12 16:11:43.709 I/LibraryLoader( 5216): Expected native library version number "",actual native library version number ""
+06-12 16:11:43.713 W/art     ( 5216): Attempt to remove local handle scope entry from IRT, ignoring
+06-12 16:11:43.773 D/AL_LIBC ( 5309): pid = 5309
+06-12 16:11:43.774 D/AndroidRuntime( 5309): >>>>>> START com.android.internal.os.RuntimeInit uid 10071 <<<<<<
+06-12 16:11:43.788 D/AndroidRuntime( 5309): CheckJNI is OFF
+06-12 16:11:43.842 I/ActivityManager(19521): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.android.launcher/com.android.launcher2.Launcher} from uid 1000 on display 0
+06-12 16:11:43.844 D/com.umeng.message.proguard.l( 4806): appLaunchAt=1528774825099
+06-12 16:11:43.852 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.878 W/BufferQueueProducer(19521): [ScreenshotClient] dequeueBuffer: Front buffer created
+06-12 16:11:43.919 I/ActivityManager(19521): Start proc 5355:com.android.launcher/u0a10 for activity com.android.launcher/com.android.launcher2.Launcher
+06-12 16:11:43.925 D/ActionsViewConfiguration( 4806): tune called
+06-12 16:11:43.956 I/ActivityManager(19521): Start proc 5377:com.google.process.gapps/u0a6 for content provider com.google.android.gsf/.gservices.GservicesProvider
+06-12 16:11:43.959 D/PFS     (  185): echo 3007 ----> /sys/devices/e0600000.gpu/policy 
+06-12 16:11:43.959 I/Choreographer(19637): Skipped 5 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:43.971 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:43.972 I/art     ( 5216): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.i$a>
+06-12 16:11:43.980 E/cutils-trace( 5309): Error opening trace file: Permission denied (13)
+06-12 16:11:44.011 I/AppCompatViewInflater( 4806): app:theme is now deprecated. Please move to using android:theme instead.
+06-12 16:11:44.069 E/memtrack( 5309): Couldn't load memtrack module (No such file or directory)
+06-12 16:11:44.069 E/android.os.Debug( 5309): failed to load memtrack module: -2
+06-12 16:11:44.134 D/AndroidRuntime( 5309): Calling main entry com.android.commands.pm.Pm
+06-12 16:11:44.183 I/GservicesProvider( 5377): Gservices pushing to system: true; secure/global: true
+06-12 16:11:44.183 I/art     ( 5309): System.exit called, status: 0
+06-12 16:11:44.183 I/AndroidRuntime( 5309): VM exiting with result code 0.
+06-12 16:11:44.188 D/ActionsViewConfiguration( 5355): tune called
+06-12 16:11:44.219 D/OpenGLRenderer( 4806): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+06-12 16:11:44.234 D/Atlas   ( 4806): Validating map...
+06-12 16:11:44.240 V/WindowManager(19521): Adding window Window{19ae594d u0 com.antutu.ABenchMark/com.antutu.benchmark.ui.test.activity.ActivityScoreBench} at 1 of 8 (before Window{237bedf u0 Starting com.antutu.ABenchMark})
+06-12 16:11:44.274 W/ActivityManager(19521): getTasks: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:44.318 D/IS_UNITY( 5216): false
+06-12 16:11:44.336 D/AdInternalSettings( 5216): Test mode device hash: 46417c2e-cecb-4322-b706-bdc41df17062
+06-12 16:11:44.336 D/AdInternalSettings( 5216): When testing your app with Facebook's ad units you must specify the device hashed ID to ensure the delivery of test ads, add the following code before loading an ad: AdSettings.addTestDevice("46417c2e-cecb-4322-b706-bdc41df17062");
+06-12 16:11:44.339 W/art     ( 4806): Suspending all threads took: 5.343ms
+06-12 16:11:44.351 W/ActivityManager(19521): getTasks: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:44.351 D/IS_UNITY( 5216): false
+06-12 16:11:44.364 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:44.433 I/GoogleHttpClient( 5377): GMS http client unavailable, use old client
+06-12 16:11:44.482 I/GoogleHttpClient( 5377): GMS http client unavailable, use old client
+06-12 16:11:44.595 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: prepare the mi push account.
+06-12 16:11:44.596 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:44.609 D/com.xiaomi.mipushsdk( 5216): [Thread:1] XMPushService created pid = 5216
+06-12 16:11:44.628 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:44.632 I/art     ( 5216): Note: end time exceeds epoch: 
+06-12 16:11:44.664 W/art     ( 5250): Verification of bjzu ows.a(android.content.Context, boolean, java.lang.String, int, java.lang.Integer, oxu, bbvy) took 119.312ms
+06-12 16:11:44.696 I/Choreographer( 4806): Skipped 22 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:44.717 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.718 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.725 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.728 I/art     ( 5216): Note: end time exceeds epoch: 
+06-12 16:11:44.730 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.734 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.736 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.738 I/art     ( 5216): Note: end time exceeds epoch: 
+06-12 16:11:44.738 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.743 I/art     ( 5216): Note: end time exceeds epoch: 
+06-12 16:11:44.743 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.752 I/art     ( 5216): Note: end time exceeds epoch: 
+06-12 16:11:44.758 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.759 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.759 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.759 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.760 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.760 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.760 D/com.xiaomi.mipushsdk( 5216): [Thread:718] JOB: Handle intent action = com.xiaomi.mipush.SEND_MESSAGE
+06-12 16:11:44.766 I/art     ( 5216): Note: end time exceeds epoch: 
+06-12 16:11:44.767 W/art     ( 4806): Suspending all threads took: 6.218ms
+06-12 16:11:44.888 W/ResourceType(19637): No package identifier when getting value for resource number 0x00000000
+06-12 16:11:44.888 W/PackageManager(19637): Failure retrieving resources for com.antutu.benchmark.full: Resource ID #0x0
+06-12 16:11:44.906 W/ResourceType(19637): No package identifier when getting value for resource number 0x00000000
+06-12 16:11:44.908 W/PackageManager(19637): Failure retrieving resources for com.antutu.ABenchMark: Resource ID #0x0
+06-12 16:11:44.917 W/ResourcesManager( 5355): Asset path '/system/framework/com.google.android.media.effects.jar' does not exist or contains no resources.
+06-12 16:11:44.981 D/cmcm_support_jni( 4806): Success to load /data/data/com.antutu.ABenchMark/files/kfmt.dat
+06-12 16:11:45.025 I/Choreographer( 4806): Skipped 15 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:45.049 I/Choreographer( 4806): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:45.115 I/Choreographer( 4806): Skipped 2 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:45.206 I/ActivityManager(19521): Start proc 5462:com.google.android.gms.persistent/u0a6 for content provider com.google.android.gms/.instantapps.routing.InstantAppsContentProvider
+06-12 16:11:45.229 W/ResourcesManager( 5462): Asset path '/system/framework/com.android.media.remotedisplay.jar' does not exist or contains no resources.
+06-12 16:11:45.229 W/ResourcesManager( 5462): Asset path '/system/framework/com.android.location.provider.jar' does not exist or contains no resources.
+06-12 16:11:45.364 D/DaemonSocket( 4806): sendCmd: check
+06-12 16:11:45.366 W/DaemonSocket( 4806): failed to connect to localhost/127.0.0.1 (port 33999): connect failed: ECONNREFUSED (Connection refused)
+06-12 16:11:45.366 D/DaemonSocket( 4806): check response: null
+06-12 16:11:45.379 I/art     (19521): Explicit concurrent mark sweep GC freed 13721(765KB) AllocSpace objects, 12(377KB) LOS objects, 33% free, 17MB/26MB, paused 2.062ms total 66.281ms
+06-12 16:11:45.392 D/DaemonUtil( 4806): cmd: export CLASSPATH=/data/app/com.antutu.ABenchMark-1/base.apk
+06-12 16:11:45.392 D/DaemonUtil( 4806): cmd: exec /system/bin/app_process /data/app com.antutu.utils.process.Daemon 4806 com.antutu.ABenchMark /data/app/com.antutu.ABenchMark-1/base.apk app=com.antutu.ABenchMark channel=99999 did=e8bbbbc521473cce version=7.1.0 &
+06-12 16:11:45.392 I/DaemonUtil( 4806): start daemon success
+06-12 16:11:45.471 E/Launcher.Model( 5355): Error loading shortcut Item(id=8 type=2 container=-100 screen=2 cellX=0 cellY=3 spanX=1 spanY=1 dropPos=null user=UserHandle{0}) into cell (2-2:0,3) occupied by ShortcutInfo(title=Cameraintent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.camera2/com.android.camera.CameraLauncher (has extras) }id=3 type=0 container=-100 screen=2 cellX=0 cellY=3 spanX=1 spanY=1 dropPos=null)
+06-12 16:11:45.490 D/OpenGLRenderer( 5355): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+06-12 16:11:45.496 D/Atlas   ( 5355): Validating map...
+06-12 16:11:45.510 V/WindowManager(19521): Adding window Window{2b4bf45e u0 com.android.launcher/com.android.launcher2.Launcher} at 4 of 9 (after Window{3f500ec4 u0 com.android.systemui/com.android.systemui.recents.RecentsActivity})
+06-12 16:11:45.600 I/OpenGLRenderer( 5355): Initialized EGL, version 1.4
+06-12 16:11:45.600 W/OpenGLRenderer( 5355): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-12 16:11:45.608 D/AL_LIBC ( 5484): pid = 5484
+06-12 16:11:45.609 D/AndroidRuntime( 5484): >>>>>> START com.android.internal.os.RuntimeInit uid 10071 <<<<<<
+06-12 16:11:45.612 D/AndroidRuntime( 5484): CheckJNI is OFF
+06-12 16:11:45.628 D/OpenGLRenderer( 5355): Enabling debug mode 0
+06-12 16:11:45.633 W/BufferQueueProducer(19261): [com.android.launcher/com.android.launcher2.Launcher] dequeueBuffer: Front buffer created
+06-12 16:11:45.641 I/Choreographer( 5355): Skipped 4 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:45.646 E/cutils-trace( 5484): Error opening trace file: Permission denied (13)
+06-12 16:11:45.657 E/appproc ( 5484): ERROR: could not find class 'com.antutu.utils.process.Daemon'
+06-12 16:11:45.657 F/art     ( 5484): art/runtime/thread.cc:1143] No pending exception expected: java.lang.ClassNotFoundException: Didn't find class "com.antutu.utils.process.Daemon" on path: DexPathList[[zip file "/data/app/com.antutu.ABenchMark-1/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+06-12 16:11:45.657 F/art     ( 5484): art/runtime/thread.cc:1143]   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+06-12 16:11:45.657 F/art     ( 5484): art/runtime/thread.cc:1143]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:511)
+06-12 16:11:45.657 F/art     ( 5484): art/runtime/thread.cc:1143]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:469)
+06-12 16:11:45.657 F/art     ( 5484): art/runtime/thread.cc:1143] 
+06-12 16:11:45.728 V/NativeCrypto( 5250): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 280 native methods...
+06-12 16:11:45.728 V/NativeCrypto( 5462): Registering com/google/android/gms/org/conscrypt/NativeCrypto's 280 native methods...
+06-12 16:11:45.754 W/InputMethodManagerService(19521): Got RemoteException sending setActive(false) notification to pid 4049 uid 10072
+06-12 16:11:45.755 I/Choreographer( 5355): Skipped 5 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:45.760 I/ActivityManager(19521): Displayed com.android.launcher/com.android.launcher2.Launcher: +1s875ms
+06-12 16:11:45.798 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:11:45.798 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:11:45.799 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:11:45.799 W/art     ( 5462): dex_file 4693   resolved= Lcom/google/android/gms/org/conscrypt/Java7ExtendedSSLSession;
+06-12 16:11:45.799 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+06-12 16:11:45.799 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+06-12 16:11:45.802 I/art     ( 5250): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:11:45.802 I/art     ( 5250): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:11:45.803 I/art     ( 5250): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java7ExtendedSSLSession>
+06-12 16:11:45.803 W/art     ( 5250): dex_file 4693   resolved= Lcom/google/android/gms/org/conscrypt/Java7ExtendedSSLSession;
+06-12 16:11:45.805 I/art     ( 5250): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+06-12 16:11:45.806 I/art     ( 5250): Rejecting re-init on previously-failed class java.lang.Class<com.google.android.gms.org.conscrypt.Java8ExtendedSSLSession>
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] Runtime aborting...
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] Aborting thread:
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] "main" prio=5 tid=1 Runnable
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c28160 self=0xf5027800
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5484 nice=0 cgrp=default sched=0/0 handle=0xf77e9bec
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=R schedstat=( 233218749 16312500 141 ) utm=19 stm=4 core=0 HZ=100
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xff7b2000-0xff7b4000 stackSize=8MB
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes= "abort lock" "mutator lock"(shared held)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 00004ef0  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000036d5  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 00247689  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+68)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 0022ba31  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+144)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 0021bba7  /system/lib/libart.so (art::AbortState::DumpThread(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, art::Thread*)+22)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 0021bde5  /system/lib/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+324)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #06 pc 0021bfd9  /system/lib/libart.so (art::Runtime::Abort()+72)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #07 pc 000a6ebb  /system/lib/libart.so (art::LogMessage::~LogMessage()+1322)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #08 pc 00229927  /system/lib/libart.so (art::Thread::AssertNoPendingException() const+358)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #09 pc 000d7a37  /system/lib/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, art::Handle<art::mirror::ClassLoader>)+14)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #10 pc 001d1b83  /system/lib/libart.so (art::JNI::FindClass(_JNIEnv*, char const*)+806)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #11 pc 00001ee9  /system/lib/libnativehelper.so (jniRegisterNativeMethods+20)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #12 pc 0005f8c1  /system/lib/libandroid_runtime.so (???)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #13 pc 00060995  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+28)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #14 pc 00060ad9  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&)+284)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #15 pc 00001675  /system/bin/app_process32 (???)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #16 pc 00012eed  /system/lib/libc.so (__libc_init+48)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #17 pc 000017b0  /system/bin/app_process32 (???)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] Pending exception java.lang.ClassNotFoundException thrown by 'unknown throw location'
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] java.lang.ClassNotFoundException: Didn't find class "com.antutu.utils.process.Daemon" on path: DexPathList[[zip file "/data/app/com.antutu.ABenchMark-1/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:511)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:469)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] Dumping all threads without appropriate locks held: thread list lock
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] All threads:
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] DALVIK THREADS (11):
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] "main" prio=5 tid=1 Runnable
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c28160 self=0xf5027800
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5484 nice=0 cgrp=default sched=0/0 handle=0xf77e9bec
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=R schedstat=( 246093749 24500000 149 ) utm=19 stm=5 core=1 HZ=100
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xff7b2000-0xff7b4000 stackSize=8MB
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes= "abort lock" "mutator lock"(shared held)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 00004ef0  /system/lib/libbacktrace_libc++.so (UnwindCurrent::Unwind(unsigned int, ucontext*)+23)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000036d5  /system/lib/libbacktrace_libc++.so (Backtrace::Unwind(unsigned int, ucontext*)+8)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 00247689  /system/lib/libart.so (art::DumpNativeStack(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, int, char const*, art::mirror::ArtMethod*)+68)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 0022ba31  /system/lib/libart.so (art::Thread::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&) const+144)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 00234b19  /system/lib/libart.so (art::ThreadList::DumpLocked(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+104)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 0021bd8d  /system/lib/libart.so (art::AbortState::Dump(std::__1::basic_ostream<char, std::__1::char_traits<char> >&)+236)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #06 pc 0021bfd9  /system/lib/libart.so (art::Runtime::Abort()+72)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #07 pc 000a6ebb  /system/lib/libart.so (art::LogMessage::~LogMessage()+1322)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #08 pc 00229927  /system/lib/libart.so (art::Thread::AssertNoPendingException() const+358)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #09 pc 000d7a37  /system/lib/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, art::Handle<art::mirror::ClassLoader>)+14)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #10 pc 001d1b83  /system/lib/libart.so (art::JNI::FindClass(_JNIEnv*, char const*)+806)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #11 pc 00001ee9  /system/lib/libnativehelper.so (jniRegisterNativeMethods+20)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #12 pc 0005f8c1  /system/lib/libandroid_runtime.so (???)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #13 pc 00060995  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+28)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #14 pc 00060ad9  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&)+284)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #15 pc 00001675  /system/bin/app_process32 (???)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #16 pc 00012eed  /system/lib/libc.so (__libc_init+48)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #17 pc 000017b0  /system/bin/app_process32 (???)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] "Heap thread pool worker thread 0" prio=5 tid=2 Native (still starting up)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xef026400
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5490 nice=0 cgrp=default sched=0/0 handle=0xf5108080
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 687500 2156250 9 ) utm=0 stm=0 core=3 HZ=100
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xef7ed000-0xef7ef000 stackSize=1020KB
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 00235d07  /system/lib/libart.so (art::ThreadPool::GetTask(art::Thread*)+50)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 00235cad  /system/lib/libart.so (art::ThreadPoolWorker::Run()+52)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 002364e9  /system/lib/libart.so (art::ThreadPoolWorker::Callback(void*)+52)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 00016fa3  /system/lib/libc.so (__pthread_start(void*)+30)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #06 pc 00014edf  /system/lib/libc.so (__start_thread+6)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289] "Heap thread pool worker thread 1" prio=5 tid=3 Native (still starting up)
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xf5028400
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5491 nice=0 cgrp=default sched=0/0 handle=0xf5108300
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 531250 281250 7 ) utm=0 stm=0 core=3 HZ=100
+06-12 16:11:45.880 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xef6ed000-0xef6ef000 stackSize=1020KB
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 00235d07  /system/lib/libart.so (art::ThreadPool::GetTask(art::Thread*)+50)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 00235cad  /system/lib/libart.so (art::ThreadPoolWorker::Run()+52)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 002364e9  /system/lib/libart.so (art::ThreadPoolWorker::Callback(void*)+52)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 00016fa3  /system/lib/libc.so (__pthread_start(void*)+30)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #06 pc 00014edf  /system/lib/libc.so (__start_thread+6)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289] "Heap thread pool worker thread 2" prio=5 tid=4 Native (still starting up)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x0 self=0xef027400
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5492 nice=0 cgrp=default sched=0/0 handle=0xf5108580
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 375000 4000000 7 ) utm=0 stm=0 core=3 HZ=100
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xeedee000-0xeedf0000 stackSize=1020KB
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 00235d07  /system/lib/libart.so (art::ThreadPool::GetTask(art::Thread*)+50)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 00235cad  /system/lib/libart.so (art::ThreadPoolWorker::Run()+52)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 002364e9  /system/lib/libart.so (art::ThreadPoolWorker::Callback(void*)+52)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 00016fa3  /system/lib/libc.so (__pthread_start(void*)+30)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #06 pc 00014edf  /system/lib/libc.so (__start_thread+6)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289] "Signal Catcher" prio=5 tid=5 WaitingInMainSignalCatcherLoop
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c390a0 self=0xf5029400
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5493 nice=0 cgrp=default sched=0/0 handle=0xf5108800
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 593750 1906250 4 ) utm=0 stm=0 core=3 HZ=100
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xef5e6000-0xef5e8000 stackSize=1012KB
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_sigtimedwait+0x158/0x1f8
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_rt_sigtimedwait+0x80/0xe8
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 0003ba78  /system/lib/libc.so (__rt_sigtimedwait+12)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 00018741  /system/lib/libc.so (sigwait+24)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 0021f423  /system/lib/libart.so (art::SignalCatcher::WaitForSignal(art::Thread*, art::SignalSet&)+66)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 00220f25  /system/lib/libart.so (art::SignalCatcher::Run(void*)+196)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 00016fa3  /system/lib/libc.so (__pthread_start(void*)+30)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 00014edf  /system/lib/libc.so (__start_thread+6)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289] "JDWP" prio=5 tid=6 WaitingInMainDebuggerLoop
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c3c0a0 self=0xef028400
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5494 nice=0 cgrp=default sched=0/0 handle=0xf5108a80
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 562500 187500 4 ) utm=0 stm=0 core=2 HZ=100
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xef4e3000-0xef4e5000 stackSize=1012KB
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: unix_stream_recvmsg+0x42c/0x6b4
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: sock_recvmsg+0xe8/0x10c
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: ___sys_recvmsg+0xc8/0x240
+06-12 16:11:45.882 I/ProviderInstaller( 5462): Installed default security provider GmsCore_OpenSSL
+06-12 16:11:45.881 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __sys_recvmsg+0x3c/0x84
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_sys_recvmsg+0x10/0x24
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 0003aaec  /system/lib/libc.so (recvmsg+8)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 002868eb  /system/lib/libart.so (art::JDWP::JdwpAdbState::ReceiveClientFd()+86)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 002869dd  /system/lib/libart.so (art::JDWP::JdwpAdbState::Accept()+100)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 001906d9  /system/lib/libart.so (art::JDWP::JdwpState::Run()+292)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 00191c3b  /system/lib/libart.so (art::JDWP::StartJdwpThread(void*)+10)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 00016fa3  /system/lib/libc.so (__pthread_start(void*)+30)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #06 pc 00014edf  /system/lib/libc.so (__start_thread+6)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   (no managed stack frames)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289] "ReferenceQueueDaemon" prio=5 tid=7 Waiting
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c28280 self=0xf5027c00
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5495 nice=0 cgrp=default sched=0/0 handle=0xf5108d00
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 437500 0 4 ) utm=0 stm=0 core=2 HZ=100
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xeeefe000-0xeef00000 stackSize=1036KB
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 001edf63  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+998)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 001ef381  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+120)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 001fbfa9  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+32)
+06-12 16:11:45.882 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 000003df  /data/dalvik-cache/arm/system@framework@boot.oat (Java_java_lang_Object_wait__+82)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Object.wait!(Native method)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - waiting on <0x15fde8f2> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:134)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - locked <0x15fde8f2> (a java.lang.Class<java.lang.ref.ReferenceQueue>)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Thread.run(Thread.java:818)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] "FinalizerDaemon" prio=5 tid=8 Waiting
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c28340 self=0xf5028000
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5496 nice=0 cgrp=default sched=0/0 handle=0xf5108f80
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 281250 312500 5 ) utm=0 stm=0 core=0 HZ=100
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xeecea000-0xeecec000 stackSize=1036KB
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 001edf63  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+998)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 001ef381  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+120)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 001fbf81  /system/lib/libart.so (art::Object_waitJI(_JNIEnv*, _jobject*, long long, int)+36)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 0000060b  /data/dalvik-cache/arm/system@framework@boot.oat (Java_java_lang_Object_wait__JI+102)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Object.wait!(Native method)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - waiting on <0x17421b43> (a java.lang.ref.ReferenceQueue)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Object.wait(Object.java:422)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - locked <0x17421b43> (a java.lang.ref.ReferenceQueue)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:174)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Thread.run(Thread.java:818)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] "FinalizerWatchdogDaemon" prio=5 tid=9 Waiting
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c283a0 self=0xf502a400
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5497 nice=0 cgrp=default sched=0/0 handle=0xf5109200
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 250000 0 3 ) utm=0 stm=0 core=2 HZ=100
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xeebe6000-0xeebe8000 stackSize=1036KB
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 001edf63  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+998)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 001ef381  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+120)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 001fbfa9  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+32)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 000003df  /data/dalvik-cache/arm/system@framework@boot.oat (Java_java_lang_Object_wait__+82)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Object.wait!(Native method)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - waiting on <0x244635c0> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:240)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - locked <0x244635c0> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:212)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Thread.run(Thread.java:818)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] "HeapTrimmerDaemon" prio=5 tid=10 Waiting
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c28400 self=0xf502a800
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5498 nice=0 cgrp=default sched=0/0 handle=0xf5109480
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 250000 0 4 ) utm=0 stm=0 core=2 HZ=100
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xeeae2000-0xeeae4000 stackSize=1036KB
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 001edf63  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+998)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 001ef381  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+120)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 001fbfa9  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+32)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 000003df  /data/dalvik-cache/arm/system@framework@boot.oat (Java_java_lang_Object_wait__+82)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Object.wait!(Native method)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - waiting on <0x28c592f9> (a java.lang.Daemons$HeapTrimmerDaemon)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Daemons$HeapTrimmerDaemon.run(Daemons.java:311)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   - locked <0x28c592f9> (a java.lang.Daemons$HeapTrimmerDaemon)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Thread.run(Thread.java:818)
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289] "GCDaemon" prio=5 tid=11 Waiting
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | group="" sCount=0 dsCount=0 obj=0x12c28460 self=0xf502ac00
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | sysTid=5499 nice=0 cgrp=default sched=0/0 handle=0xf5109700
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | state=S schedstat=( 281250 0 2 ) utm=0 stm=0 core=2 HZ=100
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | stack=0xee9de000-0xee9e0000 stackSize=1036KB
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   | held mutexes=
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: __switch_to+0x6c/0x84
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait_queue_me+0xcc/0x158
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: futex_wait+0xe4/0x234
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: do_futex+0x198/0x9d4
+06-12 16:11:45.883 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: compat_SyS_futex+0x8c/0x158
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   kernel: cpu_switch_to+0x48/0x4c
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #00 pc 000134b0  /system/lib/libc.so (syscall+28)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #01 pc 000a987f  /system/lib/libart.so (art::ConditionVariable::Wait(art::Thread*)+82)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #02 pc 001edf63  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, long long, int, bool, art::ThreadState)+998)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #03 pc 001ef381  /system/lib/libart.so (art::Monitor::Wait(art::Thread*, art::mirror::Object*, long long, int, bool, art::ThreadState)+120)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #04 pc 001fbfa9  /system/lib/libart.so (art::Object_wait(_JNIEnv*, _jobject*)+32)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   native: #05 pc 000003df  /data/dalvik-cache/arm/system@framework@boot.oat (Java_java_lang_Object_wait__+82)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Object.wait!(Native method)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   - waiting on <0x347da23e> (a java.lang.Daemons$GCDaemon)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Daemons$GCDaemon.run(Daemons.java:344)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   - locked <0x347da23e> (a java.lang.Daemons$GCDaemon)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289]   at java.lang.Thread.run(Thread.java:818)
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.884 F/art     ( 5484): art/runtime/runtime.cc:289] 
+06-12 16:11:45.884 F/libc    ( 5484): Fatal signal 6 (SIGABRT), code -6 in tid 5484 (main)
+06-12 16:11:45.897 I/ProviderInstaller( 5250): Installed default security provider GmsCore_OpenSSL
+06-12 16:11:45.933 I/Choreographer( 5355): Skipped 4 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:45.995 I/DEBUG   (  183): *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-12 16:11:45.996 I/DEBUG   (  183): Build fingerprint: 'Actions/s900_tpe/s900_tpe:5.1.1/LMY47V/sting05211142:userdebug/release-keys'
+06-12 16:11:45.996 I/DEBUG   (  183): Revision: '0'
+06-12 16:11:45.996 I/DEBUG   (  183): ABI: 'arm'
+06-12 16:11:45.996 I/DEBUG   (  183): pid: 5484, tid: 5484, name: main  >>> /system/bin/app_process <<<
+06-12 16:11:45.996 I/DEBUG   (  183): signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-12 16:11:45.996 W/NativeCrashListener(19521): Couldn't find ProcessRecord for pid 5484
+06-12 16:11:46.009 I/DEBUG   (  183): Abort message: 'art/runtime/thread.cc:1143] No pending exception expected: java.lang.ClassNotFoundException: Didn't find class "com.antutu.utils.process.Daemon" on path: DexPathList[[zip file "/data/app/com.antutu.ABenchMark-1/base.apk"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]'
+06-12 16:11:46.009 E/DEBUG   (  183): AM write failure (32 / Broken pipe)
+06-12 16:11:46.009 I/DEBUG   (  183):     r0 00000000  r1 0000156c  r2 00000006  r3 00000000
+06-12 16:11:46.009 I/DEBUG   (  183):     r4 f77e9e38  r5 00000006  r6 00000002  r7 0000010c
+06-12 16:11:46.009 I/DEBUG   (  183):     r8 00000000  r9 f506f580  sl f5027800  fp 0000022c
+06-12 16:11:46.009 I/DEBUG   (  183):     ip 0000156c  sp fffb01a0  lr f76647bd  pc f76884ec  cpsr 60070010
+06-12 16:11:46.010 I/DEBUG   (  183): 
+06-12 16:11:46.010 I/DEBUG   (  183): backtrace:
+06-12 16:11:46.010 I/DEBUG   (  183):     #00 pc 0003b4ec  /system/lib/libc.so (tgkill+12)
+06-12 16:11:46.010 I/DEBUG   (  183):     #01 pc 000177b9  /system/lib/libc.so (pthread_kill+52)
+06-12 16:11:46.010 I/DEBUG   (  183):     #02 pc 000183d7  /system/lib/libc.so (raise+10)
+06-12 16:11:46.010 I/DEBUG   (  183):     #03 pc 00014b75  /system/lib/libc.so (__libc_android_abort+36)
+06-12 16:11:46.010 I/DEBUG   (  183):     #04 pc 0001303c  /system/lib/libc.so (abort+4)
+06-12 16:11:46.010 I/DEBUG   (  183):     #05 pc 0021c031  /system/lib/libart.so (art::Runtime::Abort()+160)
+06-12 16:11:46.010 I/DEBUG   (  183):     #06 pc 000a6ebb  /system/lib/libart.so (art::LogMessage::~LogMessage()+1322)
+06-12 16:11:46.010 I/DEBUG   (  183):     #07 pc 00229927  /system/lib/libart.so (art::Thread::AssertNoPendingException() const+358)
+06-12 16:11:46.010 I/DEBUG   (  183):     #08 pc 000d7a37  /system/lib/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, art::Handle<art::mirror::ClassLoader>)+14)
+06-12 16:11:46.010 I/DEBUG   (  183):     #09 pc 001d1b83  /system/lib/libart.so (art::JNI::FindClass(_JNIEnv*, char const*)+806)
+06-12 16:11:46.010 I/DEBUG   (  183):     #10 pc 00001ee9  /system/lib/libnativehelper.so (jniRegisterNativeMethods+20)
+06-12 16:11:46.010 I/DEBUG   (  183):     #11 pc 0005f8c1  /system/lib/libandroid_runtime.so
+06-12 16:11:46.010 I/DEBUG   (  183):     #12 pc 00060995  /system/lib/libandroid_runtime.so (android::AndroidRuntime::startReg(_JNIEnv*)+28)
+06-12 16:11:46.010 I/DEBUG   (  183):     #13 pc 00060ad9  /system/lib/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&)+284)
+06-12 16:11:46.010 I/DEBUG   (  183):     #14 pc 00001675  /system/bin/app_process32
+06-12 16:11:46.010 I/DEBUG   (  183):     #15 pc 00012eed  /system/lib/libc.so (__libc_init+48)
+06-12 16:11:46.010 I/DEBUG   (  183):     #16 pc 000017b0  /system/bin/app_process32
+06-12 16:11:46.178 I/art     ( 5462): Background partial concurrent mark sweep GC freed 6848(435KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 10MB/17MB, paused 14.125ms total 77.312ms
+06-12 16:11:46.218 W/art     ( 5250): Suspending all threads took: 10.968ms
+06-12 16:11:46.228 I/art     ( 5250): Background partial concurrent mark sweep GC freed 18184(1066KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 12MB/21MB, paused 15.593ms total 247.468ms
+06-12 16:11:46.249 I/DEBUG   (  183): 
+06-12 16:11:46.249 I/DEBUG   (  183): Tombstone written to: /data/tombstones/tombstone_04
+06-12 16:11:46.250 I/BootReceiver(19521): Copying /data/tombstones/tombstone_04 to DropBox (SYSTEM_TOMBSTONE)
+06-12 16:11:46.299 V/RenderScript( 5355): 0xf4c19e00 Launching thread(s), CPUs 4
+06-12 16:11:46.317 I/Choreographer( 5355): Skipped 2 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:46.381 I/ActivityManager(19521): Start proc 5517:com.actions.agingtest/1000 for broadcast com.actions.agingtest/.DropBoxReceiver
+06-12 16:11:46.491 I/Choreographer( 5355): Skipped 1 frames!  The application may be doing too much work on its main thread.
+06-12 16:11:46.496 W/OpenGLRenderer( 5355): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-12 16:11:46.496 W/OpenGLRenderer( 5355): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+06-12 16:11:46.508 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<one>
+06-12 16:11:46.508 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<one>
+06-12 16:11:46.666 W/ResourceType( 5355): No package identifier when getting value for resource number 0x00000000
+06-12 16:11:46.666 W/PackageManager( 5355): Failure retrieving resources for com.koushikdutta.vysor: Resource ID #0x0
+06-12 16:11:46.666 W/PackageManager( 5355): Failure retrieving resources for com.koushikdutta.vysor: File res/mipmap-anydpi-v21/ic_launcher.xml from drawable resource ID #0x7f0a0000
+06-12 16:11:46.721 W/art     ( 5250): Long monitor contention event with owner method=void android.app.SharedPreferencesImpl$1.run() from SharedPreferencesImpl.java:89 waiters=2 for 116ms
+06-12 16:11:46.931 I/DynamiteModule( 5462): Considering local module com.google.android.gms.googlecertificates:4 and remote module com.google.android.gms.googlecertificates:4
+06-12 16:11:46.931 I/DynamiteModule( 5462): Selected local version of com.google.android.gms.googlecertificates
+06-12 16:11:47.205 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<paa>
+06-12 16:11:47.205 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<paa>
+06-12 16:11:47.494 I/NetworkScheduler( 5462): Using standalone scheduling engine
+06-12 16:11:47.540 D/WifiService(19521): New client listening to asynchronous messages
+06-12 16:11:47.577 W/native  ( 5462): commandlineflags.cc:1503 Ignoring RegisterValidateFunction() for flag pointer 0xdd8b6860: no flag found at that address
+06-12 16:11:47.641 I/art     ( 5377): Explicit concurrent mark sweep GC freed 8808(447KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 7MB/12MB, paused 531us total 23.906ms
+06-12 16:11:47.748 W/Launcher( 5355): disableWallpaperIfInAllApps
+06-12 16:11:47.768 E/WakeLock( 5462): release without a matched acquire!
+06-12 16:11:47.897 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.897 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.898 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.898 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.902 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.902 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.904 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.904 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.905 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.905 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.907 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.907 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<bfxv>
+06-12 16:11:47.978 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<avub>
+06-12 16:11:47.978 I/art     ( 5462): Rejecting re-init on previously-failed class java.lang.Class<avub>
+06-12 16:11:47.979 D/BluetoothManagerService(19521): Message: 20
+06-12 16:11:47.979 D/BluetoothManagerService(19521): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@9a8fc73:true
+06-12 16:11:48.090 I/art     ( 5462): Explicit concurrent mark sweep GC freed 28297(2MB) AllocSpace objects, 2(32KB) LOS objects, 40% free, 13MB/21MB, paused 10.406ms total 78.906ms
+06-12 16:11:48.281 W/GCoreFlp( 5462): No location to return for getLastLocation()
+06-12 16:11:48.299 I/art     ( 5377): Explicit concurrent mark sweep GC freed 2483(98KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 7MB/12MB, paused 562us total 17.218ms
+06-12 16:11:48.462 V/BackupManagerService(19521): Connected to transport ComponentInfo{com.google.android.gms/com.google.android.gms.backup.BackupTransportService}
+06-12 16:11:48.464 V/BackupManagerService(19521): Registering transport com.google.android.gms/.backup.BackupTransportService::com.google.android.gms/.backup.BackupTransportService = com.android.internal.backup.IBackupTransport$Stub$Proxy@290c14a7
+06-12 16:11:48.571 I/art     (19521): Explicit concurrent mark sweep GC freed 8674(471KB) AllocSpace objects, 30(2MB) LOS objects, 33% free, 16MB/24MB, paused 1.125ms total 62.406ms
+06-12 16:11:48.682 D/Backup  ( 5462): [BackupScheduler] Setting backup scheduler enabled=false due to desired state 4
+06-12 16:11:48.685 V/Backup  ( 5462): [BackupTransportCS] no backup now: [OperationScheduler: enabledState=false moratoriumSet=2018-06-12/16:03:39 moratorium=1970-01-01/08:00:00]
+06-12 16:11:48.685 V/Backup  ( 5462): [BackupTransportCS] Accounts changed
+06-12 16:11:48.720 I/GeofencerStateMachine( 5462): Network location disabled.
+06-12 16:11:48.827 W/GCoreFlp( 5462): No location to return for getLastLocation()
+06-12 16:11:48.828 E/WakeLock( 5462): release without a matched acquire!
+06-12 16:11:48.897 I/art     ( 5462): Explicit concurrent mark sweep GC freed 18984(1441KB) AllocSpace objects, 24(468KB) LOS objects, 40% free, 14MB/24MB, paused 1.906ms total 152.906ms
+06-12 16:11:48.926 W/GCoreFlp( 5462): No location to return for getLastLocation()
+06-12 16:11:48.933 I/AsyncOpDispatcher( 5462): 35-GetDeviceDataUploadOptInStatusOperation
+06-12 16:11:48.938 I/GeofencerStateMachine( 5462): removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+06-12 16:11:48.943 I/GeofencerStateMachine( 5462): removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=null]
+06-12 16:11:48.951 I/AsyncOpDispatcher( 5462): 35-GetDeviceDataUploadOptInStatusOperation
+06-12 16:11:48.995 W/Settings( 5462): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-12 16:11:48.999 E/SQLiteLog( 5462): (283) recovered 85 frames from WAL file /data/user/0/com.google.android.gms/databases/playlog.db-wal
+06-12 16:11:49.016 W/Settings( 5462): Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+06-12 16:11:49.062 I/art     ( 5377): Explicit concurrent mark sweep GC freed 2703(106KB) AllocSpace objects, 0(0B) LOS objects, 39% free, 7MB/12MB, paused 968us total 19.375ms
+06-12 16:11:49.437 E/ctxmgr  ( 5462): [BaseServerTask]Failed network request due to no network connectivity: 
+06-12 16:11:49.439 E/ctxmgr  ( 5462): [SyncServerInterestRecordsOperation]Failed WriteInterestRecord: network status=1
+06-12 16:11:52.778 D/com.taobao.accs.b.a( 5216): start handler init
+06-12 16:11:52.780 D/com.taobao.accs.b.a( 5216): start SoManager
+06-12 16:11:52.785 I/art     ( 5216): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.k>
+06-12 16:11:52.785 I/art     ( 5216): Rejecting re-init on previously-failed class java.lang.Class<com.taobao.accs.utl.k>
+06-12 16:11:52.794 D/FileCheckUtils( 5216): st.getAvailableBlocks()=1698498,st.getAvailableBlocks() * blockSize=6957047808
+06-12 16:11:52.827 W/ActivityManager(19521): getRunningAppProcesses: caller 10071 does not hold REAL_GET_TASKS; limiting output
+06-12 16:11:54.230 I/art     (19521): Explicit concurrent mark sweep GC freed 5109(261KB) AllocSpace objects, 0(0B) LOS objects, 33% free, 16MB/24MB, paused 1.343ms total 82.406ms
+06-12 16:11:54.661 D/com.umeng.message.proguard.l( 4806): appLaunchAt=1528774825099
+06-12 16:11:57.926 I/tnet-jni( 5216): 735 -  create new session: umengjmacs.m.taobao.com:443
+06-12 16:11:57.926 W/System.err( 5216): org.android.spdy.SpdyErrorException: create session error: -1107
+06-12 16:11:57.929 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:448)
+06-12 16:11:57.929 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:331)
+06-12 16:11:57.929 W/System.err( 5216): 	at com.taobao.accs.net.r.d(Taobao:435)
+06-12 16:11:57.929 W/System.err( 5216): 	at com.taobao.accs.net.r.b(Taobao:59)
+06-12 16:11:57.929 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:745)
+06-12 16:11:57.929 W/System.err( 5216): 	at com.taobao.accs.net.r$a.run(Taobao:810)
+06-12 16:11:59.219 I/art     (19637): Explicit concurrent mark sweep GC freed 29236(1283KB) AllocSpace objects, 243(8MB) LOS objects, 40% free, 23MB/39MB, paused 1ms total 67.937ms
+06-12 16:12:02.951 I/tnet-jni( 5216): 735 -  create new session: umengjmacs.m.taobao.com:443
+06-12 16:12:02.951 W/System.err( 5216): org.android.spdy.SpdyErrorException: create session error: -1107
+06-12 16:12:02.952 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:448)
+06-12 16:12:02.952 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:331)
+06-12 16:12:02.952 W/System.err( 5216): 	at com.taobao.accs.net.r.d(Taobao:435)
+06-12 16:12:02.952 W/System.err( 5216): 	at com.taobao.accs.net.r.b(Taobao:59)
+06-12 16:12:02.952 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:745)
+06-12 16:12:02.952 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:751)
+06-12 16:12:02.952 W/System.err( 5216): 	at com.taobao.accs.net.r$a.run(Taobao:810)
+06-12 16:12:07.840 I/art     (19773): Explicit concurrent mark sweep GC freed 3673(169KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 7MB/13MB, paused 875us total 35.093ms
+06-12 16:12:07.975 I/tnet-jni( 5216): 735 -  create new session: umengjmacs.m.taobao.com:80
+06-12 16:12:07.976 W/System.err( 5216): org.android.spdy.SpdyErrorException: create session error: -1107
+06-12 16:12:07.976 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:448)
+06-12 16:12:07.976 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:331)
+06-12 16:12:07.976 W/System.err( 5216): 	at com.taobao.accs.net.r.d(Taobao:435)
+06-12 16:12:07.976 W/System.err( 5216): 	at com.taobao.accs.net.r.b(Taobao:59)
+06-12 16:12:07.977 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:745)
+06-12 16:12:07.977 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:751)
+06-12 16:12:07.977 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:751)
+06-12 16:12:07.977 W/System.err( 5216): 	at com.taobao.accs.net.r$a.run(Taobao:810)
+06-12 16:12:08.848 E/WakeLock( 5462): release without a matched acquire!
+06-12 16:12:13.000 I/tnet-jni( 5216): 735 -  create new session: umengjmacs.m.taobao.com:80
+06-12 16:12:13.001 W/System.err( 5216): org.android.spdy.SpdyErrorException: create session error: -1107
+06-12 16:12:13.001 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:448)
+06-12 16:12:13.001 W/System.err( 5216): 	at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:331)
+06-12 16:12:13.001 W/System.err( 5216): 	at com.taobao.accs.net.r.d(Taobao:435)
+06-12 16:12:13.002 W/System.err( 5216): 	at com.taobao.accs.net.r.b(Taobao:59)
+06-12 16:12:13.002 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:745)
+06-12 16:12:13.002 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:751)
+06-12 16:12:13.002 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:751)
+06-12 16:12:13.002 W/System.err( 5216): 	at com.taobao.accs.net.r$a.a(Taobao:751)
+06-12 16:12:13.002 W/System.err( 5216): 	at com.taobao.accs.net.r$a.run(Taobao:810)
+06-12 16:12:48.863 E/WakeLock( 5462): release without a matched acquire!
+06-12 16:13:00.068 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 0 already attached outside hwc
+06-12 16:13:00.068 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 1 already attached outside hwc
+06-12 16:13:00.068 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 2 already attached outside hwc
+06-12 16:13:00.068 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 0 already attached outside hwc
+06-12 16:13:00.068 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 1 already attached outside hwc
+06-12 16:13:00.068 W/IMGHWC  (19261): HWC_ADF_AttachOverlayEngine: overlay engine 2 already attached outside hwc
+

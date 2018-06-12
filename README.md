@@ -20,12 +20,16 @@ target : Memory, FPS, UI response time, First shutdown (cat kernel log first shu
 ## for GPU
 write a simple recyclerview program for measure GPU FPS
 
-setprop debug.hwui.profile true to get more GPU info in dumpsys
+setprop debug.hwui.profile true 
+to get more GPU info in dumpsys
+https://www.jianshu.com/p/1fe9783d266b
+
 
 setprop debug.choreographer.skipwarning 1
 setprop ctl.restart surfaceflinger; setprop ctl.restart zygote
+to get dropped frame info
+http://xuxu1988.com/2016/04/30/gt-sm-test/
 
-https://www.jianshu.com/p/1fe9783d266b
 
 `utilitys.dumpsys_gfxinfo` This can only use above Android 6.0, and we are in Android 5.1.1......
 
@@ -33,7 +37,8 @@ https://www.jianshu.com/p/1fe9783d266b
 - 掉禎數
 - 禎數
 - dd測試
-
+- 
+aapt dump badging for getting MainActivity intent
 
 
 

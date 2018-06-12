@@ -168,19 +168,22 @@ def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
         time.sleep(3)
 
 
+import datetime
+
 def dumpsys_gfxinfo(ip,packageName,startIntent):
 
     
 
 
 
-    titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime']
+    titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime','DropFrameCount']
 
     # 要測試測模塊名，最後文件會以該名稱命名
     titlename = "Feed"
     print "Starting"
     os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
     wb = Workbook()
+    
     for j in range(1,6):
         time.sleep(1)
         print "開始執行第" + str(j) + "遍"
@@ -198,7 +201,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         ws.column_dimensions["E"].width = valueofwidth
         ws.column_dimensions["F"].width = valueofwidth
         ws.column_dimensions["G"].width = valueofwidth
-        # ws.column_dimensions["H"].width = valueofwidth
+        ws.column_dimensions["H"].width = valueofwidth
         # ws.column_dimensions["I"].width = valueofwidth
         # ws.column_dimensions["J"].width = valueofwidth
         # ws.column_dimensions["K"].width = valueofwidth
@@ -211,25 +214,31 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         print "清理幀信息回到初始狀態"
 
         # 模擬滑動頁面操作
+        start_dt=datetime.datetime.now()
         for i in range (1,3):
             print "執行滑動頁面操作" + str(i) + "次"
-            os.system("adb -s "+ip+" shell input swipe 536 323 533 1") 
+            os.system("adb -s "+ip+" shell input swipe 536 700 533 0") 
             time.sleep(1)
-
+            os.system("adb -s "+ip+" shell input swipe 533 160 536 800") 
+            time.sleep(1)
+        end_dt=datetime.datetime.now()
         # 過濾、篩選精確的幀時間信息
+        
         command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
         print command
         r = os.popen(command)
         info = r.read().splitlines()
-
+        droppedFrameCnt=droppedFPS(ip,start_dt,end_dt)
+        print droppedFrameCnt
         # 數據處理中
+        #print info
         print "緩存數據中......"
         ws.append(titlelist)
         lineNums=0
         for line in info:  #按行遍歷
             # line = line.strip('\r\n')
             eachline = line.split('\t')[1:]
-            print eachline
+            # print eachline
             if len(eachline)==0 or len(eachline)>4: continue
             if is_number(eachline[0]) and is_number(eachline[1]): 
             # 將行寫入Excel表格
@@ -244,7 +253,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
 
         # 插入平均Frame值
         ws['G2'] = "=AVERAGEA(E2:E%d)"%(lineNums+1)
-
+        ws['H2'] = droppedFrameCnt
         # 畫圖準備
         chart = LineChart()
         chart.title = titlename + str(j)
@@ -268,6 +277,8 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         #以執行名稱 titlename作為文件名
         
         time.sleep(3)
+    
+    
     filename2 = titlename+ ".xlsx"
     wb.save(filename2)
 
@@ -280,3 +291,35 @@ def is_number(s):
         return True
     except ValueError:
         return False
+
+
+
+def droppedFPS(ip,start_dt,end_dt):
+
+    start_dt_str = end_dt.strftime("%m-%d %H:%M:%S")
+    adb_command="adb -s "+ip+" logcat -t \'"+start_dt_str+".000\' -v time -s Choreographer"
+    print adb_command
+    r = os.popen(adb_command)
+    info = r.read().splitlines()
+    year=start_dt.year
+    skippedFrameCnt=0
+    for line in info:
+        print line
+        if line.find("I/Choreographer")!=-1:
+            line=line.split()
+            datetime_object = datetime.datetime.strptime(str(year)+"-"+line[0]+" "+line[1], '%Y-%d-%m %H:%M:%S.%f')
+            if datetime_object > start_dt:
+                skippedFrameCnt+=int(line[4])
+            if datetime_object < end_dt:
+                break
+    return skippedFrameCnt
+
+
+
+    
+
+
+
+
+        
+
