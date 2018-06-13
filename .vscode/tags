@@ -11,14 +11,13 @@ _in	../test.py	/^_in = "cpu  65676 2217 47119 25440934 9340 0 2372 0 0 0\\ncpu0 
 caculateCPUPercent	../CPUMonitor.py	/^def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):$/;"	kind:function	line:54
 cg_cpuinfo	../CPUMonitor.py	/^    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:77
 cg_cpuinfo	../CPUMonitor.py	/^cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:74
-choreographer_LogcatParser	../GPUMonitor.py	/^def choreographer_LogcatParser(lines,start_dt,end_dt):$/;"	kind:function	line:293
 deviceShell	../utilitys.py	/^def deviceShell(cmds,ip,time_out=10):$/;"	kind:function	line:9
 deviceShellWithResp	../utilitys.py	/^def deviceShellWithResp(cmd,ip,time_out=10):$/;"	kind:function	line:32
-droppedFPS	../GPUMonitor.py	/^def droppedFPS(ip):$/;"	kind:function	line:288
-dumpsys_gfxinfo	../GPUMonitor.py	/^def dumpsys_gfxinfo(ip,packageName,startIntent):$/;"	kind:function	line:171
+droppedFPS	../GPUMonitor.py	/^def droppedFPS(ip,start_dt,end_dt):$/;"	kind:function	line:297
+dumpsys_gfxinfo	../GPUMonitor.py	/^def dumpsys_gfxinfo(ip,packageName,startIntent):$/;"	kind:function	line:173
 dumpsys_gfxinfo_framestats	../GPUMonitor.py	/^def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):$/;"	kind:function	line:12
 get_CPUacct_cg	../CPUMonitor.py	/^def get_CPUacct_cg(ip,cg_cpuacct_path,group_name):$/;"	kind:function	line:7
-is_number	../GPUMonitor.py	/^def is_number(s):$/;"	kind:function	line:279
+is_number	../GPUMonitor.py	/^def is_number(s):$/;"	kind:function	line:288
 nanoSecondsPerSecond	../CPUMonitor.py	/^nanoSecondsPerSecond = 1e9$/;"	kind:variable	line:18
 parse_cpuacct	../CPUMonitor.py	/^def parse_cpuacct(rawstr):$/;"	kind:function	line:21
 previous_cg	../CPUMonitor.py	/^    previous_cg=cg_cpuinfo$/;"	kind:variable	line:76
