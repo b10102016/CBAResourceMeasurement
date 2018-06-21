@@ -8,6 +8,7 @@ import openpyxl
 from openpyxl import Workbook
 from openpyxl.styles.colors import Color
 from openpyxl.chart import LineChart, Reference, Series
+import chromeDino
 
 def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
 
@@ -183,16 +184,20 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
     print "Starting"
     os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
     wb = Workbook()
-    
-    for j in range(1,6):
+    run_times = 10
+    for j in range(1,run_times):
         time.sleep(1)
         print "開始執行第" + str(j) + "遍"
 
         if j==1:
             ws = wb.active
             ws.title = "result"
-        else:
-            ws = wb.create_sheet("result"+str(j),0)
+            lineNums=0
+            ws.append(titlelist)
+            start_dt=datetime.datetime.now()
+            #dinoProcess=doDinoTest(ip)
+        #else:
+        #    ws = wb.create_sheet("result"+str(j),0)
         valueofwidth = 16
         ws.column_dimensions["A"].width = valueofwidth
         ws.column_dimensions["B"].width = valueofwidth
@@ -210,31 +215,33 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         # ws.column_dimensions["N"].width = valueofwidth
 
         # 重置所有計數器並彙總收集的統計信息
-        os.popen("adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" reset")
+        #os.popen("adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" reset")
+        os.popen("adb -s "+ip+" shell dumpsys gfxinfo reset")
         print "清理幀信息回到初始狀態"
 
         # 模擬滑動頁面操作
-        start_dt=datetime.datetime.now()
-        for i in range (1,3):
-            print "執行滑動頁面操作" + str(i) + "次"
-            os.system("adb -s "+ip+" shell input swipe 536 700 533 0") 
-            time.sleep(1)
-            os.system("adb -s "+ip+" shell input swipe 533 160 536 800") 
-            time.sleep(1)
-        end_dt=datetime.datetime.now()
+        
+        # for i in range (1,3):
+        #     print "執行滑動頁面操作" + str(i) + "次"
+        #     os.system("adb -s "+ip+" shell input swipe 536 700 533 300") 
+        #     time.sleep(1)
+        #     os.system("adb -s "+ip+" shell input swipe 533 160 536 500") 
+        #     time.sleep(1)
+        
         # 過濾、篩選精確的幀時間信息
         
-        command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
+        #command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
+        command = "adb -s "+ip+" shell dumpsys gfxinfo  | grep -A 128 -P 'Prepare\\tProcess'"
         print command
         r = os.popen(command)
         info = r.read().splitlines()
-        droppedFrameCnt=droppedFPS(ip,start_dt,end_dt)
-        print droppedFrameCnt
+        
+        
         # 數據處理中
         #print info
         print "緩存數據中......"
-        ws.append(titlelist)
-        lineNums=0
+        
+        
         for line in info:  #按行遍歷
             # line = line.strip('\r\n')
             eachline = line.split('\t')[1:]
@@ -250,25 +257,37 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         for i in range(2,2+lineNums):
             ws.cell(row = i, column = 6, value = 16)
             ws.cell(row = i, column = 5, value = "=SUM(A%d:D%d)"%(i,i))
+        if j==run_times-1:
+            
+            end_dt=datetime.datetime.now()
+            droppedFrameCnt=droppedFPS(ip,start_dt,end_dt)
+            print droppedFrameCnt
+            # if dinoProcess is not None:
+            #     dinoProcess.terminate()
+            # 插入平均Frame值
+            ws['G2'] = "=AVERAGEA(E2:E%d)"%(lineNums+1)
+            ws['H2'] = droppedFrameCnt
+            ws['G3'] = ">16ms count"
+            ws['G4'] = "=COUNTIF(E2:E%d,\">16\")"%(lineNums+1)
+            ws['H3'] = ">33ms count"
+            ws['H4'] = "=COUNTIF(E2:E%d,\">33\")"%(lineNums+1)
+            ws['G5'] = "Total count"
+            ws['G6'] = "=%d"%lineNums
+            # 畫圖準備
+            chart = LineChart()
+            chart.title = titlename + str(j)
+            # chart.style = 5       #style都很醜，還不如默認的
+            chart.y_axis.title = 'ms'
+            chart.x_axis.title = 'Frame'
+            chart.width = 30
+            chart.height = 15
 
-        # 插入平均Frame值
-        ws['G2'] = "=AVERAGEA(E2:E%d)"%(lineNums+1)
-        ws['H2'] = droppedFrameCnt
-        # 畫圖準備
-        chart = LineChart()
-        chart.title = titlename + str(j)
-        # chart.style = 5       #style都很醜，還不如默認的
-        chart.y_axis.title = 'ms'
-        chart.x_axis.title = 'Frame'
-        chart.width = 30
-        chart.height = 15
+            # data選取範圍
+            data = Reference(ws, min_col=5, min_row=1, max_col=6, max_row=2+lineNums)
+            chart.add_data(data, titles_from_data=True)
 
-        # data選取範圍
-        data = Reference(ws, min_col=5, min_row=2, max_col=6, max_row=2+lineNums)
-        chart.add_data(data, titles_from_data=True)
-
-        # 創建圖表,在B3位置插入
-        ws.add_chart(chart,"B3")
+            # 創建圖表,在B3位置插入
+            ws.add_chart(chart,"B3")
 
         #記錄時間戳作為文件名
         # filename = time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time())) + ".xlsx"
@@ -307,12 +326,40 @@ def droppedFPS(ip,start_dt,end_dt):
         print line
         if line.find("I/Choreographer")!=-1:
             line=line.split()
-            datetime_object = datetime.datetime.strptime(str(year)+"-"+line[0]+" "+line[1], '%Y-%d-%m %H:%M:%S.%f')
+            datetime_object = datetime.datetime.strptime(str(year)+"-"+line[0]+" "+line[1][:-4], '%Y-%m-%d %H:%M:%S')
             if datetime_object > start_dt:
-                skippedFrameCnt+=int(line[4])
+                if(line[4]=="Skipped"):
+                    skippedFrameCnt+=int(line[5])
+                else:
+                    skippedFrameCnt+=int(line[4])
             if datetime_object < end_dt:
                 break
     return skippedFrameCnt
+
+from mock import patch
+import unittest
+import multiprocessing
+
+
+
+def doDinoTest(ip):
+    testProcess= multiprocessing.Process(target=__culebraTest,name=ip+'.testProcess',args=(ip,chromeDino.chromeDino,))
+    testProcess.start()
+    return testProcess
+
+def __culebraTest(ip,testCase):
+
+    sys.argv.append("-s")
+    sys.argv.append(ip)
+    sys.argv.append("-v")
+    devNull = open(os.devnull, 'w')
+    with patch("sys.stdout",devNull):
+        with patch("sys.stderr",devNull):
+            suite = unittest.defaultTestLoader.loadTestsFromTestCase(testCase)
+            unittest.TextTestRunner(verbosity=3,stream=sys.stderr).run(suite)
+            sys.stderr.flush()
+            sys.stdout.flush()
+
 
 
 
