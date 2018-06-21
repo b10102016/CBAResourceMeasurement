@@ -7,22 +7,32 @@
 CG_CPUACCT_PATH	../CPUMonitor.py	/^CG_CPUACCT_PATH="\/acct"$/;"	kind:variable	line:5
 CPUMonitor.py	../CPUMonitor.py	1;"	kind:file	line:1
 GPUMonitor.py	../GPUMonitor.py	1;"	kind:file	line:1
+TAG	../chromeDino.py	/^TAG = 'CULEBRA'$/;"	kind:variable	line:27
+__culebraTest	../GPUMonitor.py	/^def __culebraTest(ip,testCase):$/;"	kind:function	line:350
 _in	../test.py	/^_in = "cpu  65676 2217 47119 25440934 9340 0 2372 0 0 0\\ncpu0 28208 645 23671 6311314 1860 0 2176 0 0 0"$/;"	kind:variable	line:1
 caculateCPUPercent	../CPUMonitor.py	/^def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):$/;"	kind:function	line:54
 cg_cpuinfo	../CPUMonitor.py	/^    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:77
 cg_cpuinfo	../CPUMonitor.py	/^cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:74
+chromeDino	../chromeDino.py	/^class chromeDino(CulebraTestCase):$/;"	kind:class	line:30
+chromeDino.py	../chromeDino.py	1;"	kind:file	line:1
 deviceShell	../utilitys.py	/^def deviceShell(cmds,ip,time_out=10):$/;"	kind:function	line:9
 deviceShellWithResp	../utilitys.py	/^def deviceShellWithResp(cmd,ip,time_out=10):$/;"	kind:function	line:32
-droppedFPS	../GPUMonitor.py	/^def droppedFPS(ip,start_dt,end_dt):$/;"	kind:function	line:297
-dumpsys_gfxinfo	../GPUMonitor.py	/^def dumpsys_gfxinfo(ip,packageName,startIntent):$/;"	kind:function	line:173
-dumpsys_gfxinfo_framestats	../GPUMonitor.py	/^def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):$/;"	kind:function	line:12
+doDinoTest	../GPUMonitor.py	/^def doDinoTest(ip):$/;"	kind:function	line:345
+droppedFPS	../GPUMonitor.py	/^def droppedFPS(ip,start_dt,end_dt):$/;"	kind:function	line:316
+dumpsys_gfxinfo	../GPUMonitor.py	/^def dumpsys_gfxinfo(ip,packageName,startIntent):$/;"	kind:function	line:174
+dumpsys_gfxinfo_framestats	../GPUMonitor.py	/^def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):$/;"	kind:function	line:13
 get_CPUacct_cg	../CPUMonitor.py	/^def get_CPUacct_cg(ip,cg_cpuacct_path,group_name):$/;"	kind:function	line:7
-is_number	../GPUMonitor.py	/^def is_number(s):$/;"	kind:function	line:288
+is_number	../GPUMonitor.py	/^def is_number(s):$/;"	kind:function	line:307
 nanoSecondsPerSecond	../CPUMonitor.py	/^nanoSecondsPerSecond = 1e9$/;"	kind:variable	line:18
 parse_cpuacct	../CPUMonitor.py	/^def parse_cpuacct(rawstr):$/;"	kind:function	line:21
+preconditions	../chromeDino.py	/^    def preconditions(self):$/;"	kind:member	line:45
 previous_cg	../CPUMonitor.py	/^    previous_cg=cg_cpuinfo$/;"	kind:variable	line:76
+setUp	../chromeDino.py	/^    def setUp(self):$/;"	kind:member	line:39
+setUpClass	../chromeDino.py	/^    def setUpClass(cls):$/;"	kind:member	line:33
 sleep	../utilitys.py	/^sleep = time.sleep # alias$/;"	kind:variable	line:7
 systemResourceMonitor.py	../systemResourceMonitor.py	1;"	kind:file	line:1
+tearDown	../chromeDino.py	/^    def tearDown(self):$/;"	kind:member	line:42
 test.py	../test.py	1;"	kind:file	line:1
+testSomething	../chromeDino.py	/^    def testSomething(self):$/;"	kind:member	line:50
 totalClock	../test.py	/^totalClock=0$/;"	kind:variable	line:2
 utilitys.py	../utilitys.py	1;"	kind:file	line:1

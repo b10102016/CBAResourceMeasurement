@@ -12,6 +12,8 @@ target : Memory, FPS, UI response time, First shutdown (cat kernel log first shu
 
   CPU Shares 控制下限
   CFS_quota 控制上限
+
+
   
 
 
@@ -39,6 +41,8 @@ http://xuxu1988.com/2016/04/30/gt-sm-test/
 - dd測試
 - 
 aapt dump badging for getting MainActivity intent
+
+
 
 
 
