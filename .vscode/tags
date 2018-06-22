@@ -9,6 +9,7 @@ CPUMonitor.py	../CPUMonitor.py	1;"	kind:file	line:1
 GPUMonitor.py	../GPUMonitor.py	1;"	kind:file	line:1
 TAG	../chromeDino.py	/^TAG = 'CULEBRA'$/;"	kind:variable	line:27
 __culebraTest	../GPUMonitor.py	/^def __culebraTest(ip,testCase):$/;"	kind:function	line:350
+__openRecentApp	../GPUMonitor.py	/^def __openRecentApp(ip):$/;"	kind:function	line:365
 _in	../test.py	/^_in = "cpu  65676 2217 47119 25440934 9340 0 2372 0 0 0\\ncpu0 28208 645 23671 6311314 1860 0 2176 0 0 0"$/;"	kind:variable	line:1
 caculateCPUPercent	../CPUMonitor.py	/^def caculateCPUPercent(prev_cg_cpuinfo,cg_cpuinfo):$/;"	kind:function	line:54
 cg_cpuinfo	../CPUMonitor.py	/^    cg_cpuinfo = get_CPUacct_cg("192.168.0.10",CG_CPUACCT_PATH,"")$/;"	kind:variable	line:77

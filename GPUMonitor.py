@@ -9,7 +9,7 @@ from openpyxl import Workbook
 from openpyxl.styles.colors import Color
 from openpyxl.chart import LineChart, Reference, Series
 import chromeDino
-
+import threading
 def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
 
     # This is for Android 6.0 above
@@ -170,21 +170,25 @@ def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
 
 
 import datetime
+stopThdEvent = threading.Event()
+averageSysUIRespTime=[0]
+def dumpsys_gfxinfo(ip,packageName,startIntent,run_times):
+    os.system("adb -s "+ip+" root")
+    os.system("adb connect "+ip)
+    os.system("adb -s "+ip+" shell setprop debug.hwui.profile true")
+    # os.system("adb -s "+ip+" shell busybox pkill com.android.systemui")
 
-def dumpsys_gfxinfo(ip,packageName,startIntent):
-
-    
-
-
-
+    # start recent app switch thd
+    appSwitchThd=threading.Thread(target=__openRecentApp,args=(ip,averageSysUIRespTime,))
+    appSwitchThd.start()
     titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime','DropFrameCount']
 
     # 要測試測模塊名，最後文件會以該名稱命名
     titlename = "Feed"
     print "Starting"
-    os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
+    # os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
     wb = Workbook()
-    run_times = 10
+    
     for j in range(1,run_times):
         time.sleep(1)
         print "開始執行第" + str(j) + "遍"
@@ -231,7 +235,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
         # 過濾、篩選精確的幀時間信息
         
         #command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
-        command = "adb -s "+ip+" shell dumpsys gfxinfo  | grep -A 128 -P 'Prepare\\tProcess'"
+        command = "adb -s "+ip+" shell dumpsys gfxinfo | grep -A 128 -P 'Prepare\\tProcess'"
         print command
         r = os.popen(command)
         info = r.read().splitlines()
@@ -273,6 +277,14 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
             ws['H4'] = "=COUNTIF(E2:E%d,\">33\")"%(lineNums+1)
             ws['G5'] = "Total count"
             ws['G6'] = "=%d"%lineNums
+            stopThdEvent.set()
+            while appSwitchThd.isAlive():
+                time.sleep(1)
+                print "Stopping Thread.."
+            print "avg:"+str(averageSysUIRespTime[0])
+            ws['H5'] = "AverageSystemUIResponseTime"
+            ws['H6'] = "=%f"%averageSysUIRespTime[0]
+        
             # 畫圖準備
             chart = LineChart()
             chart.title = titlename + str(j)
@@ -287,7 +299,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
             chart.add_data(data, titles_from_data=True)
 
             # 創建圖表,在B3位置插入
-            ws.add_chart(chart,"B3")
+            ws.add_chart(chart,"B7")
 
         #記錄時間戳作為文件名
         # filename = time.strftime('%Y%m%d_%H%M%S',time.localtime(time.time())) + ".xlsx"
@@ -303,6 +315,8 @@ def dumpsys_gfxinfo(ip,packageName,startIntent):
 
     # 數據完畢
     print "緩存處理完畢，保存數據到本地" + str(filename2)
+    print "Stopping Thread.."
+    
 
 def is_number(s):
     try:
@@ -359,6 +373,24 @@ def __culebraTest(ip,testCase):
             unittest.TextTestRunner(verbosity=3,stream=sys.stderr).run(suite)
             sys.stderr.flush()
             sys.stdout.flush()
+
+
+
+def __openRecentApp(ip,averageSysUIRespTime):
+    cnt = 0.0
+    totalUseTime =0.0
+    lines=[]
+    while not stopThdEvent.is_set():
+        rsp=os.popen("time --format='%E' adb -s 192.168.0.50 shell input keyevent KEYCODE_APP_SWITCH 2>&1")
+        lines.append(rsp.read())
+    for line in lines:
+        sec=float(line[line.find(':')+1:-1])
+        minute=float(line[:line.find(':')])
+        totalUseTime += minute*60+sec
+        cnt+=+1
+    averageSysUIRespTime[0] = totalUseTime / cnt
+    
+
 
 
 
