@@ -39,11 +39,11 @@ _1stSheetName = wb.worksheets[0].title
 _2ndSheetName = wb.worksheets[-1].title
 # Generate Cluster Statics
 ws['A1']="Avg>16msCnt"
-ws['A2']="SUMPRODUCT(COUNTIF(INDIRECT(\"'result-192.168.0.\"&ROW(%d:%d)&\"'!G2\"),\">16\"))"%(start_ip,MAX_NODE_IN_CLUSTER+start_ip-1)
-ws['B1']=">100>16msCnt"
-ws['B2']="SUMPRODUCT(COUNTIF(INDIRECT(\"'result-192.168.0.\"&ROW(%d:%d)&\"'!G4\"),\">100\"))"%(start_ip,MAX_NODE_IN_CLUSTER+start_ip-1)
-ws['C1']=">50>32msCnt"
-ws['C2']="SUMPRODUCT(COUNTIF(INDIRECT(\"'result-192.168.0.\"&ROW(%d:%d)&\"'!H4\"),\">50\"))"%(start_ip,MAX_NODE_IN_CLUSTER+start_ip-1)
+ws['B1']="=SUMPRODUCT(COUNTIF(INDIRECT(\"'result-192.168.0.\"&ROW(%d:%d)&\"'!G2\"),\">16\"))"%(start_ip,MAX_NODE_IN_CLUSTER+start_ip-1)
+ws['A2']=">100>16msCnt"
+ws['B2']="=SUMPRODUCT(COUNTIF(INDIRECT(\"'result-192.168.0.\"&ROW(%d:%d)&\"'!G4\"),\">100\"))"%(start_ip,MAX_NODE_IN_CLUSTER+start_ip-1)
+ws['A3']=">50>32msCnt"
+ws['B3']="=SUMPRODUCT(COUNTIF(INDIRECT(\"'result-192.168.0.\"&ROW(%d:%d)&\"'!H4\"),\">50\"))"%(start_ip,MAX_NODE_IN_CLUSTER+start_ip-1)
 
 fileName="ClusterFPS_Statics.xlsx"
 
