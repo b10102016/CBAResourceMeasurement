@@ -20,7 +20,8 @@ MAX_NODE_IN_CLUSTER=35
 from openpyxl import Workbook
 
 wb= Workbook()
-
+ws = wb.active
+ws.title="statics"
 
 for offset in range(0,MAX_NODE_IN_CLUSTER):
     ip=ip_prefix+str(start_ip+offset)
@@ -34,8 +35,7 @@ for thd in thd_pool:
     while thd.is_alive():
         time.sleep(0.5)
 
-ws = wb.active
-ws.title="statics"
+
 _1stSheetName = wb.worksheets[0].title
 _2ndSheetName = wb.worksheets[-1].title
 # Generate Cluster Statics
