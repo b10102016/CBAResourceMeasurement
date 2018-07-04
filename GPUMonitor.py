@@ -172,11 +172,13 @@ def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
 import datetime
 stopThdEvent = threading.Event()
 averageSysUIRespTime=[0]
-def dumpsys_gfxinfo(ip,packageName,startIntent,run_times):
+def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None):
     os.system("adb -s "+ip+" root")
     os.system("adb connect "+ip)
     os.system("adb -s "+ip+" shell setprop debug.hwui.profile true")
-    # os.system("adb -s "+ip+" shell busybox pkill com.android.systemui")
+    os.system("adb -s "+ip+" shell busybox pkill com.android.systemui")
+    
+    time.sleep(10)
 
     # start recent app switch thd
     appSwitchThd=threading.Thread(target=__openRecentApp,args=(ip,averageSysUIRespTime,))
@@ -184,24 +186,26 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times):
     titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime','DropFrameCount']
 
     # 要測試測模塊名，最後文件會以該名稱命名
-    titlename = "Feed"
+    titlename = "FPS-statics"
     print "Starting"
     # os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
-    wb = Workbook()
+    if wb == None:
+        wb = Workbook()
     
+        ws = wb.active
+        ws.title = "result"
+            
+        #dinoProcess=doDinoTest(ip)
+    else:
+        ws = wb.create_sheet("result-"+ip,0)
+    lineNums=0
+    ws.append(titlelist)
+    start_dt=datetime.datetime.now()
     for j in range(1,run_times):
         time.sleep(1)
         print "開始執行第" + str(j) + "遍"
 
-        if j==1:
-            ws = wb.active
-            ws.title = "result"
-            lineNums=0
-            ws.append(titlelist)
-            start_dt=datetime.datetime.now()
-            #dinoProcess=doDinoTest(ip)
-        #else:
-        #    ws = wb.create_sheet("result"+str(j),0)
+        
         valueofwidth = 16
         ws.column_dimensions["A"].width = valueofwidth
         ws.column_dimensions["B"].width = valueofwidth
@@ -309,12 +313,13 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times):
         
         time.sleep(3)
     
-    
-    filename2 = titlename+ ".xlsx"
-    wb.save(filename2)
+    if wb == None:
+        filename2 = ip+'_'+titlename+ ".xlsx"
+        wb.save("data/"+filename2)
+        print "緩存處理完畢，保存數據到本地" + str(filename2)
 
     # 數據完畢
-    print "緩存處理完畢，保存數據到本地" + str(filename2)
+    
     print "Stopping Thread.."
     
 
@@ -381,7 +386,7 @@ def __openRecentApp(ip,averageSysUIRespTime):
     totalUseTime =0.0
     lines=[]
     while not stopThdEvent.is_set():
-        rsp=os.popen("time --format='%E' adb -s 192.168.0.50 shell input keyevent KEYCODE_APP_SWITCH 2>&1")
+        rsp=os.popen("time --format='%E' adb -s "+ip+" shell input keyevent KEYCODE_APP_SWITCH 2>&1")
         lines.append(rsp.read())
     for line in lines:
         sec=float(line[line.find(':')+1:-1])
