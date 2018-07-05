@@ -170,18 +170,21 @@ def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
 
 
 import datetime
-stopThdEvent = threading.Event()
-averageSysUIRespTime=[0]
-def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None):
+
+
+def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=False):
     os.system("adb -s "+ip+" root")
     os.system("adb connect "+ip)
     os.system("adb -s "+ip+" shell setprop debug.hwui.profile true")
-    os.system("adb -s "+ip+" shell busybox pkill com.android.systemui")
+    if reset_sysUI:
+        os.system("adb -s "+ip+" shell busybox pkill com.android.systemui")
     
     time.sleep(10)
 
     # start recent app switch thd
-    appSwitchThd=threading.Thread(target=__openRecentApp,args=(ip,averageSysUIRespTime,))
+    averageSysUIRespTime=[0]
+    stopThdEvent = threading.Event()
+    appSwitchThd=threading.Thread(target=__openRecentApp,args=(ip,averageSysUIRespTime,stopThdEvent,))
     appSwitchThd.start()
     titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime','DropFrameCount']
 
@@ -239,9 +242,10 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None):
         # 過濾、篩選精確的幀時間信息
         
         #command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
-        command = "adb -s "+ip+" shell dumpsys gfxinfo | grep -A 128 -P 'Prepare\\tProcess'"
+        command = "sh -c \"adb -s "+ip+" shell dumpsys gfxinfo | grep -A 128 -P 'Prepare\\tProcess'\" 2>&1"
         print command
         r = os.popen(command)
+        
         info = r.read().splitlines()
         
         
@@ -251,6 +255,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None):
         
         
         for line in info:  #按行遍歷
+            if line.find("' not found")!=-1: continue
             # line = line.strip('\r\n')
             eachline = line.split('\t')[1:]
             # print eachline
@@ -282,9 +287,10 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None):
             ws['G5'] = "Total count"
             ws['G6'] = "=%d"%lineNums
             stopThdEvent.set()
-            while appSwitchThd.isAlive():
-                time.sleep(1)
-                print "Stopping Thread.."
+            print "Stopping Thread.."
+            appSwitchThd.join(60)
+            
+            
             print "avg:"+str(averageSysUIRespTime[0])
             ws['H5'] = "AverageSystemUIResponseTime"
             ws['H6'] = "=%f"%averageSysUIRespTime[0]
@@ -381,14 +387,16 @@ def __culebraTest(ip,testCase):
 
 
 
-def __openRecentApp(ip,averageSysUIRespTime):
+def __openRecentApp(ip,averageSysUIRespTime,stopThdEvent):
     cnt = 0.0
     totalUseTime =0.0
     lines=[]
     while not stopThdEvent.is_set():
         rsp=os.popen("time --format='%E' adb -s "+ip+" shell input keyevent KEYCODE_APP_SWITCH 2>&1")
         lines.append(rsp.read())
+        
     for line in lines:
+        if line.find(":")==-1 : continue
         sec=float(line[line.find(':')+1:-1])
         minute=float(line[:line.find(':')])
         totalUseTime += minute*60+sec
