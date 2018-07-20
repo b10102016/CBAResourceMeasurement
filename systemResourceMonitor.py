@@ -12,7 +12,7 @@ print "telnet ...# setprop ctl.restart surfaceflinger; setprop ctl.restart zygot
 print "After all, you need to reconnect adb."
 
 
-GPUMonitor.dumpsys_gfxinfo("192.168.3.10","com.android.chrome","com.google.android.apps.chrome.Main -d http://wayou.github.io/t-rex-runner/",10)
+GPUMonitor.dumpsys_gfxinfo("192.168.3.10","com.android.chrome","com.google.android.apps.chrome.Main -d http://wayou.github.io/t-rex-runner/",100)
 
 exit()
 
