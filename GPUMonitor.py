@@ -172,10 +172,10 @@ def dumpsys_gfxinfo_framestats(ip,packageName,startIntent):
 import datetime
 
 
-def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=False):
-    os.system("adb -s "+ip+" root")
+def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb_in=None,reset_sysUI=False):
+    #os.system("adb -s "+ip+" root")
     os.system("adb connect "+ip)
-    os.system("adb -s "+ip+" shell setprop debug.hwui.profile true")
+    #os.system("adb -s "+ip+" shell setprop debug.hwui.profile true")
     if reset_sysUI:
         os.system("adb -s "+ip+" shell busybox pkill com.android.systemui")
     
@@ -185,14 +185,14 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=Fal
     averageSysUIRespTime=[0]
     stopThdEvent = threading.Event()
     appSwitchThd=threading.Thread(target=__openRecentApp,args=(ip,averageSysUIRespTime,stopThdEvent,))
-    appSwitchThd.start()
+    #appSwitchThd.start()
     titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime','DropFrameCount']
 
     # 要測試測模塊名，最後文件會以該名稱命名
     titlename = "FPS-statics"
     print "Starting"
     # os.system("adb -s "+ip+" shell am start "+packageName+"/"+startIntent) 
-    if wb == None:
+    if wb_in == None:
         wb = Workbook()
     
         ws = wb.active
@@ -200,6 +200,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=Fal
             
         #dinoProcess=doDinoTest(ip)
     else:
+        wb = wb_in
         ws = wb.create_sheet("result-"+ip,0)
     lineNums=0
     ws.append(titlelist)
@@ -242,7 +243,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=Fal
         # 過濾、篩選精確的幀時間信息
         
         #command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
-        command = "sh -c \"adb -s "+ip+" shell dumpsys gfxinfo | grep -A 128 -P 'Prepare\\tProcess'\" 2>&1"
+        command = "sh -c \"adb -s "+ip+" shell dumpsys gfxinfo me.zhanghai.android.materialprogressbar.sample| grep -A 128 -P 'Prepare\\tProcess'\" 2>&1"
         print command
         r = os.popen(command)
         
@@ -288,12 +289,12 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=Fal
             ws['G6'] = "=%d"%lineNums
             stopThdEvent.set()
             print "Stopping Thread.."
-            appSwitchThd.join(60)
+            #appSwitchThd.join(60)
             
             
-            print "avg:"+str(averageSysUIRespTime[0])
-            ws['H5'] = "AverageSystemUIResponseTime"
-            ws['H6'] = "=%f"%averageSysUIRespTime[0]
+            #print "avg:"+str(averageSysUIRespTime[0])
+            #ws['H5'] = "AverageSystemUIResponseTime"
+            #ws['H6'] = "=%f"%averageSysUIRespTime[0]
         
             # 畫圖準備
             chart = LineChart()
@@ -317,9 +318,9 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb=None,reset_sysUI=Fal
 
         #以執行名稱 titlename作為文件名
         
-        time.sleep(3)
+        #time.sleep(3)
     
-    if wb == None:
+    if wb_in == None:
         filename2 = ip+'_'+titlename+ ".xlsx"
         wb.save("data/"+filename2)
         print "緩存處理完畢，保存數據到本地" + str(filename2)
