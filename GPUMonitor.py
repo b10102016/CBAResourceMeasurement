@@ -243,7 +243,8 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb_in=None,reset_sysUI=
         # 過濾、篩選精確的幀時間信息
         
         #command = "adb -s "+ip+" shell dumpsys gfxinfo "+packageName+" | grep -A 128 -P 'Prepare\\tProcess'"
-        command = "sh -c \"adb -s "+ip+" shell dumpsys gfxinfo me.zhanghai.android.materialprogressbar.sample| grep -A 128 -P 'Prepare\\tProcess'\" 2>&1"
+        #command = "sh -c \"adb -s "+ip+" shell dumpsys gfxinfo me.zhanghai.android.materialprogressbar.sample| grep -A 128 -P 'Prepare\\tProcess'\" 2>&1"
+        command = "sh -c \"adb -s "+ip+" shell dumpsys gfxinfo | grep -A 128 -P 'Prepare\\tProcess'\" 2>&1"
         print command
         r = os.popen(command)
         
