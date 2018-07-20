@@ -185,7 +185,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb_in=None,reset_sysUI=
     averageSysUIRespTime=[0]
     stopThdEvent = threading.Event()
     appSwitchThd=threading.Thread(target=__openRecentApp,args=(ip,averageSysUIRespTime,stopThdEvent,))
-    #appSwitchThd.start()
+    appSwitchThd.start()
     titlelist = ['Draw','Prepare','Process','Execute','totalTime','16ms','AverageTime','DropFrameCount']
 
     # 要測試測模塊名，最後文件會以該名稱命名
@@ -289,7 +289,7 @@ def dumpsys_gfxinfo(ip,packageName,startIntent,run_times,wb_in=None,reset_sysUI=
             ws['G6'] = "=%d"%lineNums
             stopThdEvent.set()
             print "Stopping Thread.."
-            #appSwitchThd.join(60)
+            appSwitchThd.join(60)
             
             
             #print "avg:"+str(averageSysUIRespTime[0])
